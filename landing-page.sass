@@ -1,0 +1,19 @@
+html, body
+    padding: 0
+    margin: 0
+
+html
+    height: 100%
+
+#background
+    position: fixed
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+
+    $color-list: #00214e, #002654, #002b5b, #002f5f, #003667, #003d6d, #004475
+    @for $i from 1 through length($color-list)
+        div:nth-child(#{$i - 1})
+            flex: 1
+            background-color: nth($color-list, $i)
