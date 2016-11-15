@@ -1,0 +1,51 @@
+{
+  "name": "sitcon-2017",
+  "version": "1.0.0",
+  "description": "SITCON 2017 Official Website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "npm i && gulp",
+    "preview": "NODE_ENV=production gulp watch",
+    "build": "gulp clean && NODE_ENV=production gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitcon-tw/2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sitcon-tw/2017/issues"
+  },
+  "homepage": "https://github.com/sitcon-tw/2017#readme",
+  "dependencies": {
+    "moment": "^2.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.17.6",
+    "browserify": "^13.1.1",
+    "cli-color": "^1.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-if": "^2.0.2",
+    "gulp-pug": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "livereactload": "^3.1.0",
+    "react-proxy": "^1.1.8",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
