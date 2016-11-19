@@ -7,9 +7,8 @@
 
 html, body
     font-family: 'Open Sans', sans-serif
-    position: relative
-    scroll-behavior: smooth
     font-size: 16px
+    height: 100%
 
 
 a
@@ -45,17 +44,31 @@ a
 
 
 // Content style
-main
-    position: relative
-    width: 90%
-    max-width: 700px
-    margin: 0 auto
-    padding: 4em 0
-    color: rgba(255, 255, 255, 0.9)
 
-    header
+#upbar
+    position: absolute
+    padding: 0.5em 2em
+    width: 100%
+    z-index: -1
+    @include rwd()
+        display: none
+    img
+        width: 100%
+
+body > header
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 100%
+
+    section
         display: block
-        margin-bottom: 6em
+        width: 90%
+        max-width: 700px
+        margin: 0 auto
+        padding-top: 4em
+        @include rwd()
+            padding-top: 0
         #logo
             display: block
             width: 100%
@@ -69,13 +82,19 @@ main
             cursor: pointer
             @include animation('blink 1s steps(5, start) infinite')
             opacity: 0.95
-            @include rwd()
-                display: none
             &:hover
                 opacity: 1
                 @include animation('none')
             img
                 width: 100%
+
+
+main
+    position: relative
+    width: 90%
+    max-width: 700px
+    margin: 0 auto
+    color: rgba(255, 255, 255, 0.9)
 
     article
         line-height: 1.8em
@@ -105,6 +124,9 @@ main
             margin-top: 0
         .mono
             font-family: monospace
+        #date-318
+            margin-bottom: 2em
+            width: 300px
 
     footer
         display: block
@@ -129,15 +151,6 @@ main
         div:nth-child(#{$i - 1})
             flex: 1
             background-color: nth($color-list, $i)
-
-#upbar
-    padding: 0.5em 2em
-    width: 100%
-    z-index: -1
-    @include rwd()
-        display: none
-    img
-        width: 100%
 
 #btn-house
     position: fixed
