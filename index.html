@@ -37,7 +37,8 @@
     <main>
 
         <header>
-            <img src="logo.png">
+            <img src="logo.png" id="logo">
+            <div id="press-start"><img src="press_start.png"></div>
         </header>
 
         <article>
@@ -212,8 +213,19 @@
         <div></div>
     </div>
 
-    <script type="text/javascript" src="landing-page.js"></script>
+    <div id="btn-house">
+        <img src="house.png">
+    </div>
+
     <link rel="stylesheet" type="text/css" href="landing-page.css">
+    <script type="text/javascript" src="zenscroll-min.js"></script>
+    <script type="text/javascript">
+        var pressStart = document.querySelector('#press-start');
+        var mainContent = document.querySelector('main article');
+        pressStart.addEventListener('click', function() {
+            zenscroll.to(mainContent);
+        });
+    </script>
 
 </body>
 </html>

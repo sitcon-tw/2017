@@ -7,10 +7,8 @@
 
 html, body
     font-family: 'Open Sans', sans-serif
-
-
-html
-    height: 100%
+    position: relative
+    scroll-behavior: smooth
     font-size: 16px
 
 
@@ -18,22 +16,66 @@ a
     color: #def5ff
 
 
+// Reference from http://joshbroton.com/quick-fix-sass-mixins-for-css-keyframe-animations/
+@mixin animation($animate)
+    $animations: ''
+    $animations: #{$animations + $animate}
+    -webkit-animation: $animations
+    -moz-animation: $animations
+    -o-animation: $animations
+    animation: $animations
+
+@mixin keyframes($animationName)
+    @-webkit-keyframes #{$animationName}
+        @content
+    @-moz-keyframes #{$animationName}
+        @content
+    @-o-keyframes #{$animationName}
+        @content
+    @keyframes #{$animationName}
+        @content
+
+@mixin rwd()
+    @media screen and (max-width: 900px)
+        @content
+
+@include keyframes(blink)
+    to
+        visibility: hidden
+
+
+// Content style
 main
     position: relative
     width: 90%
     max-width: 700px
     margin: 0 auto
-    padding: 6em 0
+    padding: 4em 0
     color: rgba(255, 255, 255, 0.9)
 
     header
         display: block
         margin-bottom: 6em
-        img
+        #logo
             display: block
             width: 100%
             max-width: 500px
             margin: 0 auto
+        #press-start
+            display: block
+            width: 80%
+            max-width: 400px
+            margin: 6em auto 4em auto
+            cursor: pointer
+            @include animation('blink 1s steps(5, start) infinite')
+            opacity: 0.95
+            @include rwd()
+                display: none
+            &:hover
+                opacity: 1
+                @include animation('none')
+            img
+                width: 100%
 
     article
         line-height: 1.8em
@@ -45,7 +87,7 @@ main
             color: white
             &::first-letter
                 color: #99dfff
-            @media screen and (max-width: 900px)
+            @include rwd()
                 margin: 3em 0 0.5em 0
                 text-align: center
         h3
@@ -89,8 +131,21 @@ main
             background-color: nth($color-list, $i)
 
 #upbar
-    padding: 0.5em
+    padding: 0.5em 2em
     width: 100%
     z-index: -1
+    @include rwd()
+        display: none
     img
         width: 100%
+
+#btn-house
+    position: fixed
+    bottom: 0
+    left: 0
+    z-index: -1
+    @include rwd()
+        display: none
+    img
+        width: 100%
+        opacity: .3
