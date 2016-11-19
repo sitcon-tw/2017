@@ -229,10 +229,21 @@
     <link rel="stylesheet" type="text/css" href="landing-page.css">
     <script type="text/javascript" src="zenscroll-min.js"></script>
     <script type="text/javascript">
-        var pressStart = document.querySelector('#press-start');
         var mainContent = document.querySelector('main article');
-        pressStart.addEventListener('click', function() {
+
+        var lock = false;
+        function scrollToContent() {
+            if( lock ) return;
+            lock = true;
             zenscroll.to(mainContent);
+            setTimeout(function() {
+                lock = false;
+            }, 1000);
+        }
+        document.querySelector('#press-start').addEventListener('click', scrollToContent);
+        document.addEventListener('keydown', function(e) {
+            if( e.keyCode === 13 )
+                scrollToContent();
         });
     </script>
 
