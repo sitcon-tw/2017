@@ -45,6 +45,9 @@ main
             color: white
             &::first-letter
                 color: #99dfff
+            @media screen and (max-width: 900px)
+                margin: 3em 0 0.5em 0
+                text-align: center
         h3
             font-size: 1.5em
             margin-top: 2em
@@ -56,6 +59,8 @@ main
             padding-left: 3em
         h2 + *
             margin-top: 0
+        .mono
+            font-family: monospace
 
     footer
         display: block
