@@ -12,6 +12,7 @@ Latest Version
 ```sh
 $ brew install node
 $ node -v
+v7.3.0
 ```
 
 Version 6 LTS
@@ -43,11 +44,11 @@ $ gulp -v
 
 * `npm start`
     - `npm install`: Install dependencies.
-    - `gulp`: Buidl the website.
-* `gulp watch`: Live reload.
-* `npm run preview`: See the production version with live reload.
+    - `gulp`: Build the website.
+* `gulp watch`: Work with live reload.
+* `npm run preview`: Build in production mode with live reload.
 
-Use `ctrl + c` to end the live reload process.
+> Use `ctrl + c` to end the live reload process.
 
 ## Production
 
@@ -57,6 +58,7 @@ Push all the files in `public/` to `gh-pages` branch.
 
 ## Uninstallation
 
-* Uninstall Gulp.js: `$ npm uninstall --global gulp`
-* Uninstall Node.js: `$ brew uninstall node` or `$ brew uninstall node-6-lts`
-* Remove all node modules: `$ rm -rf node_modules` and `$ rm -rf /usr/local/lib/node_modules`
+* Uninstall Gulp.js: `npm uninstall --global gulp`
+* Clean up NPM cache: `npm cache clean`
+* Uninstall Node.js: `brew uninstall node` or `brew uninstall node-6-lts`
+* Remove all node modules: `rm -rf node_modules` and `rm -rf /usr/local/lib/node_modules`

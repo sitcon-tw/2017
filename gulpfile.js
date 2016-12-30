@@ -28,7 +28,6 @@ const watchify = require('watchify') // https://github.com/substack/watchify
 const source = require('vinyl-source-stream') // https://github.com/hughsk/vinyl-source-stream
 const buffer = require('vinyl-buffer') // https://github.com/hughsk/vinyl-buffer
 const babelify = require('babelify') // https://github.com/babel/babelify
-const lrload = require('livereactload') // https://github.com/milankinen/livereactload
 
 const browserSync = require('browser-sync') // https://github.com/Browsersync/browser-sync
 
@@ -68,13 +67,13 @@ gulp.task('clean', () => del([
 =            Move            =
 ============================*/
 
-gulp.task('move', () => gulp.src('./assets/**')
+gulp.task('move', () => gulp.src('./assets/**/*')
 	.pipe(gulp.dest('./public/'))
 	.pipe(browserSync.stream())
 )
 
 gulp.task('move:watch', ['move'], () => {
-	gulp.watch(['./assets/**'], (event) => {
+	gulp.watch(['./assets/**/*'], (event) => {
 		gulp.src(event.path)
 			.pipe(gulp.dest('./public/'))
 	})
@@ -134,8 +133,7 @@ gulp.task('react', () => {
 		paths: ['./node_modules/'],
 		transform: [
 			['babelify', { presets: ['es2015', 'react'] }]
-		],
-		fullPaths: (env === 'development')
+		]
 	})
 
 	dependencies.forEach((v) => {
@@ -148,7 +146,6 @@ gulp.task('react', () => {
 })
 
 gulp.task('react:watch', ['react'], () => {
-	app_bundler.plugin(lrload)
 	app_bundler.plugin(watchify)
 	app_bundler.on('log', (msg) => { colorLog('yellowBright', msg) })
 	app_bundler.on('update', (ids) => { bundle(app_bundler, 'main.min.js', true) })
@@ -166,6 +163,7 @@ gulp.task('browser-sync', ['move:watch', 'sass:watch', 'react:watch'], () => {
 			'./public/index.html',
 			'./public/css/**/*.css',
 			'./public/img/**/*',
+			'./public/js/**/*.js'
 		],
 		server: {
 			baseDir: './public/'
