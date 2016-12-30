@@ -1,4 +1,9 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react'
+import { render } from 'react-dom'
 
-ReactDOM.render(<h1>SITCON 2017</h1>, document.getElementById('main'));
+import App from './components/App.jsx'
+
+render(
+	<App />,
+	document.getElementById('main')
+)
