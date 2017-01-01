@@ -11,6 +11,8 @@
 	position: relative;
 	list-style: none;
 	cursor: pointer;
+	text-decoration: none;
+	color: color("white");
 
 	.linkbox-left {
 		position: absolute;
@@ -39,11 +41,6 @@
 		background-color: color("magenta");
 		transform-origin: left top;
 		transform: skew(0deg, -10deg);
-	}
-
-	a {
-		text-decoration: none;
-		color: color("white");
 	}
 
 }

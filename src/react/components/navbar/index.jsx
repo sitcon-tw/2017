@@ -5,17 +5,17 @@ export default class extends Component {
 	render() {
 		return (
 			<nav id="navbar">
-				<Linkbox>
-					<a href="#cover-page">首頁</a>
+				<Linkbox href="#cover-page">
+					首頁
 				</Linkbox>
-				<Linkbox>
-					<a href="#schedule-page">議程</a>
+				<Linkbox href="#schedule-page">
+					議程
 				</Linkbox>
-				<Linkbox>
-					<a href="#sponsor-page">贊助</a>
+				<Linkbox href="#sponsor-page">
+					贊助
 				</Linkbox>
-				<Linkbox>
-					<a href="#transport-page">交通</a>
+				<Linkbox href="#transport-page">
+					交通
 				</Linkbox>
 			</nav>
 		)
