@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 }
 
+html {
+	background-color: color("skyBlue");
+	width: 100%;
+	height: 100%;
+}
+
 body {
 	font-family: 'Noto Sans', 'Microsoft JhengHei', 'PT Sans Narrow', 'Source Han Sans TWHK', sans-serif;
 }
