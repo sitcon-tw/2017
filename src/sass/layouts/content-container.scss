@@ -5,7 +5,7 @@ $minHeight: 700px;
 	flex-direction: column;
 	justify-content: space-around;
 	position: relative;
-	margin-left: 30px;
+	margin: 30px 0 0 30px;
 	padding: 4em;
 	min-height: $minHeight;
 	width: 70%;
@@ -31,7 +31,7 @@ $minHeight: 700px;
 		height: 0;
 		width: 0;
 		border-top: $minHeight solid rgba(255, 255, 255, .8);
-		border-right: 100px solid transparent;
+		border-right: 150px solid transparent;
 	}
 
 }
