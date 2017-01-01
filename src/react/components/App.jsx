@@ -9,7 +9,6 @@ export default class App extends Component {
 	render() {
 		return (
 			<div id="app">
-				<h1>SITCON 2017</h1>
 				<Cover />
 				<Schedule />
 				<Sponsor />
