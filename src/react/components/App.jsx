@@ -4,6 +4,7 @@ import Schedule from './schedule/index.jsx'
 import Sponsor from './sponsor/index.jsx'
 import Transport from './transport/index.jsx'
 import Navbar from './navbar/index.jsx'
+import Background from './background/index.jsx'
 
 export default class App extends Component {
 	render() {
@@ -14,6 +15,7 @@ export default class App extends Component {
 				<Sponsor />
 				<Transport />
 				<Navbar />
+				<Background />
 			</div>
 		)
 	}
