@@ -1,3 +1,26 @@
+#cover {
+	display: block;
+
+	img {
+		display: block;
+	}
+
+	[role="cover-logo"] {
+		width: 600px;
+	}
+
+	[role="cover-press-start"] {
+		width: 300px;
+		margin: 100px auto 0 auto;
+	}
+
+	[role="cover-arrow"] {
+		width: 50px;
+		margin: 10px auto 0 auto;
+	}
+
+}
+
 #code-of-conduct {
 	color: color("magenta");
 	text-decoration: underline;

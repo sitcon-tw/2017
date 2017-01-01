@@ -8,7 +8,10 @@ export default class extends Component {
 		return (
 			<div id="cover-page">
 
-				<article className="content-container">
+				<article className="content-container" id="cover">
+					<img src="images/logo.svg" role="cover-logo" />
+					<img src="images/press-start.png" role="cover-press-start" />
+					<img src="images/arrow.png" role="cover-arrow" />
 				</article>
 
 				<article className="content-container">
