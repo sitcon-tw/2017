@@ -1,6 +1,9 @@
 * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: auto;
+	box-sizing: border-box;
 }
 
-body {}
+body {
+	font-family: 'Noto Sans', 'Microsoft JhengHei', 'PT Sans Narrow', 'Source Han Sans TWHK', sans-serif;
+}
