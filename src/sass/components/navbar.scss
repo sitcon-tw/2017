@@ -1,0 +1,49 @@
+#navbar {
+	position: fixed;
+	right: 2em;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.linkbox {
+	margin: 2em 0;
+	display: block;
+	position: relative;
+	list-style: none;
+	cursor: pointer;
+
+	.linkbox-left {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 16px;
+		background-color: #db6aa5;
+		transform-origin: right bottom;
+		transform: translate(-100%, 0) skew(0deg, 20deg);
+	}
+
+	.linkbox-top {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 6px;
+		width: 100%;
+		background-color: #e99bc1;
+		transform-origin: left bottom;
+		transform: translate(0, -100%) skew(70deg, -10deg);
+	}
+
+	.linkbox-front {
+		padding: 1em;
+		background-color: color("magenta");
+		transform-origin: left top;
+		transform: skew(0deg, -10deg);
+	}
+
+	a {
+		text-decoration: none;
+		color: color("white");
+	}
+
+}

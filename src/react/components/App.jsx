@@ -10,10 +10,10 @@ export default class App extends Component {
 		return (
 			<div id="app">
 				<h1>SITCON 2017</h1>
-				<Cover id="cover-page" />
-				<Schedule id="schedule-page" />
-				<Sponsor id="sponsor-page" />
-				<Transport id="transport-page" />
+				<Cover />
+				<Schedule />
+				<Sponsor />
+				<Transport />
 				<Navbar />
 			</div>
 		)
