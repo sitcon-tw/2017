@@ -1,6 +1,6 @@
 #navbar {
 	position: fixed;
-	right: 2em;
+	right: 3.5em;
 	top: 50%;
 	transform: translate(0, -50%);
 }
@@ -14,33 +14,22 @@
 	text-decoration: none;
 	color: color("white");
 
-	.linkbox-left {
-		position: absolute;
+	img {
+		height: 5em;
 		left: 0;
 		top: 0;
-		height: 100%;
-		width: 16px;
-		background-color: #db6aa5;
-		transform-origin: right bottom;
-		transform: translate(-100%, 0) skew(0deg, 20deg);
-	}
-
-	.linkbox-top {
-		position: absolute;
-		left: 0;
-		top: 0;
-		height: 6px;
-		width: 100%;
-		background-color: #e99bc1;
-		transform-origin: left bottom;
-		transform: translate(0, -100%) skew(70deg, -10deg);
+		z-index: -1;
 	}
 
 	.linkbox-front {
-		padding: 1em;
-		background-color: color("magenta");
+		position: absolute;
+		width: 100%;
+		top: 55%;
+		left: 63%;
+		text-align: center;
+		font-weight: 900;
 		transform-origin: left top;
-		transform: skew(0deg, -10deg);
+		transform: skew(0deg, -18deg) translate(-50%, -50%);
 	}
 
 }

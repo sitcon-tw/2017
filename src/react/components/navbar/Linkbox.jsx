@@ -4,8 +4,7 @@ export default class extends Component {
 	render() {
 		return (
 			<a className="linkbox" href={this.props.href}>
-				<div className="linkbox-left"></div>
-				<div className="linkbox-top"></div>
+				<img src="images/block-red.png" />
 				<div className="linkbox-front">
 					{this.props.children}
 				</div>
