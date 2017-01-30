@@ -9,7 +9,17 @@ export default class extends Component {
 			<div id="cover-page">
 
 				<div id="cover">
-					<img src="images/logo.svg" role="cover-logo" />
+					<div role="cover-title">
+						<img src="images/logo.svg" role="cover-logo" />
+						<img src="images/date.png" role="cover-date" />
+						<div role="cover-link">
+							<a href="#" target="blank">R0 直播</a>
+							<a href="#" target="blank">R1 直播</a>
+							<a href="#" target="blank">R2 直播</a>
+							<a href="#" target="blank">會後意見調查</a>
+							<a href="#" target="blank">心得撰寫活動</a>
+						</div>
+					</div>
 					<img src="images/press-start.png" role="cover-press-start" />
 					<img src="images/arrow.png" role="cover-arrow" />
 				</div>
