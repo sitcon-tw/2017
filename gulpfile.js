@@ -123,14 +123,14 @@ let bundle = (b, output, mangle) => {
 gulp.task('react', () => {
 	lib_bundler = browserify({
 		debug: (env === 'development'),
-		paths: ['./node_modules/']
+		paths: ['./node_modules/', './src/react/']
 	})
 
 	app_bundler = browserify('./src/react/main.jsx', {
 		cache: {},
 		packageCache: {},
 		debug: (env === 'development'),
-		paths: ['./node_modules/'],
+		paths: ['./node_modules/', './src/react/'],
 		transform: [
 			['babelify', { presets: ['es2015', 'react'] }]
 		]
