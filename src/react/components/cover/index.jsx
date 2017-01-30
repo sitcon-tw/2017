@@ -8,20 +8,20 @@ export default class extends Component {
 		return (
 			<div id="cover-page">
 
-				<article className="content-container" id="cover">
+				<div id="cover">
 					<img src="images/logo.svg" role="cover-logo" />
 					<img src="images/press-start.png" role="cover-press-start" />
 					<img src="images/arrow.png" role="cover-arrow" />
-				</article>
+				</div>
 
-				<article className="content-container">
+				<article>
 					<h2>Internet For Next Generation</h2>
 					{paragraphIntro.map((text, id) => {
 						return <p key={id}>{text}</p>;
 					})}
 				</article>
 
-				<article className="content-container">
+				<article>
 					<section>
 						<h2>Innovation &amp; Implementation</h2>
 						{paragraphSlogan.map((text, id) => {

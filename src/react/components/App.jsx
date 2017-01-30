@@ -10,10 +10,12 @@ export default class App extends Component {
 	render() {
 		return (
 			<div id="app">
-				<Cover />
-				<Schedule />
-				<Sponsor />
-				<Transport />
+				<div id="viewer" className="content-container">
+					<Cover />
+					<Schedule />
+					<Sponsor />
+					<Transport />
+				</div>
 				<Navbar />
 				<Background />
 			</div>
