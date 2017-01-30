@@ -14,11 +14,24 @@
 	text-decoration: none;
 	color: color("white");
 
-	img {
+	img[role="red-block"] {
 		height: 5em;
 		left: 0;
 		top: 0;
 		z-index: -1;
+	}
+
+	img[role="red-arrow"] {
+		display: none;
+		position: absolute;
+		top: 60%;
+		right: 100%;
+		height: 10px;
+		transform: translate(-50%, -50%) rotate(-90deg);
+	}
+
+	&.active img[role="red-arrow"] {
+		display: block;
 	}
 
 	.linkbox-front {
@@ -31,5 +44,4 @@
 		transform-origin: left top;
 		transform: skew(0deg, -18deg) translate(-50%, -50%);
 	}
-
 }
