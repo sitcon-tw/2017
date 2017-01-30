@@ -6,16 +6,27 @@ import Transport from './transport/index.jsx'
 import Navbar from './navbar/index.jsx'
 import Background from './background/index.jsx'
 
-export default class App extends Component {
+class Viewer extends Component {
 	render() {
 		return (
-			<div id="app">
-				<div id="viewer" className="content-container">
+			<div id="viewer">
+				<div className="content-container">
 					<Cover />
 					<Schedule />
 					<Sponsor />
 					<Transport />
 				</div>
+				<div className="side-decorator"></div>
+			</div>
+		)
+	}
+}
+
+export default class App extends Component {
+	render() {
+		return (
+			<div id="app">
+				<Viewer />
 				<Navbar />
 				<Background />
 			</div>
