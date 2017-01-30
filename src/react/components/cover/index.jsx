@@ -6,7 +6,7 @@ import paragraphAboutUs from './paragraphAboutUs.json'
 export default class extends Component {
 	render() {
 		return (
-			<div id="cover-page">
+			<div id="cover-page" className={this.props.active ? 'active' : ''}>
 
 				<div id="cover">
 					<div role="cover-title">

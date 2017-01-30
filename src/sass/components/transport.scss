@@ -1,0 +1,7 @@
+#transport-page {
+	display: none;
+
+	&.active {
+		display: block;
+	}
+}

@@ -1,8 +1,13 @@
 #cover-page {
+	display: none;
 	padding-top: 2em;
 
 	article {
 		margin-top: 6em;
+	}
+
+	&.active {
+		display: block;
 	}
 }
 

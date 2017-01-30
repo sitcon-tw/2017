@@ -1,0 +1,7 @@
+#sponsor-page {
+	display: none;
+
+	&.active {
+		display: block;
+	}
+}

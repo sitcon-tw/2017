@@ -1,0 +1,7 @@
+#schedule-page {
+	display: none;
+
+	&.active {
+		display: block;
+	}
+}
