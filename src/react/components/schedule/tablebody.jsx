@@ -36,12 +36,6 @@ export default function(props) {
 						<a>共筆</a>
 					</div>
 				</th>
-				<th>
-					交誼廳
-					<div>
-						<a>共筆</a>
-					</div>
-				</th>
 			</tr>
 			<tr>
 				<Timecol start="0830" />
@@ -58,6 +52,28 @@ export default function(props) {
 			<tr>
 				<Timecol start="0900" />
 				<td colSpan="4">Keynote 2</td>
+			</tr>
+			<Row start="1110" />
+			<tr>
+				<Timecol start="1240" />
+				<td colSpan="4">Talk</td>
+			</tr>
+			<tr>
+				<Timecol start="1410" />
+				<td colSpan="4">交流</td>
+			</tr>
+			<tr>
+				<Timecol start="1450" />
+				<td colSpan="4">點心</td>
+			</tr>
+			<Row start="1510" />
+			<Row start="1520" />
+			<Row start="1530" />
+			<Row start="1550" />
+			<Row start="1640" />
+			<tr>
+				<Timecol start="1730" />
+				<td colSpan="4">Lightning talk</td>
 			</tr>
 		</tbody>
 	)
