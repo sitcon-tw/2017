@@ -13,7 +13,7 @@ export default function(props) {
 				{data.speaker.profile.display_name}
 			</div>
 			<div role="talk-slide">
-				<a href={data.slides}>#簡報連結</a>
+				<a href={data.slides} target="blank">#簡報連結</a>
 			</div>
 		</div>
 	)
