@@ -29,6 +29,22 @@ export const golden = [
 		name: "西坑有點軟",
 		logo: "sitcon.png",
 	},
+	{
+		name: "西坑銀行",
+		logo: "sitcon.png",
+	},
+	{
+		name: "西坑有點軟",
+		logo: "sitcon.png",
+	},
+	{
+		name: "西坑銀行",
+		logo: "sitcon.png",
+	},
+	{
+		name: "西坑有點軟",
+		logo: "sitcon.png",
+	},
 ]
 
 export const silver = [
