@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 export default class extends Component {
 	stopPropagation(e) {
-		console.log('????', e)
 	    e.stopPropagation()
 	    e.nativeEvent.stopImmediatePropagation()
 	}
