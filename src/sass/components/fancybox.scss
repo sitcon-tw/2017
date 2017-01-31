@@ -1,0 +1,81 @@
+$time_quartic: cubic-bezier(0.99, 0.56, 1, 0.84);
+
+[role="fancybox-bg"] {
+	display   : none;
+	position  : fixed;  
+	left      : 0;
+	top       : 0;  
+	width     : 100%;
+	height    : 100%;
+	z-index   : 9999;
+	background-color: rgba(0,0,0,0);
+	transition: background-color 500ms $time_quartic;
+
+	&.state1,
+	&.state2 {
+		display: block;
+	}
+	&.state3 {
+		display: block;
+		background-color: rgba(0,0,0,.5);
+	}
+
+	@include tablet() {
+		background-color: transparent;
+		&.state1,
+		&.state2,
+		&.state3 {
+			background-color: transparent;
+		}
+	}
+}
+
+[role="fancybox-page"] {
+	display   : none;
+	position  : fixed;
+	font-size: 14pt;
+	width     : 80%;
+	max-width : 1400px;
+	height    : 90%;
+	top       : 50%;
+	left      : 50%;
+	z-index   : 99999;
+	border    : .5em solid color("blue");
+	overflow-y : scroll;
+	transform : translate  (-50%,50%) scale(.9);
+	transform : translate3d(-50%,50%,0) scale(.9);
+	background: white;
+	transition: transform 300ms $time_quartic;
+	will-change: transform;
+
+	&.state1 {
+		display: block;
+	}
+	&.state2 {
+		display: block;
+		transform : translate  (-50%,-50%) scale(.9);
+		transform : translate3d(-50%,-50%,0) scale(.9);
+	}
+	&.state3 {
+		display: block;
+		transform : translate  (-50%,-50%) scale(1);
+		transform : translate3d(-50%,-50%,0) scale(1);
+	}
+	[role="fancybox-X"] {
+		font-size: 16pt;
+		position : absolute;
+		top      : 0;
+		left     : 50%;
+		transform: translateX(-50%);
+		height   : 2em;
+		line-height: 2em;
+		font-weight: 900;
+		z-index    : 999;
+		color      : #FF7A7A;
+		cursor     : pointer;
+		font-family: monospace;
+	}
+	[role="fancybox-content"] {
+		padding    : 4em 0;
+	}
+}

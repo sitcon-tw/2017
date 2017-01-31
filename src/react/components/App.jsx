@@ -3,6 +3,7 @@ import Cover from './cover/index.jsx'
 import Schedule from './schedule/index.jsx'
 import Sponsor from './sponsor/index.jsx'
 import Transport from './transport/index.jsx'
+import Fancybox from './fancybox/index.jsx'
 import Navbar from './navbar/index.jsx'
 import Background from './background/index.jsx'
 import * as pageStore from 'stores/pages.js'
@@ -47,6 +48,7 @@ export default class App extends Component {
 				<Viewer />
 				<Navbar />
 				<Background />
+				<Fancybox />
 			</div>
 		)
 	}
