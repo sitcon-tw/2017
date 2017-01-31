@@ -29,8 +29,10 @@
 	}
 
 	td {
-		padding: 1.5em 0;
-		background-color: color("white");
+		padding: 1.5em .5em;
+		vertical-align: top;
+		text-align: center;
+		background-color: white;
 
 		&.time {
 			width: 3.5em;
@@ -54,6 +56,34 @@
 			span {
 				font-size: 10pt;
 				opacity: .8;
+			}
+		}
+
+		[role="talk-speaker"] {
+			font-size: 10pt;
+			font-style: italic;
+			margin-top: .5em;
+
+			[role="photo"] {
+				display: inline-block;
+				height: 2em;
+				width: 2em;
+				vertical-align: middle;
+				border-radius: 50%;
+				background-color: white;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				background-size: cover;
+			}
+		}
+
+		a {
+			font-size: 10pt;
+			color: color("blue");
+			opacity: .8;
+
+			&[href=""] {
+				display: none;	
 			}
 		}
 	}
