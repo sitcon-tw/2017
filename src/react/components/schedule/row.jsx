@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import Timecol from './timecol.jsx'
+import Col from './col.jsx'
 
 export default function(props) {
 	return (
 		<tr>
 			<Timecol start={props.start} />
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
+			<td><Col data={props.data["R2"]} /></td>
+			<td><Col data={props.data["R0"]} /></td>
+			<td><Col data={props.data["R1"]} /></td>
+			<td><Col data={props.data["R3"]} /></td>
 		</tr>
 	)
 }

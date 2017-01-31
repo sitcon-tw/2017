@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Row from './row.jsx'
 import Timecol from './timecol.jsx'
+import Col from './col.jsx'
 
 export default function(props) {
 	const datas = props.datas
-	console.log(datas)
 	return (
 		<tbody>
 			<tr>
@@ -47,13 +47,13 @@ export default function(props) {
 			</tr>
 			<tr>
 				<Timecol start="0910" />
-				<td colSpan="4">Keynote 1</td>
+				<td colSpan="4"><Col data={datas["01:10"]["R0"]} /></td>
 			</tr>
 			<tr>
 				<Timecol start="0900" />
-				<td colSpan="4">Keynote 2</td>
+				<td colSpan="4"><Col data={datas["02:10"]["R0"]} /></td>
 			</tr>
-			<Row start="1110" />
+			<Row start="1110" data={datas["03:10"]} />
 			<tr>
 				<Timecol start="1240" />
 				<td colSpan="4">Talk</td>
@@ -66,11 +66,11 @@ export default function(props) {
 				<Timecol start="1450" />
 				<td colSpan="4">點心</td>
 			</tr>
-			<Row start="1510" />
-			<Row start="1520" />
-			<Row start="1530" />
-			<Row start="1550" />
-			<Row start="1640" />
+			<Row start="1510" data={datas["07:10"]} />
+			<Row start="1520" data={datas["07:20"]} />
+			<Row start="1530" data={datas["07:30"]} />
+			<Row start="1550" data={datas["07:50"]} />
+			<Row start="1640" data={datas["08:40"]} />
 			<tr>
 				<Timecol start="1730" />
 				<td colSpan="4">Lightning talk</td>
