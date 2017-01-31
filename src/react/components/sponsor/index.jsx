@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import * as sponsors from './sponsor.jsx'
+import { open as fancybox } from 'stores/fancybox.js'
+import makeContent from './makeContent.jsx'
 
 function Sponsors(props) {
 	const list = props.list.map((sponsor, key) => {
+		const Content = makeContent(sponsor)
 		return (
-			<div className="sponsor" key={key}>
+			<div className="sponsor" key={key} onClick={() => {fancybox(Content)}}>
 				<img role="logo" src={"images/logos/"+sponsor.logo} />
 				<p>{sponsor.name}</p>
 			</div>
