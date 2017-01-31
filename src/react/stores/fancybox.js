@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 export const state = {
 	content: () => { return (<div></div>) },
-	cls: '',
 }
 const callbacks = []
 const durations = []

@@ -4,64 +4,60 @@ import * as store from 'stores/fancybox.js'
 export default class extends Component {
 	constructor(props) {
 		super(props)
-		this.state = Object.assign({}, store.state)
+		this.state = { content: store.state.content, cls: '' }
 	}
 
-    closeHandler() {
-        store.close()
-    }
+	closeHandler() {
+		store.close()
+	}
 
-    proc0() {
-    	console.log('proc0', this)
-        this.setState({
-            content: null,
-            cls: '',
-        })
-    }
-    
-    proc1() {
-    	console.log('proc0', this)
-        this.setState({
-            content: store.getContent(),
-            cls: 'state1',
-        })
-    }
-    
-    proc2() {
-    	console.log('proc0', this)
-        this.setState({
-            content: store.getContent(),
-            cls: 'state2',
-        })
-    }
+	proc0() {
+		this.setState({
+			content: () => { return (<div></div>) },
+			cls: '',
+		})
+	}
 
-    proc3() {
-    	console.log('proc0', this)
-        this.setState({
-            content: store.getContent(),
-            cls: 'state3',
-        })
-    }
-    
-    componentDidMount() {
-        store.addStep(this.proc0, 20);
-        store.addStep(this.proc1, 20);
-        store.addStep(this.proc2, 300);
-        store.addStep(this.proc3, 300);
-    }
+	proc1() {
+		this.setState({
+			content: store.state.content,
+			cls: 'state1',
+		})
+	}
 
-    render() {
-        const Content = this.state.content
-        return (
-            <div id="fancybox">
-                <div role="fancybox-bg" onClick={this.closeHandler} className={this.state.cls} />
-                <div role="fancybox-page" className={this.state.cls}>
-                    <span role="fancybox-X" onClick={this.closeHandler}>X</span>
-                    <div role="fancybox-content">
-                    	<Content />
-                    </div>
-                </div>
-            </div>
-        )
-    }
+	proc2() {
+		this.setState({
+			content: store.state.content,
+			cls: 'state2',
+		})
+	}
+
+	proc3() {
+		this.setState({
+			content: store.state.content,
+			cls: 'state3',
+		})
+	}
+
+	componentDidMount() {
+		store.addStep(() => { this.proc0() }, 20);
+		store.addStep(() => { this.proc1() }, 20);
+		store.addStep(() => { this.proc2() }, 300);
+		store.addStep(() => { this.proc3() }, 300);
+	}
+
+	render() {
+		const Content = this.state.content
+		return (
+			<div id="fancybox">
+				<div role="fancybox-bg" onClick={this.closeHandler} className={this.state.cls} />
+				<div role="fancybox-page" className={this.state.cls}>
+					<span role="fancybox-X" onClick={this.closeHandler}>X</span>
+					<div role="fancybox-content">
+						<Content />
+					</div>
+				</div>
+			</div>
+		)
+	}
 }
