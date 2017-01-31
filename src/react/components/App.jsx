@@ -23,10 +23,10 @@ class Viewer extends Component {
 	}
 
 	render() {
-		let isCover = (this.state.page === '#cover-page')
-		let isShedule = (this.state.page === '#schedule-page')
-		let isSponsor = (this.state.page === '#sponsor-page')
-		let isTransport = (this.state.page === '#transport-page')
+		const isCover = (this.state.page === '#cover-page')
+		const isShedule = (this.state.page === '#schedule-page')
+		const isSponsor = (this.state.page === '#sponsor-page')
+		const isTransport = (this.state.page === '#transport-page')
 		return (
 			<div id="viewer">
 				<div className="content-container">
