@@ -4,4 +4,57 @@
 	&.active {
 		display: block;
 	}
+
+	table {
+		width: 100%;
+		border-spacing: 1px;
+		color: #333;
+	}
+
+	th {
+		font-size: 14pt;
+		font-weight: 900;
+		vertical-align: top;
+		color: color("magenta");
+		
+		a {
+			display: inline-block;
+			font-size: 10pt;
+			margin: 0 .2em;
+			padding: .3em;
+			background-color: color("magenta");
+			color: white;
+			cursor: pointer;
+		}
+	}
+
+	td {
+		padding: 1.5em 0;
+		background-color: color("white");
+
+		&.time {
+			width: 3.5em;
+			position: relative;
+			background-color: transparent;
+
+			[role="start-time"] {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				text-align: center;
+			}
+
+			strong {
+				font-size: 14pt;
+				color: color("blue");
+				display: inline-block;
+			}
+
+			span {
+				font-size: 10pt;
+				opacity: .8;
+			}
+		}
+	}
 }
