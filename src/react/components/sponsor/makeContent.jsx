@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
 export default function(props) {
-	const logo = { backgroundImage: "url(images/logos/"+props.logo+")" }
+	const logo = "images/logos/"+props.logo
 	const name = props.name
 	const Intro = props.intro
 	return () => {
 		return (
 			<div>
 				<section>
-					<div role="logo" style={logo}></div>
+					<img role="logo" src={logo} />
 					<h2>{name}</h2>
 					<Intro />
 				</section>

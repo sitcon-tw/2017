@@ -89,20 +89,36 @@ $time_quartic: cubic-bezier(0.17, 0.84, 0.44, 1);
 			text-align: justify;
 		}
 		a {
-			font-size: 10pt;
+			font-size: 14pt;
 			color: color("blue");
 			opacity: .8;
+			text-decoration: underline;
+			cursor: pointer;
 
 			&[href=""] {
 				display: none;	
 			}
+		}
+		li {
+			color: color("blue");
 		}
 
 		[role="photo"] {
 			height: 200px;
 			width: 200px;
 			margin: 0 auto;
-			vertical-align: middle;
+			border-radius: 50%;
+			background-color: white;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			background-size: cover;
+		}
+		[role="logo"] {
+			display: block;
+			width: 80%;
+			max-width: 300px;
+			height: auto;
+			margin: 0 auto;
 			border-radius: 50%;
 			background-color: white;
 			background-repeat: no-repeat;
