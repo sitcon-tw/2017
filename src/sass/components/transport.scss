@@ -4,6 +4,19 @@
 	&.active {
 		display: block;
 	}
+
+	article {
+		margin-top: 2em;
+		
+		strong {
+			display: block;
+			color: color("magenta");
+		}
+
+		p {
+			margin: 0;
+		}
+	}
 }
 
 #openstreetmap {
