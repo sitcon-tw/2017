@@ -18,7 +18,8 @@ export default function makeContent(props) {
 				<section>
 					<h2>{title}</h2>
 					<p>{abstract}</p>
-					<a href={slide} target="blank">{slide}</a>
+					<p></p>
+					<a href={slide} target="blank">{"#簡報連結"}</a>
 				</section>
 			</div>
 		)
