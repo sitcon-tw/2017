@@ -5,7 +5,7 @@ function Sponsors(props) {
 	const list = props.list.map((sponsor, key) => {
 		return (
 			<div className="sponsor" key={key}>
-				<img src={"images/logos/"+sponsor.logo} />
+				<img role="logo" src={"images/logos/"+sponsor.logo} />
 				<p>{sponsor.name}</p>
 			</div>
 		)
