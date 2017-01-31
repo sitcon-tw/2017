@@ -1,4 +1,5 @@
 @import './utils/colors.scss';
+@import './utils/rwd.scss';
 @import './layouts/base.scss';
 @import './layouts/viewer.scss';
 @import './components/page.scss';
@@ -6,5 +7,6 @@
 @import './components/schedule.scss';
 @import './components/sponsor.scss';
 @import './components/transport.scss';
+@import './components/fancybox.scss';
 @import './components/navbar.scss';
 @import './components/background.scss';
