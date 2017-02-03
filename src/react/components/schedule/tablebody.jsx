@@ -56,32 +56,40 @@ export default function(props) {
 				</td>
 			</tr>
 			<tr>
-				<Timecol start="0900" />
+				<Timecol start="1010" />
 				<td colSpan="4" onClick={() => { fancybox(contentKeynote2) }} className="clickable">
 					<Col data={datas["10:10"]["R0"]} />
 				</td>
 			</tr>
 			<Row start="1110" data={datas["11:10"]} />
 			<tr>
-				<Timecol start="1240" />
-				<td colSpan="4"><div>Talk</div></td>
+				<Timecol start="1150" />
+				<td colSpan="4"><div>午餐</div></td>
 			</tr>
 			<tr>
-				<Timecol start="1410" />
-				<td colSpan="4"><div>交流</div></td>
-			</tr>
-			<tr>
-				<Timecol start="1450" />
-				<td colSpan="4"><div>點心</div></td>
+				<Timecol start="1250" />
+				<td colSpan="4"><div>論壇</div></td>
 			</tr>
 			<Row start="1440" data={datas["14:40"]} />
 			<Row start="1455" data={datas["14:55"]} />
 			<Row start="1510" data={datas["15:10"]} />
+			<tr>
+				<Timecol start="1520" />
+				<td colSpan="4"><div>點心</div></td>
+			</tr>
 			<Row start="1600" data={datas["16:00"]} />
 			<Row start="1650" data={datas["16:50"]} />
 			<tr>
 				<Timecol start="1730" />
 				<td colSpan="4"><div>Lightning talk</div></td>
+			</tr>
+			<tr>
+				<Timecol start="1820" />
+				<td colSpan="4"><div>閉幕</div></td>
+			</tr>
+			<tr>
+				<Timecol start="1840" />
+				<td colSpan="4"><div>會後交流</div></td>
 			</tr>
 		</tbody>
 	)
