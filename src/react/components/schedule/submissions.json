@@ -66,6 +66,19 @@
     },
     {
         "speaker": {
+            "name": "artistic709",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/7/13923744_1056456014439038_6965040193164840429_o.jpg",
+            "bio": "常在台大開源社玩耍的觀光客，興趣是喝手搖飲料。 沒有從小開始寫程式先輸別人一半，只好朝奇怪的方向發展變成了礦工。 喜歡到處路過各種有趣的社群。"
+        },
+        "start": "2017-03-18T16:00:00+08:00",
+        "end": "2017-03-18T16:40:00+08:00",
+        "type": "L",
+        "room": "R3",
+        "subject": "和我簽訂契約成為區塊鍊魔法少女吧",
+        "summary": "平時聽到 Blockchain 可能覺得是個遙遠的名詞，或者只知道可以用 Bticoin 買 Steam 的遊戲，但其實它還可以拿來開發各種有趣的智能合約，發行貨幣只是其中的一種應用。如果說 Bitcoin 是區塊鍊技術的 prototype，Ethereum 就是 DAPP 和 smart contract 完整的底層實作。現在已經有許多開發者在 Ethereum 的基礎上發展服務，包括廣告買賣平台、去中心化的線上賭場、甚至有人募資成立基於智能合約的無實體公司，區塊鍊的潛力顯然不止於支付。"
+    },
+    {
+        "speaker": {
             "name": "Licson",
             "avatar": "//cfp.sitcon.org/uploads/user/photo/32/1832745_1_",
             "bio": "I&#39;m currently an application developer mainly focused on Web development. With a huge interest on the networking side, I also have knowledge on that side."
@@ -102,19 +115,6 @@
         "room": "R1",
         "subject": "格鬥遊戲 AI 開發經驗談",
         "summary": "議程將分享參與 IEEE CIG 2016 &amp; 2017 格鬥遊戲人工智慧比賽(FTGAI competition) 經驗與開發格鬥比賽 AI agent 的經驗。\n格鬥遊戲人工智慧設計上和常見棋類不同，更加重視其動作的當下效果及賽局中雙方動作的應對，因此不能進行長時間的模擬分析，甚至進行分析也有一定上的困難，也因為如此設計的架構與技巧也和棋纇人工智慧有不小差異，議程內將簡述開發 AI 的歷程，包括架構設計和採用技術（基因演算法、動作模式偵測、蒙地卡羅樹搜尋、rule-based等）之間的優缺點及效果評估，以及我們對於設計格鬥遊戲人工智慧的一些建議。\n本議程適合對於對於資訊能力有一定基礎且對於人工智慧有一定興趣之聽眾，同時也可以作為學生專題研究參考。"
-    },
-    {
-        "speaker": {
-            "name": "Louie Lu",
-            "avatar": "//cfp.sitcon.org/uploads/user/photo/56/15317889_1412875262064393_2685786703496506831_n.jpg",
-            "bio": "Louie Lu (Shao-Jung Lu) is a software quality assurance engineer, kernel engineer. He was previously a software test assistant engineer at Hopebay Tech, where he does Web UI and API automate testing, continuous integration, and API develop in the team. He is also a kernel engineer in hobby time.\nsite: https://louie.lu/\nblog: https://blog.louie.lu/"
-        },
-        "start": "2017-03-18T16:50:00+08:00",
-        "end": "2017-03-18T17:30:00+08:00",
-        "type": "L",
-        "room": "R1",
-        "subject": "從 QA 到 QQ - QAQQ實習經驗與測試技巧",
-        "summary": "This talk will cover about some intern &amp; full-time QA experience of my last days in HopeBay Tech. Also provide some useful testing technique in unit tests and automation test."
     },
     {
         "speaker": {
