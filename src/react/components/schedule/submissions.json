@@ -1,1 +1,314 @@
-[{"url":"https://cfp.sitcon.org/api/submissions/4/","speaker":{"pk":12,"url":"https://cfp.sitcon.org/api/users/12/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/12/","user":"https://cfp.sitcon.org/api/users/12/","display_name":"民2","bio":"正職是114的宿舍警備員，也是個每天辛勞耕作的碼農，最近被學長實驗室抓去當業餘屠龍士。非常好奇為什麼交大二餐小七的拿鐵比清大的好喝","title":"投稿講者","avatar":"image/speakers/12.jpg"}},"title":"網頁執行語言的原生效能之戰","type":"L","abstract":"Javascript 作為一個網頁前端執行語言，有時候在效能方面依然稍顯不足，隨著 Web App 與網頁遊戲的需求日趨增加，這個缺點也逐漸廣為大家所討論。本 session 即從技術及原理層面，介紹幾個以前到現在試著突破這個困境的解決方案，從 asm.js 到最新的 WebAssembly，了解他們各自從什麼角度，利用什麼關鍵，讓目前仍是動態語言為大宗的網頁前端領域，有著接近原生執行程式的效能。","start":"2016-02-27T07:50:00Z","end":"2016-02-27T08:30:00Z","room":"R1 第一會議廳","activity":"https://cfp.sitcon.org/api/activities/63/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/8/","speaker":{"pk":19,"url":"https://cfp.sitcon.org/api/users/19/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/19/","user":"https://cfp.sitcon.org/api/users/19/","display_name":"Max Huang","bio":"Study-Area 酷學園 小雜工  / GNOME.Asia Committee Member / openSUSE Member\r\n喜歡社群自由無私的分享、熱愛自由軟體及 Linux 所帶來的方便性.","title":"投稿講者","avatar":"image/speakers/19.jpg"}},"title":"以推廣者角度參與國際社群經驗談","type":"L","abstract":"在此次的演講, 會聊到為何會加入台灣社群, 為何會加入國際社群, 讓來參加的朋友對參與國際社群, 舉辦會議以及申請旅行補助有相關了解.\r\n\r\n個人參與國際社群的動力為何?（增廣見聞?練英文?）\r\n參與國際社群的方式？(如何跨出第一步? 如何進行後續貢獻?)\r\nopenSUSE / GNOME 國際社群介紹\r\n---- GNOME 會議 ( GNOME.Asia Summit / GUADEC  )介紹\r\n---- openSUSE 會議( openSUSE Conference / openSUSE.Asia Summit )介紹\r\n---- 申請openSUSE / GNOME 會議旅行補助的條件與流程\r\n與不同國家社群成員合作相關經驗與方式 （ IRC ? Mail ? ）\r\n舉辦國際會議 經驗 / 趣味分享談","start":"2016-02-27T03:10:00Z","end":"2016-02-27T03:50:00Z","room":"R0 國際會議廳","activity":"https://cfp.sitcon.org/api/activities/26/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/7/","speaker":{"pk":18,"url":"https://cfp.sitcon.org/api/users/18/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/18/","user":"https://cfp.sitcon.org/api/users/18/","display_name":"PN Wu (小平)","bio":"一腳踏入土木領域的開源人。\r\nJava控、Unity3D愛好者、貓奴。\r\n認為Unity3D除了開發遊戲很強大之外，還能做到許多事。\r\nSlides可能會有大量橘貓貓圖片出沒。\r\n\r\nhttps://www.linkedin.com/in/pingnote","title":"投稿講者","avatar":"image/speakers/18.jpg"}},"title":"跨平台佈署建築資訊模型應用系統","type":"L","abstract":"建築資訊模型(BIM)是建築學、工程學及土木工程的新工具，它是建築過程的數位展示方式來協助數位資訊交流及合作。本議程的焦點鎖定在將建築資訊模型系統開源化，並枚舉ㄧ些建築資訊模型的跨平台應用專案，藉此探討：小至「檢視居家生活安全」、大至「降低公民監督大型國家建設的門檻」的可能。\r\nKeyword: #BIM #IFC #設施設備管理 #建築生命週期 #公民參與 #Unity3D #無線感測","start":"2016-02-27T07:30:00Z","end":"2016-02-27T07:40:00Z","room":"R2 第二會議廳","activity":"https://cfp.sitcon.org/api/activities/53/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/39/","speaker":{"pk":57,"url":"https://cfp.sitcon.org/api/users/57/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/57/","user":"https://cfp.sitcon.org/api/users/57/","display_name":"游宭鎬","bio":"台科大商業設計系二年級，專注於平面與品牌設計的修煉。另一方面是 JS 狂熱者，愛玩各種 web 相關視覺化技術如 Paper、P5、D3，並致力於將這些技術思維導入設計流程與日常生活中。GitHub => chiunhau， Behance => chiunhauyou","title":"投稿講者","avatar":"image/speakers/57.jpg"}},"title":"藝術家也為之瘋狂的 JS Library","type":"L","abstract":"如何在藝術圈、設計圈注入程式設計的活水？一般會想到，可以用 Processing 來做圖形、音樂互動設計。但現在你有另一個好的選項：P5.js。它是一個 JS 用戶端 Library，承襲了 Processing 的設計哲學，用於瀏覽器端創造豐富的圖形及互動體驗，亦即，藝術家的互動作品可以瞬間散播到全世界！此外，P5.js 的另一項優勢是在於它的教育意義，尤其對初次接觸程式的人來說，更具價值。本議程將 demo P5.js 的功能及特色，並以個人程式教學經驗，分享為何我認為 P5.js 將成為設計圈的明日之星。","start":"2016-02-27T03:10:00Z","end":"2016-02-27T03:50:00Z","room":"R3 遠距會議廳","activity":"https://cfp.sitcon.org/api/activities/28/","slides":"還沒做誒..."},{"url":"https://cfp.sitcon.org/api/submissions/14/","speaker":{"pk":24,"url":"https://cfp.sitcon.org/api/users/24/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/24/","user":"https://cfp.sitcon.org/api/users/24/","display_name":"Ray","bio":"安安，我是Ray，因為去年的下午茶沒搶到點心，所以今年又回來啦!目前擔任實中資研社的社長及自由接案的小嫩肝，歡迎路人餵食 /*PS.魯魯徵女友QQ*/","title":"投稿講者","avatar":"image/speakers/24.jpg"}},"title":"網釣就在你身旁~ 校園資安報告","type":"S","abstract":"釣魚式攻擊(簡稱網釣)，是一種企圖從電子通訊中，透過偽裝成信譽卓著的法人媒體以獲得個人敏感資訊的犯罪詐騙過程，常透過網站偽造等方式實現。若將它應用於現實中，成效又如何呢?講者與校方合作，秘密地偽造一個釣魚網站並透過郵件偽造送給每位同學，觀察同學登入狀況及其資安意識。在今天的報告中，講者將揭露各年齡層、性別受試者的受試結果，還有破解反釣魚保護的爆肝歷程。","start":"2016-02-27T07:10:00Z","end":"2016-02-27T07:20:00Z","room":"R0 國際會議廳","activity":"https://cfp.sitcon.org/api/activities/46/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/10/","speaker":{"pk":17,"url":"https://cfp.sitcon.org/api/users/17/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/17/","user":"https://cfp.sitcon.org/api/users/17/","display_name":"陳昱維/千秋","bio":"台大開源社/模型社，據說是個有趣的神奇傢伙，喜歡可愛（萌）的東西，從設計、插畫、料理、攝影到機械、程式都有略有涉獵，最喜歡做的事情就是找事情做。\r\n\r\n副業是見習設計師跟系網管，實際上是學生。","title":"投稿講者","avatar":"image/speakers/17.jpg"}},"title":"翻牆實戰","type":"L","abstract":"內容審查，網路過濾，自由與開放的世界取決於自由與開放的網際網路。\r\n網際網路的設計初衷就是自由與開放，網際網路讓每個人都有發言、創作、學習與分享的權利。 而且不受任何機構、個人或政府控管。\r\n本議程講述台灣以及世界的網際網路審查概況，如何進行審查與過濾，以及如何迴避審查，分享一些翻牆的方式與技術，避開網路審查。","start":"2016-02-27T08:40:00Z","end":"2016-02-27T09:20:00Z","room":"R0 國際會議廳","activity":"https://cfp.sitcon.org/api/activities/70/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/16/","speaker":{"pk":30,"url":"https://cfp.sitcon.org/api/users/30/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/30/","user":"https://cfp.sitcon.org/api/users/30/","display_name":"文月","bio":"現為台灣大學圖資系一年級、台大開源社社員兼廢柴。目前耍廢發宵夜文之餘，正在默默學習新技術，累積戰力中。\r\n對於各種事物與議題都略有關注，喜歡思考、解決問題，從不同的角度切入事情，探究更豐富的想像與可能性。\r\n","title":"投稿講者","avatar":"image/speakers/30.jpg"}},"title":"進擊的開源推廣！","type":"S","abstract":"當你身邊的人問起「開源是什麼？」的時候，你會怎麼回答呢？\r\n程式界的wikipedia？宅宅工程師的內心小宇宙？\r\n當我們如此回答的時候，究竟他人對開源的想像是怎麼樣的呢？\r\n如何讓大眾開始覺得這個主題切身相關，而不再因為艱澀的語詞默默走開？\r\n這次我們從一個輕鬆的方式切入開源的推廣，從自身的經驗到科學推廣的概念，\r\n究竟我們還可以做哪些努力、用哪些方式來推廣開源呢？\r\n讓我們一起來發掘開源推廣得更多可能性吧！","start":"2016-02-27T07:20:00Z","end":"2016-02-27T07:30:00Z","room":"R1 第一會議廳","activity":"https://cfp.sitcon.org/api/activities/51/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/17/","speaker":{"pk":56,"url":"https://cfp.sitcon.org/api/users/56/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/56/","user":"https://cfp.sitcon.org/api/users/56/","display_name":"Michael.K","bio":"小時候就立志成為工程師，長大後還真的成為工程師，有時候自己都覺得有點意外，雖然自己是大學才開始的就是了。","title":"投稿講者","avatar":"image/speakers/56.jpg"}},"title":"學而「實習」之","type":"S","abstract":"嗨 我是Michael.\r\n目前雖然剛退伍而已，但在這之前已經有在業界接觸的經驗，沒錯就是實習。\r\n此次short talk目的主要是想分享在這幾年業界實習的經驗，希望能在短短的十分鐘表達我想說的內容：\r\n1. 身為一個資訊從業的intern，你／妳必須具備什麼認知?\r\n2. 自己在這中間有什麼樣心路歷程\r\n3. 對於資訊業你／妳應該抱持什麼想法?\r\n\r\n希望能透過這次將自己的經驗所學貢獻給還在學的各位，祝福各位都可以找到理想的intern。","start":"2016-02-27T07:10:00Z","end":"2016-02-27T07:20:00Z","room":"R2 第二會議廳","activity":"https://cfp.sitcon.org/api/activities/45/","slides":"https://slides.com/michael34435/intern_in_your_journey"},{"url":"https://cfp.sitcon.org/api/submissions/18/","speaker":{"pk":16,"url":"https://cfp.sitcon.org/api/users/16/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/16/","user":"https://cfp.sitcon.org/api/users/16/","display_name":"Cheng-Chia Tseng","bio":"Cheng-Chia Tseng (曾政嘉)，網路常見 ID 為「zerng07」，長期的自由與開源軟體專案翻譯者，也努力推動臺灣自由與開源軟體專案的參與。","title":"投稿講者","avatar":"image/speakers/16.jpg"}},"title":"我的自由軟體之路","type":"K","abstract":"以說故事的方式，介紹我個人接觸到自由軟體的契機，瞭解其精神與理念，初步踏入自由軟體貢獻，最後變成長期自由與開源軟體翻譯者，並成為 The Document Foundation Member、Ubuntu Member、GNOME Member 的前後歷程，希望透過個人故事分享，讓參與的會衆都能體會到：自由與開源軟體專案的貢獻其實很簡單。","start":"2016-02-27T02:10:00Z","end":"2016-02-27T03:00:00Z","room":"R0 國際會議廳","activity":"https://cfp.sitcon.org/api/activities/17/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/25/","speaker":{"pk":22,"url":"https://cfp.sitcon.org/api/users/22/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/22/","user":"https://cfp.sitcon.org/api/users/22/","display_name":"陳任軒","bio":"2012年與夥伴成立18Light遊戲製作團隊，2014年以作品Magnesia獲得Unity大賞的創新創意金獎等諸多獎項，之後在龍華開班授課，持續培育新興遊戲人才實作能力，並在2015年年底成立光穹遊戲有限公司。","title":"投稿講者","avatar":"image/speakers/22.jpg"}},"title":"學生如何成為遊戲開發者","type":"S","abstract":"球不是一個人踢的，遊戲通常也不是一個人做的，大多數的遊戲都需要由企劃、美術與程式做搭配，這次演講將分享我帶領18Light學生遊戲團隊三年多，直到成立公司的經歷。如何掌握這三種不同領域的人才，經由分配時程>製作遊戲>測試遊戲>改善遊戲>比賽得獎，做出理想中大家都喜歡玩的遊戲，以及培育龍華遊戲系新生為遊戲開發者兩年的歷程。","start":"2016-02-27T07:20:00Z","end":"2016-02-27T07:30:00Z","room":"R2 第二會議廳","activity":"https://cfp.sitcon.org/api/activities/49/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/51/","speaker":{"pk":50,"url":"https://cfp.sitcon.org/api/users/50/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/50/","user":"https://cfp.sitcon.org/api/users/50/","display_name":"Allen Chou","bio":"一個普普通通的高中生兼技術宅，熱愛程式的世界，平時喜歡寫寫網站，研究各種新技術，每天膩在 0 與 1 中無法自拔，除了 Coding 以外無所事事。","title":"投稿講者","avatar":"image/speakers/50.jpg"}},"title":"Got Your PW - 入門資安的微旅行","type":"S","abstract":"一直以來資安都被視為較難入門的領域，加上繁體中文的文獻相較於英文及簡體中文少非常多，導致了台灣有許多人想入門資安卻不知該從何學起，抹煞了許多初學者的熱情。於是 Got Your PW 也就這麼成立了，立志於提供初學者豐富的資源提供學習與使用，使大家能夠更輕易的踏入資安圈而不會被高聳的門檻給嚇退，讓學資安成為一種輕鬆的「微旅行」。這回我們將述說 Got Your PW 建立的背景，故事，挫折等等不為人知的故事，並且探討現今的問題，以及未來的展望。","start":"2016-02-27T07:20:00Z","end":"2016-02-27T07:30:00Z","room":"R0 國際會議廳","activity":"https://cfp.sitcon.org/api/activities/50/","slides":"https://docs.google.com/presentation/d/1h5IUHUAi5GHJ3ThAQ5tqbPiN3Yy1WLxhO9zsRs1c-Jo/edit?usp=sharing"},{"url":"https://cfp.sitcon.org/api/submissions/29/","speaker":{"pk":68,"url":"https://cfp.sitcon.org/api/users/68/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/68/","user":"https://cfp.sitcon.org/api/users/68/","display_name":"Serrok","bio":"現在可能在 QNAP 裡面蓋官網，好像曾經做過 HITCON ZeroDay、VulReport 之類的事情，又聽說這個人是網頁建......建建建築工，疑似對網頁略知一二，偶爾寫寫小說，偶爾把網頁當成小說寫。","title":"投稿講者","avatar":"image/speakers/68.jpg"}},"title":"以圖書資訊學的角度來看 HTML 與 SEO","type":"L","abstract":"標準定稿於2014年底的HTML5，除了與CSS3、Java Script配合所帶來的聲光效果提高了網頁內容體驗的豐富程度，它也帶來了許多能大幅增強了HTML文件之語意程度的標準，影響現今及未來的語意網路發展及搜尋引擎的索引策略。這場Talk將不探討酷炫的新技術，單純回歸原味，透過一些簡單的圖書資訊學概念來重新認識HTML的本質與搜尋引擎的原理。","start":"2016-02-27T08:40:00Z","end":"2016-02-27T09:20:00Z","room":"R2 第二會議廳","activity":"https://cfp.sitcon.org/api/activities/69/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/31/","speaker":{"pk":80,"url":"https://cfp.sitcon.org/api/users/80/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/80/","user":"https://cfp.sitcon.org/api/users/80/","display_name":"Jared","bio":"進了成大工科系，\r\n懂了機械，才知道自己不喜歡機械；\r\n念了電學，才發現電子電路不如想像中的美妙；\r\n寫了程式，才不小心栽了進去。\r\n學習C語言不到一年，第一次參與開放原始碼專案，就深深的陷入系統軟體，而無法自拔。","title":"投稿講者","avatar":"image/speakers/80.jpg"}},"title":"ARM uVisor Debug Refinement Project","type":"S","abstract":"mbed OS是ARM為了物聯網所推出的作業系統，號稱IOT界的Android，IOT無所不在，記錄大量的個人資料，於是安全性便顯得十分關鍵。\r\nuVisor位於mbed最底層，為一專門負責安全的hypervisor，管理整個系統的記憶體安全；掌握了記憶體，就掌握了所有的輸入、輸出，就能確保程式碼、記憶體不會被任意執行、修改、竊取。\r\n目前uVisor的完成度也相當低，開發進度緩慢，主要的原因是uVisor基於安全的考量，不允許I/O的直接存取，也就無法顯示任何訊息。\r\n此計畫期望藉由整合多項開放原始碼專案：CrashDebug、CrashCatcher、MRI到uVisor，改善這個窘境。","start":"2016-02-27T07:10:00Z","end":"2016-02-27T07:20:00Z","room":"R3 遠距會議廳","activity":"https://cfp.sitcon.org/api/activities/48/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/27/","speaker":{"pk":32,"url":"https://cfp.sitcon.org/api/users/32/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/32/","user":"https://cfp.sitcon.org/api/users/32/","display_name":"adr","bio":"TDOH核心成員之一、現任TDOH ISRI計畫負責人。曾在HITCON CMT擔任講者，興趣於遊戲外掛分析、開發撰寫外掛，專長於逆向工程分析Windows、Android、OSX平台之程式。","title":"投稿講者","avatar":"image/speakers/32.jpg"}},"title":"防毒擋不住？勒索病毒猖獗與實作","type":"L","abstract":"從小學電腦課老師、學長、資安前輩⋯⋯等便從我們使用電腦那刻起就無時無刻提醒我們防毒軟體對個人電腦保護的重要性。一直以來防毒軟體在防護個人資料外洩、避免電腦遭受惡意破壞、APT漸進式攻擊防護⋯⋯等之上有舉足輕重的地位，如今為何遇上加密個人資料來勒索比特幣的病毒卻所有防護卻視若無睹呢？\r\n\r\n本議程將帶聽眾深度理解目前市面上防毒軟體基本功能與運作，並透過寫C++程式碼來黑箱測試玩弄防毒軟體佈下的「天羅地網」與解析當前防毒檢測上灰色地帶並理解為何勒索病毒可神秘地躲過防毒軟體查殺；最後解析這樣一款勒索病毒該如何以C#自己實作。","start":"2016-02-27T07:50:00Z","end":"2016-02-27T08:30:00Z","room":"R2 第二會議廳","activity":"https://cfp.sitcon.org/api/activities/61/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/41/","speaker":{"pk":88,"url":"https://cfp.sitcon.org/api/users/88/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/88/","user":"https://cfp.sitcon.org/api/users/88/","display_name":"Kelvin Lin","bio":"正在成為程式與設計都懂的跨領域獨角獸。操刀本年會視覺，在新創公司實習，設計 UI/UX、寫網頁前端、寫媒體專欄、學 Rails。資管系出身，卻也到處玩平面設計，喜歡小孩、喜歡環保，還有讓社會更好的一切。","title":"投稿講者","avatar":"image/speakers/88.jpg"}},"title":"工程師也能懂的前端美學","type":"L","abstract":"常常被問到要怎麼設計美美的網頁。將美學應用在前端，意味著更高層次的使用者體驗實踐。即使不是設計師，也可以聽聽設計師都如何發想、執行專案，你未來的溝通會更順利！本議程將介紹基礎美學，並透過使用者介面解釋設計的邏輯。也同時精選一些優劣網頁或手機 App 的案例分析，看看如何重新設計會更好。最後將上述理論實作到使用者體驗中，並站在不同立場思考設計的目標和需求，從行銷、使用者、工程師、設計師的角度都各有考量。雖然開源的前端框架已經琳琅滿目，但怎麼用對的觀念去安排前端更是難題。本議程適合追求完美的工程師！","start":"2016-02-27T07:50:00Z","end":"2016-02-27T08:30:00Z","room":"R0 國際會議廳","activity":"https://cfp.sitcon.org/api/activities/62/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/23/","speaker":{"pk":26,"url":"https://cfp.sitcon.org/api/users/26/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/26/","user":"https://cfp.sitcon.org/api/users/26/","display_name":"PastLeo","bio":"對電腦的一切事物有興趣，從電腦硬體、作業系統以及網路到程式、網頁設計，甚至家用遊戲主機和智慧型手機皆有涉略。\r\n我的個人網站：http://pastleo.me","title":"投稿講者","avatar":"image/speakers/26.jpg"}},"title":"客製化我的開發環境並將它開源！","type":"L","abstract":"身為一個有 Style 的人，當然要讓自己的工具變得很有自己的 Style，於是我在我的純文字世界中搞了整套（很亂）的『家目錄』隱藏設定檔，除了加上一堆設定讓它變得更順手好用，當然就是加上更多炫砲（無用）的小東西，之後漸紅的 Docker 、投影片產生器也都慘遭我的毒手。寫設定檔、Theme 這些客製化的東西，除了自己爽之外，其實也是開源的好項目，可以方便推坑同學，更可以作為自己開源貢獻的入門練習，而且也是對別人展示自己的好資料！","start":"2016-02-27T07:30:00Z","end":"2016-02-27T07:40:00Z","room":"R1 第一會議廳","activity":"https://cfp.sitcon.org/api/activities/55/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/50/","speaker":{"pk":90,"url":"https://cfp.sitcon.org/api/users/90/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/90/","user":"https://cfp.sitcon.org/api/users/90/","display_name":"seisyo","bio":"高職念商科，到大學才開始接觸資訊這一塊，是一個真正開始學習程式語言到現在不到一年小小新手。希望可以透過這次的機會和大家分享這心路歷程和被推坑而開始開發的人生第一個專案「財務系統」。","title":"投稿講者","avatar":"image/speakers/90.jpg"}},"title":"商科學生遇到程式","type":"S","abstract":"從高職商科轉念資訊科系，在大學生活徘徊中和一位同學的相遇而有了目標真正開始接觸程式語言，也因為他而有了這個機會開發人生中第一個大專案「SITCON財務系統」。希望可以透過這次的演講分享使用php框架「Laravel」開發系統之漫長心路歷程和結合“商科知識”和“資訊技術”的成果，以親身經歷告訴全世界小小大學生結合專業知識和程式的力量。","start":"2016-02-27T07:10:00Z","end":"2016-02-27T07:20:00Z","room":"R1 第一會議廳","activity":"https://cfp.sitcon.org/api/activities/47/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/49/","speaker":{"pk":91,"url":"https://cfp.sitcon.org/api/users/91/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/91/","user":"https://cfp.sitcon.org/api/users/91/","display_name":"macjack","bio":"Jack is advocate of open source in Taiwan since 2000. He has been in the IT industry for the last 10 years. He has extensive experience of various flavors of Linux distribution. He introduce OpenStack to enterprise as OpenStack evangelist 4 years ago. He also hosts OpenStack Taiwan User Group.","title":"投稿講者","avatar":"image/speakers/91.jpg"}},"title":"如何成功貢獻到 OpenStack 社群！","type":"L","abstract":"OpenStack 是近年來相當受到各界歡迎跟採用的開放雲架構, 這個演說將會介紹如何貢獻到 OpenStack 上游社群以及如何與上游開發者社群互動的經驗分享, 也將會介紹一些開發貢獻過程中所需要的相關技術, 讓與會聽眾了解認知到並縮短減少繁雜的步驟, 最後能輕鬆容易地貢獻到 OpenStack 上游社群","start":"2016-02-27T08:40:00Z","end":"2016-02-27T09:20:00Z","room":"R1 第一會議廳","activity":"https://cfp.sitcon.org/api/activities/71/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/40/","speaker":{"pk":63,"url":"https://cfp.sitcon.org/api/users/63/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/63/","user":"https://cfp.sitcon.org/api/users/63/","display_name":"影子","bio":"曾經夢想在風城生活，現在在有蜜汁雞腿的 118 載浮載沉。\r\n對資訊安全很有興趣，可惜還沒辦法成為黑黑。\r\n第三年在 SITCON 行政組，終於不用專職寫文案，多了很多時間可以做甜點（Ｘ）寫程式（Ｏ）","title":"投稿講者","avatar":"image/speakers/63.jpg"}},"title":"我和 SITCON 交往的這些年","type":"S","abstract":"本篇將分享三年來我在 SITCON 做的事、以及因為參加 SITCON 而揮灑出更多屬於自己的色彩。\r\n從一開始踏入開源社群當小小螺絲釘，後來接手管理粉專寫文案、到成為組長學習規劃與分配工作，在 SITCON 之餘，也參加了各種不同的社群活動，不斷嘗試並找尋自己有興趣的方向。\r\n我的背景很普通、資質也不夠、其實也不是超級認真專注的一個人，而多參加社群可以認識更多朋友、也幫自己找到更多機會，所以想要鼓勵大家多多參與、多多開發～","start":"2016-02-27T07:30:00Z","end":"2016-02-27T07:40:00Z","room":"R0 國際會議廳","activity":"https://cfp.sitcon.org/api/activities/54/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/54/","speaker":{"pk":107,"url":"https://cfp.sitcon.org/api/users/107/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/107/","user":"https://cfp.sitcon.org/api/users/107/","display_name":"clkao","bio":"clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起g0v.tw 計畫。\r\n\r\n\r\nclkao (Chia-liang Kao) has been an active open source software developer since 2000.  He co-founded the g0v.tw initiative in 2012.\r\n","title":"投稿講者","avatar":"image/speakers/107.jpg"}},"title":"開源．開幹．開花","type":"K","abstract":"開源不僅是近年來軟體界的盛行的模式，它背後的精神也開始影響不同領域，透過這共享、共創的文化與社群，快速的啟發各種創新與可能。\r\n\r\n本演講將以講者自己踏入開源貢獻的經驗出發，簡介開始參與開源專案的眉角、主持開源專案的建議，以及開源精神跨界的開放文化推廣。\r\n\r\n一起來用各種方式參加開源專案，讓人類的智慧累積吧！","start":"2016-02-27T01:10:00Z","end":"2016-02-27T02:00:00Z","room":"R0 國際會議廳","activity":"https://cfp.sitcon.org/api/activities/9/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/53/","speaker":{"pk":70,"url":"https://cfp.sitcon.org/api/users/70/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/70/","user":"https://cfp.sitcon.org/api/users/70/","display_name":"Pellaeon","bio":"即將退休的議程組長，使用 FreeBSD 架伺服器，三分鐘熱度寫過學過很多東西，發現自己拼拼湊湊出來的東西居然也會動就是最大的成就感來源。\r\n\r\n參與 ownCloud 計劃，並因此去柏林走了兩回，但還是不會說德語。","title":"議程組長","avatar":"image/speakers/70.jpg"}},"title":"SITCON 籌備與行政投稿系統開發","type":"L","abstract":"介紹 SITCON 投稿系統與行政系統的歷史、開發經歷、架構，以及未來的規劃，與之交纏的是四年籌備 SITCON 的經歷，並在即將畢業之際，展望未來。\r\nSITCON 行政系統由 RS 打下基礎，至今已過三屆，當中架構、伺服器維護、功能、不斷演進，伺服器一換再換，開發人員來來去去。\r\n行政與投稿雙系統分離、RESTful API 、OAuth 登入；籌備過程中的路線之爭、通訊軟體之戰、審稿馬拉松……\r\n夢想中萬能的系統，永遠在一個重構之遙；理想中完美的 SITCON，隨著一屆一屆結束的檢討會，是否更為接近？","start":"2016-02-27T03:10:00Z","end":"2016-02-27T03:50:00Z","room":"R1 第一會議廳","activity":"https://cfp.sitcon.org/api/activities/27/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/35/","speaker":{"pk":79,"url":"https://cfp.sitcon.org/api/users/79/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/79/","user":"https://cfp.sitcon.org/api/users/79/","display_name":"Joou","bio":"失敗大學魯蛇一枚，喜好音樂、攝影、足球。認識開源世界一年有餘，希望可以貢獻自己的一份力量。更多個人資訊請參考joouis.com。","title":"投稿講者","avatar":"image/speakers/79.jpg"}},"title":"支援DSL的嵌入式圖形操作環境","type":"L","abstract":"近年來基於ARM Cortex內核的微控制器出貨量已達數十億，由其構建的嵌入式系統對於GUI的需求也越來越高。本專案針對基於Cortex-M4F內核的微控制器，實作一款開源、高效能並且美觀的圖形操作環境。該環境使用C語言開發，發揮硬體特性以達到高效能且資源低度開銷。環境支援反鋸齒的向量圖形，在界面上拋棄傳統視窗，改爲Single-page application風格。最終環境還會支援DSL(domain-specific language)，加速使用者的開發。在此議程中，將會從最常見的圖形顯示風格開始，逐步介紹點陣/向量圖形的基本原理、幾何圖形的建立方法、如何解析DSL語言以及在特定硬體上的實作細節等。","start":"2016-02-27T08:40:00Z","end":"2016-02-27T09:20:00Z","room":"R3 遠距會議廳","activity":"https://cfp.sitcon.org/api/activities/72/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/28/","speaker":{"pk":69,"url":"https://cfp.sitcon.org/api/users/69/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/69/","user":"https://cfp.sitcon.org/api/users/69/","display_name":"伊達","bio":"毫無回應就只是個大學生深陷開機輪迴、Trace 地獄。\r\n想要我的肝嗎？\r\n去找吧，我把我的肝就放在 jserv 那裡了。","title":"投稿講者","avatar":"image/speakers/69.jpg"}},"title":"ARM Cloud Project","type":"L","abstract":"自己的雲自己建，當需要跟其他人不同需求的 Cloud Service ，那就只好自己建，與成大 jserv 一起開啓 DozenCloud ARM Cloud Project，但是 ARM Server 卻沒有像 X86 一樣的有完整的支援，在各種不支援的狀況下該如何將 Openstack 、 Docker 安裝上，如何找出 ARM Linux Kernel Panic 原因，如何研究 Docker 並改進執行跟 I/O 效率。分享從頭開始專案至今的辛酸歷程。","start":"2016-02-27T07:50:00Z","end":"2016-02-27T08:30:00Z","room":"R3 遠距會議廳","activity":"https://cfp.sitcon.org/api/activities/64/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/19/","speaker":{"pk":58,"url":"https://cfp.sitcon.org/api/users/58/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/58/","user":"https://cfp.sitcon.org/api/users/58/","display_name":"零夢","bio":"目前就讀於雲林科技大學資工系大二，\r\n是一個熱愛資訊以及喜歡利用簡單的方式進行 Coding 的資訊人， \r\n擅長 Python 以及 C 語言 以及一些 Shell Script 。\r\n是一個沒有電腦會有焦慮恐懼症的ㄈ。 ","title":"投稿講者","avatar":"image/speakers/58.jpg"}},"title":"0mu 動態式分散部落格管理系統","type":"S","abstract":"基於Python（pypy）的 Flask MicroWebFramework 以及利用 Git 版本控制進行投稿管理。\r\n製作而成的靜態部落格管理系統，突破傳統的部落格系統架構，使用了分散式的方式進而對部落格稿件以及使用者進行管理，用戶管理的部份用了兩道用戶驗證，第一道驗證為本地的SQLite，第二道驗證採用 Github 帳戶密碼的驗證方式，達成部落格稿件以及使用者的分散管理。","start":"2016-02-27T07:20:00Z","end":"2016-02-27T07:30:00Z","room":"R3 遠距會議廳","activity":"https://cfp.sitcon.org/api/activities/52/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/22/","speaker":{"pk":66,"url":"https://cfp.sitcon.org/api/users/66/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/66/","user":"https://cfp.sitcon.org/api/users/66/","display_name":"VagrantPi","bio":"屏大資工系系計中小小打雜工，非洲提督\r\n對於各種新奇的技術都有興趣\r\n略懂AE、3D建模(水杉)\r\n個性害羞內向，不過超喜歡社群聚會，歡迎搭訕餵食XD\r\n夢想著用JavaScript征服世界!","title":"投稿講者","avatar":"image/speakers/66.jpg"}},"title":"在樹梅派土炮農場是否搞錯了什麼","type":"L","abstract":"【新手向】\r\n身為窮學生的一員，想買 NAS 當農場養動物，總是會遇到價格的問題，為了解決這樣的問題，我想到用RaspberryPi來建立屬於自己的農場，對於我這種喜好新奇技術宅宅來說，這是個天上掉下來的禮物，同時給予我機會上台，除了介紹我與RaspberryPi相遇之外，在本議程中會從頭到尾講述一些實作的過程、遇到的問題及解決方法，當然RaspberryPi只拿來下載用感覺有點大材小用了，所以繼續討論些延伸功能與衍生的議題。\r\n\r\n","start":"2016-02-27T03:10:00Z","end":"2016-02-27T03:50:00Z","room":"R2 第二會議廳","activity":"https://cfp.sitcon.org/api/activities/25/","slides":""},{"url":"https://cfp.sitcon.org/api/submissions/38/","speaker":{"pk":87,"url":"https://cfp.sitcon.org/api/users/87/","profile":{"url":"https://cfp.sitcon.org/api/userprofiles/87/","user":"https://cfp.sitcon.org/api/users/87/","display_name":"尼斯","bio":"台科大資管系三年級，在高二時偶然之下接觸Python。 目前在一家普通小的小公司實習，但是夢想是畫一幅大大的畫。","title":"投稿講者","avatar":"image/speakers/87.jpg"}},"title":"Pandas！資料處理與分析的利器！ ","type":"S","abstract":"Pandas是Python的一個資料處理/分析的模組。它擁抱Numpy帶來優異的效能、也導入許多高階的資料操作概念（index、groupby、join等）。讓我們可以使用少少的迴圈，完成大大的事情。\r\n\r\n有了這樣的工具，我們可以優雅的從各種來源（csv、excel、sql、json、html表格等）載入數據，並且使用正規表達式、補值等方法將資料進一步地清理。\r\n\r\n有了乾淨的資料後，資料分析的工作，才真正開始……。","start":"2016-02-27T07:30:00Z","end":"2016-02-27T07:40:00Z","room":"R3 遠距會議廳","activity":"https://cfp.sitcon.org/api/activities/56/","slides":""}]
+[
+    {
+        "speaker": {
+            "name": "",
+            "avatar": "",
+            "bio": ""
+        },
+        "start": "2017-03-18T09:10:00+08:00",
+        "end": "2017-03-18T10:00:00+08:00",
+        "type": "K",
+        "room": "R0",
+        "subject": "Keynote 1",
+        "summary": ""
+    },
+    {
+        "speaker": {
+            "name": "",
+            "avatar": "",
+            "bio": ""
+        },
+        "start": "2017-03-18T10:10:00+08:00",
+        "end": "2017-03-18T11:00:00+08:00",
+        "type": "K",
+        "room": "R0",
+        "subject": "Keynote 2",
+        "summary": ""
+    },
+    {
+        "speaker": {
+            "name": "",
+            "avatar": "",
+            "bio": ""
+        },
+        "start": "2017-03-18T11:10:00+08:00",
+        "end": "2017-03-18T11:50:00+08:00",
+        "type": "L",
+        "room": "R2",
+        "subject": "TBA",
+        "summary": ""
+    },
+    {
+        "speaker": {
+            "name": "陳昱維/千秋",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/12/__.jpg",
+            "bio": "台大開源社/模型社，據說是個有趣的神奇傢伙，信念是「可愛就是正義！」\n喜歡萌物到無可救藥的地步，也很喜歡有設計感的東西，以及精采的故事。特殊才能是字體設計跟占卜 ，從設計、插畫、料理、攝影到機械、程式都有略有涉獵，最喜歡做的事情就是找事情做。 副業是見習設計師跟系網管，實際上是學生。"
+        },
+        "start": "2017-03-18T15:10:00+08:00",
+        "end": "2017-03-18T15:20:00+08:00",
+        "type": "L",
+        "room": "R1",
+        "subject": "從零開始的線上字型",
+        "summary": "費盡心思寫出來的網頁總是差了那麼一點質感？系統預設字型不好嗎？文字不只是一個網頁的主體，更是感情、思想、知識的載體，既然如此，來多放點心思研究字型吧！從基本的字體知識、選用指南開始，到如何把字體內嵌到網頁上。\n網路字型(Web Font)主要用途在使用於網頁上的字型顯示，擺脫以往字型需安裝方能顯示的限制，使得於網頁設計上能夠不用轉圖檔，使用者一樣能夠看到特殊的字型效果。"
+    },
+    {
+        "speaker": {
+            "name": "馬聖豪",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/5/DSC_0139.jpg",
+            "bio": "馬聖豪 (aaaddress1, aka adr) 目前為 TDOHacker 學生資安社群核心成員，曾任 TDOHConf 議程組長、HITCON CMT 2015、SITCON 2016、HITCON CMT 2016 Lightning Talk、 新型態資安實務課程等各會議講者，並於 BSidesLV、ICNC、MC2015、全國資安會議 等國內外會議論文投稿獲接受。熱愛 C/C++, C#, VB, MASM, Python, Swift, Node.js, Java 興趣專研於 Windows 上平台特性與程式弱點、逆向工程分析。知名作品涉及楓之谷付費線上外掛, 神魔之塔外掛, 義守管家, cuteRansomware, Adr&#39;sFB 等。"
+        },
+        "start": "2017-03-18T16:50:00+08:00",
+        "end": "2017-03-18T17:30:00+08:00",
+        "type": "L",
+        "room": "R0",
+        "subject": "開發學校雲端服務的奇淫技巧",
+        "summary": "想替自己學校開發雲端服務卻無從上手起嗎？議程教學如何在學校電算中心未開放任何 API 下實作出屬於自己的學校雲端服務。本議程將演示一個義守大學廣獲好評第三方熱門服務，並解釋如何實作同步學生當天課程、Moodle 課程、Moodle作業狀況，並且在前端即可實作跨域名繞過 CSP 瀏覽器安全限制替學校 Moodle 登入，議程末將釋出整份專案開源於 Github 上。\n議程內容涉及外掛開發、資訊安全相關領域的技術內容、電算中心防外掛偵測點與應對技術。"
+    },
+    {
+        "speaker": {
+            "name": "artistic709",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/7/13923744_1056456014439038_6965040193164840429_o.jpg",
+            "bio": "常在台大開源社玩耍的觀光客，興趣是喝手搖飲料。 沒有從小開始寫程式先輸別人一半，只好朝奇怪的方向發展變成了礦工。 喜歡到處路過各種有趣的社群。"
+        },
+        "start": "2017-03-18T16:00:00+08:00",
+        "end": "2017-03-18T16:40:00+08:00",
+        "type": "L",
+        "room": "R3",
+        "subject": "和我簽訂契約成為區塊鍊魔法少女吧",
+        "summary": "平時聽到 Blockchain 可能覺得是個遙遠的名詞，或者只知道可以用 Bticoin 買 Steam 的遊戲，但其實它還可以拿來開發各種有趣的智能合約，發行貨幣只是其中的一種應用。如果說 Bitcoin 是區塊鍊技術的 prototype，Ethereum 就是 DAPP 和 smart contract 完整的底層實作。現在已經有許多開發者在 Ethereum 的基礎上發展服務，包括廣告買賣平台、去中心化的線上賭場、甚至有人募資成立基於智能合約的無實體公司，區塊鍊的潛力顯然不止於支付。"
+    },
+    {
+        "speaker": {
+            "name": "Licson",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/32/1832745_1_",
+            "bio": "I&#39;m currently an application developer mainly focused on Web development. With a huge interest on the networking side, I also have knowledge on that side."
+        },
+        "start": "2017-03-18T16:00:00+08:00",
+        "end": "2017-03-18T16:40:00+08:00",
+        "type": "L",
+        "room": "R1",
+        "subject": "BGP Hijacking: new ways to mass surveillance",
+        "summary": "Internet is almost the basic need of everyday lives and numerous threats also hide in this place. This talk will go through some of the latest trends of malicious activities on the Internet and explains how the attackers exploits the de facto standards to execute mass surveillance transparently."
+    },
+    {
+        "speaker": {
+             "name": "PineApple Kao",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/27/15493335_1580279965331772_1949532292749501108_o.jpg",
+            "bio": "浪漫的理論派，目前為追上某些而持續努力著。最討厭的水果是鳳梨。"
+        },
+        "start": "2017-03-18T14:55:00+08:00",
+        "end": "2017-03-18T15:05:00+08:00",
+        "type": "S",
+        "room": "R1",
+        "subject": "十分鐘認識 MMR",
+        "summary": "大數的模運算被廣泛運用在資安及各資訊科學領域中，例如加解密、簽章等，然而模算數中所必須的除法，在電腦中卻是相當不容易完成的。Montgomery Modular Reduction (MMR) 藉由不同的模數及代表取代原本的等價類，將運算中的除法難度大幅降低。本篇短講將在十分鐘之內，快速介紹這個十分重要的演算法是如何達到上述目標，並簡單解說 MMR 的數學證明。"
+    },
+    {
+        "speaker": {
+            "name": "阿哲",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/34/me.jpg",
+            "bio": "爆肝中的耍廢研究生，主要研究領域是資訊教育\n對於推廣資訊領域有相當熱忱，也喜歡和大家交流"
+        },
+        "start": "2017-03-18T14:40:00+08:00",
+        "end": "2017-03-18T14:50:00+08:00",
+        "type": "S",
+        "room": "R1",
+        "subject": "格鬥遊戲 AI 開發經驗談",
+        "summary": "議程將分享參與 IEEE CIG 2016 &amp; 2017 格鬥遊戲人工智慧比賽(FTGAI competition) 經驗與開發格鬥比賽 AI agent 的經驗。\n格鬥遊戲人工智慧設計上和常見棋類不同，更加重視其動作的當下效果及賽局中雙方動作的應對，因此不能進行長時間的模擬分析，甚至進行分析也有一定上的困難，也因為如此設計的架構與技巧也和棋纇人工智慧有不小差異，議程內將簡述開發 AI 的歷程，包括架構設計和採用技術（基因演算法、動作模式偵測、蒙地卡羅樹搜尋、rule-based等）之間的優缺點及效果評估，以及我們對於設計格鬥遊戲人工智慧的一些建議。\n本議程適合對於對於資訊能力有一定基礎且對於人工智慧有一定興趣之聽眾，同時也可以作為學生專題研究參考。"
+    },
+    {
+        "speaker": {
+            "name": "民2",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/14/formal2.jpg",
+            "bio": "攻城屍x巧克力成癮者x咖啡因中毒者。自從在高中社團跟電腦之神簽下賣肝契約後就一直走在研究系統程式的道路上。\n領域：#LLVM #JITCompiler #AOSP"
+        },
+        "start": "2017-03-18T16:00:00+08:00",
+        "end": "2017-03-18T16:40:00+08:00",
+        "type": "L",
+        "room": "R2",
+        "subject": "從 V8 Javascript 引擎淺談現代編譯技術",
+        "summary": "隨著網路時代的來臨，Javascript 的執行效能越來越為大家重視，Javascript 引擎也成為多家科技公司互相較勁的領域。而事實上，編譯器的技術在其中扮演了重要的角色，但許多學生對編譯器的認知似乎都停留在學校課本所教的基本類型，實在難以跟上這波競爭效能的潮流。因此，本議程藉由解析驅動 Google Chrome 瀏覽器的 V8 Javascript Engine 內部編譯器相關技術，帶領大家認識不同於學校以及課本所教的現代編譯器技術。"
+    },
+    {
+        "speaker": {
+            "name": "ㄅㄌ",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/20/IMG_3649_m.png",
+            "bio": "2014 年的夏天在元智和大家一起創立資訊社群後，就此跌入資訊圈這個大坑。\n主要出沒在 SITCON 和 COSCUP 兩個社群。\n目前正在努力於畢業前，嘗試做些什麼改善校園資訊系統的困境。"
+        },
+        "start": "2017-03-18T14:40:00+08:00",
+        "end": "2017-03-18T15:20:00+08:00",
+        "type": "L",
+        "room": "R2",
+        "subject": "校園資訊系統的困境與嘗試改善",
+        "summary": "延續 SITCON 2015 論壇討論主題，探討校園資訊系統的困境與嘗試改善。\n契機於大三時修課的期末專題，基於不想「為了交作業而寫無用專案」的心態，進而認真面對界面不友善的校園資訊系統，從發想解決方式、選擇並學習實做方法，同時嘗試學習一般技術人不擅長的界面設計。\n在專案後期，學習培養和專職設計師良好溝通默契與合作方式，最後主動與學校洽談，嘗試將成果推動上線服務。\n此次將分享近兩年的心路歷程，期望激勵大家除了在嫌棄校園資訊系統以外，也可以自己動手嘗試改善它。"
+    },
+    {
+        "speaker": {
+            "name": "yenWu",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/62/11174528_821022397989982_5409020703904610342_o__1_.jpg",
+            "bio": "數學系倒數第四名畢業，大四時覺得人生沒希望，此時想到小時候想要成為發明家的夢想，毅然決然地報考資工所，決定不要補習，踏上沒考上就當兵的打算，很幸運的進入了成大資工所，並遇到改變一生的人、事、物，自許帶著夢想前進的小男孩 :)"
+        },
+        "start": "2017-03-18T16:50:00+08:00",
+        "end": "2017-03-18T17:30:00+08:00",
+        "type": "L",
+        "room": "R2",
+        "subject": "自幹 Dynamic DNS Server",
+        "summary": "這學期的Project是架設DNS Server，此時有位小男孩說他不想要只有架設而已，可以來寫一個嗎? 老師立馬同意，但要做更難的Dynamic DNS Server(DDNS)，從此小男孩踏上了自己刻DDNS的旅程，我將會把我寫這個專案的歷程分享給大家，從啟動時的相關設定到運行的細節流程，說明DDNS是為了解決什麼問題，並讓大家知道一個DDNS需要什麼元素，讓大家體會DNS在設計上的考量。"
+    },
+    {
+        "speaker": {
+             "name": "Sakamoto",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/37/myphoto.png",
+            "bio": "來自中興大學資訊社，熱愛資訊技術，技能樹特別容易點歪，電腦硬體、開發版、烹飪(?、網頁設計、多媒體剪輯都略懂一些(,,・ω・,,)"
+        },
+        "start": "2017-03-18T14:40:00+08:00",
+        "end": "2017-03-18T14:50:00+08:00",
+        "type": "S",
+        "room": "R0",
+        "subject": "第一次做光劍就上手",
+        "summary": "光劍，是《星際大戰》的世界觀出現的一種迷人且優雅的武器，每個絕地武士都必須會製造屬於自己的光劍，而所有星戰迷都夢想擁有一把光劍，而本議程將介紹如何在沒有原力覺醒的情況下去選購材料、工具，及每個光劍部份的製作，組出一隻高亮度而且堅固耐敲的光劍，另外會現場展示一些自己的作品。\nMay the force be with you."
+    },
+    {
+        "speaker": {
+            "name": "LegBone",
+            "avatar": "//avatars.githubusercontent.com/u/6714971?v=3",
+            "bio": "毫無反應,就是根腿骨"
+        },
+        "start": "2017-03-18T14:55:00+08:00",
+        "end": "2017-03-18T15:05:00+08:00",
+        "type": "S",
+        "room": "R3",
+        "subject": "雷系魔法師也能煎牛排!",
+        "summary": "煎出一塊好吃的牛排需要什麼?\n好的鍋子?精準的火候掌控?還是十年的刻苦修練!?\n不!!!!!你只需要準備少少的材料跟一張火系卷軸(?)就可以完成囉!!!\n這場議程將講述一個電路白癡如何從購買零件到自己拼湊出一台簡易版的低溫烹調機，配上火槍，成功在實驗室避開煙霧警報器，做出屬於自己的實驗室料理!!!(?)\n第一次低溫烹調就上手 #看緊荷包 #動手DIY"
+    },
+    {
+        "speaker": {
+            "name": "Zet",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/60/6021943__1_.jpeg",
+            "bio": "熱衷於前端技術開發與學習的中央資工所學生，經常參與社群活動，願望是養一隻貓當個職業貓奴。"
+        },
+        "start": "2017-03-18T11:10:00+08:00",
+        "end": "2017-03-18T11:50:00+08:00",
+        "type": "L",
+        "room": "R0",
+        "subject": "前端工程的過去、現在與未來",
+        "summary": "前端工程近年來變化與演進劇烈，處於不斷創新與推翻的階段，開發者需要持續的學習才能適應並跟得上時代的腳步。本議程將會介紹前端工程近幾年的重要演進與趨勢，提點各項技術的重要性與意義，以及前端領域的未來展望，讓對於前端有興趣的學生了解到當今國內外業界主流的前端技術發展，並分享由學生的角度如何學習與投資這個領域。"
+    },
+    {
+        "speaker": {
+            "name": "Karl Lin",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/67/IMG_1658.jpg",
+            "bio": "剛脫離學生身份，目前在貝殼放大工程部擔任什麼都玩玩看的掃地僧，從結帳流程的優化、Email 開信率研究、資料分析的基礎架設等等都參一腳，過去熱衷學生自治，曾擔任學生會資訊長，開發 iCheck 簽到系統、電子投票系統等等。 有個部落格分享自己的見聞、技術筆記 https://coder.tw"
+        },
+        "start": "2017-03-18T11:10:00+08:00",
+        "end": "2017-03-18T11:50:00+08:00",
+        "type": "L",
+        "room": "R3",
+        "subject": "第一次在 PostgreSQL 寫程式就上手",
+        "summary": "如果可以在資料庫裡寫程式，你會希望做些什麼呢？ 講者 林熙哲因為在 VMFive 實習時需要處理數據的需求，需要將資料按照指定的 Key 分類到不同資料表，例如來自 A Corp 的資料放到 A Table；常見做法會寫程式分筆讀取並寫入資料庫，但當資料量較龐大，這樣的做法可能會花費過多時間，在批次寫入資料庫( \\copy )的前提下，講者選擇在資料庫裡撰寫程式，讓資料庫在寫入資料前先進行分類。講者將會在這場演講中分享該如何在 PgSQL 中撰寫函式，並進一步做到 Hook。"
+    },
+    {
+        "speaker": {
+            "name": "游宭鎬",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/15/12938190_869522299822749_7600179840279161844_n.jpg",
+            "bio": "台科大商業設計系三年級，專注於平面設計的修煉，夢想是當藝術家或月薪嬌妻。寫了四年有餘的程式，目前把程式語言當作設計的工具之一（菸）。曾任 SITCON 2016 講者、五倍紅寶石前端實習生，現為 TEDxNTUST 設計部長。"
+        },
+        "start": "2017-03-18T16:50:00+08:00",
+        "end": "2017-03-18T17:30:00+08:00",
+        "type": "L",
+        "room": "R3",
+        "subject": "寫寫你的美好：一起打造「藝術產生器」吧！",
+        "summary": "寫程式可以很技術、很商業、很炫炮，但也可以很溫柔、很感性、很藝術！拜程式語言的強大之賜，我們得已將更多知識與創意導入藝術創作中，讓「美」能以新的姿態進入日常生活。本議程將圍繞在衍生藝術（generative art） 的基本概念，使用 p5.js 此入門級的繪圖函式庫，帶大家認識一些有趣的演算法與思考方式，一起來打造簡單而繽紛的藝術產生器，來實踐對於美好生活的想像。"
+    },
+    {
+        "speaker": {
+            "name": "Inndy",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/74/25650996015_58b8c750a1_k_square.jpeg",
+            "bio": "興趣使然的 Security Researcher                       "
+        },
+        "start": "2017-03-18T16:00:00+08:00",
+        "end": "2017-03-18T16:40:00+08:00",
+        "type": "L",
+        "room": "R0",
+        "subject": "No More Crypto Fails",
+        "summary": "開發應用程式的時候常常有加密資料，或是避免資料被篡改的需求。我們到底要怎麼正確的使用加密演算法與程式庫，才能夠真正的確保資料的安全？在那些狀況下是有風險的呢？這場議程會從0開始介紹實務上常用的各種知識，對於「加密」完全不懂的你，千萬不要錯過這場議程！"
+    },
+    {
+        "speaker": {
+            "name": "Jason Pan",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/55/photo.jpg",
+            "bio": "大同大學資工系大學生，透過SITCON認識開源和社群，熱愛Python，擅長Laravel開發，目前正在研究OpenStack。\n很多人問為什麼叫JSON，Jason與JSON發音是一樣的。"
+        },
+        "start": "2017-03-18T15:10:00+08:00",
+        "end": "2017-03-18T15:20:00+08:00",
+        "type": "S",
+        "room": "R0",
+        "subject": "Unity x Git 之辛酸血淚史",
+        "summary": "想當年的專題，在因緣際會之下接觸了 Unity ，也在團隊開發過程中了解版本控制系統 Git ，當Unity 與版本控制系統 Git 交織在一起時，即是惡夢的開端。要如何在 Git 預設條件下，修改 Unity 設定並善用工具達到版本控制，以及使用 Git-LFS 存取大型檔案，成功與其他人團隊合作。"
+    },
+    {
+        "speaker": {
+            "name": "Yukai Huang",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/84/__4.JPG",
+            "bio": "自號 XDDeveloper，對打磨產品的過程感到心動。"
+        },
+        "start": "2017-03-18T14:55:00+08:00",
+        "end": "2017-03-18T15:05:00+08:00",
+        "type": "S",
+        "room": "R0",
+        "subject": "用 Electron 實踐跨平臺桌面程式",
+        "summary": "在過去幾個月間，我用 React 和 Vue 分別做了兩個桌面版的應用程式 - ComicsReader 以及 puraku。2017 年的今天仍舊是網站應用程式的天下，許多產品除了提供線上版之外，也有桌面版可以下載，其中更有許多是用 Electron 製作的。本次議程會分享我在實踐這兩個 app 的眉角，以及選用 electron 技術的利弊。"
+    },
+    {
+        "speaker": {
+            "name": "ming",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/47/stev.png",
+            "bio": "目前是大學生。雖然數學不好，但是資訊科學之中相對較擅長處理理論與優化問題。常學習解決問題的方法，習慣函數式程式設計。儘管很弱而且沒在精進，有時候還是會參與競技程式設計。"
+        },
+        "start": "2017-03-18T11:10:00+08:00",
+        "end": "2017-03-18T11:50:00+08:00",
+        "type": "L",
+        "room": "R1",
+        "subject": "cjdns: 重新發明網路",
+        "summary": "網際網路現在看來有許多不足之處：有些人想要一個不會被竊聽的網路、有些人抱怨ISP提供的路由很慢、有些人則為難以擁有自己的public IP，無法從外部發起連線而苦惱。\ncjdns是一個完全去中心化的網路系統，它捨棄傳統的網路模型，以公鑰作為網路位址，使得IP詐騙和流量竊聽都成為過去式，並透過分散式雜湊表做路由選擇，人們只需要和自己認識的朋友互相分享、連接，全世界就能組成一個強健的網路系統。\n本議程將介紹cjdns的基本原理，並分享在現有的網路系統下，cjdns可以如何改變我們使用網路的習慣與方式，為生活帶來方便。"
+    },
+    {
+        "speaker": {
+            "name": "Louie Lu",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/77/15317889_1412875262064393_2685786703496506831_n.jpg",
+            "bio": "曾是軟體測試助理工程師，軟體工程師。學習 Python，軟體測試以及系統程式中。深陷於讀不完的書堆中。"
+        },
+        "start": "2017-03-18T16:50:00+08:00",
+        "end": "2017-03-18T17:30:00+08:00",
+        "type": "L",
+        "room": "R1",
+        "subject": "從 QA 到 QQ - QA 實習經驗與測試技巧",
+        "summary": "這個議程主要有兩點想要分享，第一個部份是在科技公司 QA Intern 的實習經驗以及對於公司開發流程中 QA 所佔有的角色以及職責分享。第二個部份在於基本軟體測試流程、種類以及工具，與一些軟體測試上可以使用的測試技巧介紹。\n在這個議程中你可以基本的認識到 Software Testing 在軟體開發中的角色以及對軟體測試有一個基本架構的概念。"
+    },
+    {
+        "speaker": {
+            "name": "Terry Cheong",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/23/9360722.jpg",
+            "bio": "台大中少見的廢物學生，會一些數學跟演算法。\n雖然學習貴精不貴多，但一身所學非常雜亂。簡而言之，就是什麼都會但又不太會的人。"
+        },
+        "start": "2017-03-18T15:10:00+08:00",
+        "end": "2017-03-18T15:20:00+08:00",
+        "type": "S",
+        "room": "R3",
+        "subject": "所以我說那個ML入門其實真的沒想像中那麼難",
+        "summary": "Machine Learning現在已經熱門到一個現在做什麼都可以ML下去的地步，雖然對剛接觸的人來說套Library好像很簡單，但其實方法的選擇才是更重要的一環。這個議程應該會非常入門的介紹一些常用的Machine Learning的Python套件，以及對一些常見的東西做Learning的方式。還有對語言資料進行預處理跟Mining的基礎等，希望做得非常簡單易懂。\n時間許可的話可能會講一些理論基礎，就是數學相關的東西，還有在Kaggle上打比賽的經驗分享這樣子。"
+    },
+    {
+        "speaker": {
+            "name": "Shouko",
+            "avatar": "//cfp.sitcon.org/uploads/user/photo/100/10154232_10152076827011446_5034120802609528200_n.jpg",
+            "bio": "我是翔子，平常在 NTUOSC 活動 ^.&lt;"
+        },
+        "start": "2017-03-18T14:40:00+08:00",
+        "end": "2017-03-18T14:50:00+08:00",
+        "type": "S",
+        "room": "R3",
+        "subject": "嗨，我是蒲薰！",
+        "summary": "近年來興起的 chatbot 熱潮，各大訊息平台紛紛推出自己的 SDK 供開發者使用，你是否對 chatbot 有興趣卻又不知如何下手呢？本演講中，講者將會分享自身開發 chatbot 的經驗，和大家簡介如何開發各種 chatbot，以及許多將 chatbot 運用在生活、校園中的趣事！ (Pusheen 是我的 chatbot 的名字)"
+    }
+]

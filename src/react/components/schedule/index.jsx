@@ -3,15 +3,14 @@ import submissions from './submissions.json'
 import Tablebody from './tablebody.jsx'
 
 const bucket = {
-	"01:10": {},
-	"02:10": {},
-	"03:10": {},
-	"04:40": {},
-	"07:10": {},
-	"07:20": {},
-	"07:30": {},
-	"07:50": {},
-	"08:40": {},
+	"09:10": {},
+	"10:10": {},
+	"11:10": {},
+	"14:40": {},
+	"14:55": {},
+	"15:10": {},
+	"16:00": {},
+	"16:50": {},
 }
 submissions.forEach((data) => {
 	const start = data.start.slice(11, 16)

@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 
 export default function makeContent(props) {
-	const title = props.title
-	const abstract = props.abstract
+	if(props == undefined) return
+	const subject = props.subject
+	const summary = props.summary
 	const photo = { backgroundImage: "url(images/stone-sm.png)" }
 	const slide = props.slides
-	const name = props.speaker.profile.display_name
-	const bio = props.speaker.profile.bio
+	const name = props.speaker.name
+	const bio = props.speaker.bio
 	return () => {
 		return (
 			<div>
@@ -16,8 +17,8 @@ export default function makeContent(props) {
 					<p>{bio}</p>
 				</section>
 				<section>
-					<h2>{title}</h2>
-					<p>{abstract}</p>
+					<h2>{subject}</h2>
+					<p>{summary}</p>
 					<p></p>
 					<a href={slide} target="blank">{"#簡報連結"}</a>
 				</section>

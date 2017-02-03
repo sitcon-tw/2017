@@ -7,8 +7,8 @@ import makeContent from './makeContent.jsx'
 
 export default function(props) {
 	const datas = props.datas
-	const contentKeynote1 = makeContent(datas["01:10"]["R0"])
-	const contentKeynote2 = makeContent(datas["02:10"]["R0"])
+	const contentKeynote1 = makeContent(datas["09:10"]["R0"])
+	const contentKeynote2 = makeContent(datas["10:10"]["R0"])
 	return (
 		<tbody>
 			<tr>
@@ -52,16 +52,16 @@ export default function(props) {
 			<tr>
 				<Timecol start="0910" />
 				<td colSpan="4" onClick={() => { fancybox(contentKeynote1) }} className="clickable">
-					<Col data={datas["01:10"]["R0"]} />
+					<Col data={datas["09:10"]["R0"]} />
 				</td>
 			</tr>
 			<tr>
 				<Timecol start="0900" />
 				<td colSpan="4" onClick={() => { fancybox(contentKeynote2) }} className="clickable">
-					<Col data={datas["02:10"]["R0"]} />
+					<Col data={datas["10:10"]["R0"]} />
 				</td>
 			</tr>
-			<Row start="1110" data={datas["03:10"]} />
+			<Row start="1110" data={datas["11:10"]} />
 			<tr>
 				<Timecol start="1240" />
 				<td colSpan="4"><div>Talk</div></td>
@@ -74,11 +74,11 @@ export default function(props) {
 				<Timecol start="1450" />
 				<td colSpan="4"><div>點心</div></td>
 			</tr>
-			<Row start="1510" data={datas["07:10"]} />
-			<Row start="1520" data={datas["07:20"]} />
-			<Row start="1530" data={datas["07:30"]} />
-			<Row start="1550" data={datas["07:50"]} />
-			<Row start="1640" data={datas["08:40"]} />
+			<Row start="1440" data={datas["14:40"]} />
+			<Row start="1455" data={datas["14:55"]} />
+			<Row start="1510" data={datas["15:10"]} />
+			<Row start="1600" data={datas["16:00"]} />
+			<Row start="1650" data={datas["16:50"]} />
 			<tr>
 				<Timecol start="1730" />
 				<td colSpan="4"><div>Lightning talk</div></td>
