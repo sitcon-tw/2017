@@ -55,7 +55,7 @@
         "speaker": {
             "name": "馬聖豪",
             "avatar": "//cfp.sitcon.org/uploads/user/photo/5/DSC_0139.jpg",
-            "bio": "馬聖豪 (aaaddress1, aka adr) 目前為 TDOHacker 學生資安社群核心成員，曾任 TDOHConf 議程組長、HITCON CMT 2015、SITCON 2016、HITCON CMT 2016 Lightning Talk、 新型態資安實務課程等各會議講者，並於 BSidesLV、ICNC、MC2015、全國資安會議 等國內外會議論文投稿獲接受。熱愛 C/C++, C#, VB, MASM, Python, Swift, Node.js, Java 興趣專研於 Windows 上平台特性與程式弱點、逆向工程分析。知名作品涉及楓之谷付費線上外掛, 神魔之塔外掛, 義守管家, cuteRansomware, Adr&#39;sFB 等。"
+            "bio": "馬聖豪 (aaaddress1, aka adr) 目前為 TDOHacker 學生資安社群核心成員，曾任 TDOHConf 議程組長、HITCON CMT 2015、SITCON 2016、HITCON CMT 2016 Lightning Talk、 新型態資安實務課程等各會議講者，並於 BSidesLV、ICNC、MC2015、全國資安會議 等國內外會議論文投稿獲接受。熱愛 C/C++, C#, VB, MASM, Python, Swift, Node.js, Java 興趣專研於 Windows 上平台特性與程式弱點、逆向工程分析。知名作品涉及楓之谷付費線上外掛, 神魔之塔外掛, 義守管家, cuteRansomware, Adr'sFB 等。"
         },
         "start": "2017-03-18T16:50:00+08:00",
         "end": "2017-03-18T17:30:00+08:00",
@@ -81,7 +81,7 @@
         "speaker": {
             "name": "Licson",
             "avatar": "//cfp.sitcon.org/uploads/user/photo/32/1832745_1_",
-            "bio": "I&#39;m currently an application developer mainly focused on Web development. With a huge interest on the networking side, I also have knowledge on that side."
+            "bio": "I'm currently an application developer mainly focused on Web development. With a huge interest on the networking side, I also have knowledge on that side."
         },
         "start": "2017-03-18T16:00:00+08:00",
         "end": "2017-03-18T16:40:00+08:00",
@@ -114,7 +114,7 @@
         "type": "S",
         "room": "R1",
         "subject": "格鬥遊戲 AI 開發經驗談",
-        "summary": "議程將分享參與 IEEE CIG 2016 &amp; 2017 格鬥遊戲人工智慧比賽(FTGAI competition) 經驗與開發格鬥比賽 AI agent 的經驗。\n格鬥遊戲人工智慧設計上和常見棋類不同，更加重視其動作的當下效果及賽局中雙方動作的應對，因此不能進行長時間的模擬分析，甚至進行分析也有一定上的困難，也因為如此設計的架構與技巧也和棋纇人工智慧有不小差異，議程內將簡述開發 AI 的歷程，包括架構設計和採用技術（基因演算法、動作模式偵測、蒙地卡羅樹搜尋、rule-based等）之間的優缺點及效果評估，以及我們對於設計格鬥遊戲人工智慧的一些建議。\n本議程適合對於對於資訊能力有一定基礎且對於人工智慧有一定興趣之聽眾，同時也可以作為學生專題研究參考。"
+        "summary": "議程將分享參與 IEEE CIG 2016 & 2017 格鬥遊戲人工智慧比賽(FTGAI competition) 經驗與開發格鬥比賽 AI agent 的經驗。\n格鬥遊戲人工智慧設計上和常見棋類不同，更加重視其動作的當下效果及賽局中雙方動作的應對，因此不能進行長時間的模擬分析，甚至進行分析也有一定上的困難，也因為如此設計的架構與技巧也和棋纇人工智慧有不小差異，議程內將簡述開發 AI 的歷程，包括架構設計和採用技術（基因演算法、動作模式偵測、蒙地卡羅樹搜尋、rule-based等）之間的優缺點及效果評估，以及我們對於設計格鬥遊戲人工智慧的一些建議。\n本議程適合對於對於資訊能力有一定基礎且對於人工智慧有一定興趣之聽眾，同時也可以作為學生專題研究參考。"
     },
     {
         "speaker": {
@@ -302,7 +302,7 @@
         "speaker": {
             "name": "Shouko",
             "avatar": "//cfp.sitcon.org/uploads/user/photo/100/10154232_10152076827011446_5034120802609528200_n.jpg",
-            "bio": "我是翔子，平常在 NTUOSC 活動 ^.&lt;"
+            "bio": "我是翔子，平常在 NTUOSC 活動 ^.<"
         },
         "start": "2017-03-18T14:40:00+08:00",
         "end": "2017-03-18T14:50:00+08:00",
