@@ -23,7 +23,7 @@
 		color: color("blue");
 	}
 
-	@include ifLET(1024px) {
+	@include tablet() {
 		width: 100%;
 	}
 }
@@ -38,7 +38,7 @@
 	border-top: 100vh solid rgba(255, 255, 255, .8);
 	border-right: 150px solid transparent;
 
-	@include ifLET(1024px) {
+	@include tablet() {
 		display: none;	
 	}
 }
