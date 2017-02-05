@@ -22,6 +22,10 @@
 		text-align: justify;
 		color: color("blue");
 	}
+
+	@include ifLET(1024px) {
+		width: 100%;
+	}
 }
 
 .side-decorator {
@@ -33,4 +37,8 @@
 	width: 0;
 	border-top: 100vh solid rgba(255, 255, 255, .8);
 	border-right: 150px solid transparent;
+
+	@include ifLET(1024px) {
+		display: none;	
+	}
 }

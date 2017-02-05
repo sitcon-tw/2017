@@ -2,6 +2,7 @@
 	display: none;
 	padding-top: 2em;
 	padding-left: 4em;
+	padding-right: 2em;
 
 	article {
 		margin-top: 6em;
@@ -74,7 +75,7 @@
 				top: 0%;
 				width: 125px;
 			}
-			@include ifLET(1024px) {
+			@include tablet() {
 				position: static;
 				width: 100%;
 				display: flex;
@@ -90,7 +91,7 @@
 		width: 300px;
 		margin: 100px auto 0 auto;
 
-		@include ifLET(1024px) {
+		@include tablet() {
 			display: none;
 		}
 	}
@@ -99,7 +100,7 @@
 		width: 50px;
 		margin: 10px auto 0 auto;
 
-		@include ifLET(1024px) {
+		@include tablet() {
 			display: none;
 		}
 	}
