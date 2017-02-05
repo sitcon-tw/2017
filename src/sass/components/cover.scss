@@ -23,21 +23,32 @@
 	[role="cover-title"] {
 		position: relative;
 
+
+		[role="cover-logo-date"] {
+			display: flex;			
+			align-items: flex-end;
+			width: 100%;
+		}
+
 		[role="cover-logo"] {
-			width: 75%;
+			flex: 75;
+			img{
+				width: 100%;
+			}
 		}
 
 		[role="cover-date"] {
-			position: absolute;
-			left: 80%;
-			bottom: 0;
-			width: 13%;
+			flex: 25;
+			padding-left: 20px;
+			img {
+				width: 100%;
+			}
 		}
 
 		[role="cover-link"] {
 			position: absolute;
 			left: 75%;
-			top: 10%;
+			top: 5%;
 			width: 15%;
 			min-width: 6em;
 
@@ -57,17 +68,40 @@
 					background-color: white;
 				}
 			}
+
+			@include ifLET(1200px) {
+				left: 60%;
+				top: 0%;
+				width: 125px;
+			}
+			@include ifLET(1024px) {
+				position: static;
+				width: 100%;
+				display: flex;
+				margin-top: 2em;
+				& > a {
+					flex: 1;
+				}
+			}
 		}
 	}
 
 	[role="cover-press-start"] {
 		width: 300px;
 		margin: 100px auto 0 auto;
+
+		@include ifLET(1024px) {
+			display: none;
+		}
 	}
 
 	[role="cover-arrow"] {
 		width: 50px;
 		margin: 10px auto 0 auto;
+
+		@include ifLET(1024px) {
+			display: none;
+		}
 	}
 
 }

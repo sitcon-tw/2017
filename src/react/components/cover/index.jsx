@@ -10,8 +10,10 @@ export default class extends Component {
 
 				<div id="cover">
 					<div role="cover-title">
-						<img src="images/logo.svg" role="cover-logo" />
-						<img src="images/date.png" role="cover-date" />
+						<div role="cover-logo-date">
+							<div role="cover-logo"><img src="images/logo.svg" /></div>
+							<div role="cover-date"><img src="images/date.png" /></div>
+						</div>
 						<div role="cover-link">
 							<a href="#" target="blank">R0 直播</a>
 							<a href="#" target="blank">R1 直播</a>
