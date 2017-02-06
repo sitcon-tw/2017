@@ -20,6 +20,7 @@ function backward(nowid) {
 }
 
 export function open(content) {
+	if( !content ) return;
 	state.content = content
 	forward(1)
 }
