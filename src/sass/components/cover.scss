@@ -4,6 +4,10 @@
 	padding-left: 4em;
 	padding-right: 2em;
 
+	@include tablet() {
+		padding: 1.5em;
+	}
+
 	article {
 		margin-top: 6em;
 	}

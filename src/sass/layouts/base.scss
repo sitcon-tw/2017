@@ -16,4 +16,8 @@ body {
 #app {
 	padding: 30px;
 	height: 100vh;
+
+	@include tablet() {
+		padding: 15px;
+	}
 }

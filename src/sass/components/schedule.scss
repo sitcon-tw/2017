@@ -1,5 +1,6 @@
 #schedule-page {
 	display: none;
+	padding-right: 1em;
 
 	&.active {
 		display: block;
@@ -7,6 +8,7 @@
 
 	table {
 		width: 100%;
+		min-width: 500px;
 		border-spacing: 1px;
 		color: #333;
 	}

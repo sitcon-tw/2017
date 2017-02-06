@@ -2,6 +2,10 @@
 	display: none;
 	padding-left: 4em;
 
+	@include tablet() {
+		padding: 1em;
+	}
+
 	&.active {
 		display: block;
 	}
