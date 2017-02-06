@@ -15,7 +15,7 @@ export default class extends Component {
 			)
 		}
 		const photo = {
-			backgroundImage: "url(images/stone-sm.png)",
+			backgroundImage: "url("+data.speaker.avatar+")",
 		}
 		return (
 			<div className="col">

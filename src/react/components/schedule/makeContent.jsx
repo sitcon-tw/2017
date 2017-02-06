@@ -4,7 +4,7 @@ export default function makeContent(props) {
 	if(props == undefined) return
 	const subject = props.subject
 	const summary = props.summary
-	const photo = { backgroundImage: "url(images/stone-sm.png)" }
+	const photo = { backgroundImage: "url("+props.speaker.avatar+")" }
 	const slide = props.slides
 	const name = props.speaker.name
 	const bio = props.speaker.bio
