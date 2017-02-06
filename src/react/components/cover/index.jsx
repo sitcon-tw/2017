@@ -47,7 +47,9 @@ export default class extends Component {
 							return <p key={id}>{text}</p>;
 						})}
 					</section>
+				</article>
 
+				<article>
 					<section>
 						<h2>行為準則 / Code of Conduct</h2>
 						<p>SITCON 冀望打造屬於學生自己的舞台，而我們也致力於為社群中的每位成員提供更友善、開放的環境。我們相信每位參與社群活動的夥伴都值得被尊重，而我們會盡力提供最安全的環境，讓參與 SITCON 盛會的每位朋友能夠認識個體間的差異、在社群中相互扶助、並鼓勵每個人揮灑屬於自己生命的色彩。 因此，若有幸能在 SITCON 社群與您見面，無論您是以會眾、贊助商、工作人員、或是講者的身份參加活動，我們都希望您遵守以下的行為準則：</p>
