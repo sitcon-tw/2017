@@ -84,6 +84,16 @@
 				&:hover {
 					background-color: white;
 				}
+
+				&.highlight {
+					color: white;
+					background-color: color("magenta");
+					opacity: .8;
+
+					&:hover {
+						opacity: 1;
+					}
+				}
 			}
 
 			@include ifLET(1200px) {

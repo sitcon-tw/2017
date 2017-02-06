@@ -15,6 +15,7 @@ export default class extends Component {
 							<div role="cover-date"><img src="images/date.png" /></div>
 						</div>
 						<div role="cover-link">
+							<a href="http://sitcon.kktix.cc/events/sitcon2017" target="blank" className="highlight">立即報名</a>
 							<a href="#" target="blank" className="not-yet">R0 直播</a>
 							<a href="#" target="blank" className="not-yet">R1 直播</a>
 							<a href="#" target="blank" className="not-yet">R2 直播</a>
