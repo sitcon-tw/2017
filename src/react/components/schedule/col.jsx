@@ -24,9 +24,6 @@ export default class extends Component {
 					<div role="photo" style={photo}></div>
 					{data.speaker.name}
 				</div>
-				<div role="talk-slide">
-					<a href={data.slides} target="blank" onClick={this.stopPropagation}>#簡報連結</a>
-				</div>
 			</div>
 		)
 	}
