@@ -33,6 +33,11 @@
 			display: flex;			
 			align-items: flex-end;
 			width: 100%;
+
+			@include tablet() {
+				align-items: center;
+				flex-direction: column;
+			}
 		}
 
 		[role="cover-logo"] {
@@ -47,6 +52,13 @@
 			padding-left: 20px;
 			img {
 				width: 100%;
+			}
+
+			@include tablet() {
+				width: 20%;
+				min-width: 100px;
+				padding-top: 2em;
+				padding-left: 0;
 			}
 		}
 
