@@ -6,6 +6,10 @@ export default class extends Component {
 		setTimeout(loadOSM, 3000)
 	}
 
+	shouldComponentUpdate(nextProps, nextState) {
+		return this.props.active !== nextProps.active
+	}
+
 	render() {
 		return (
 			<div id="transport-page" className={this.props.active ? 'active' : ''}>

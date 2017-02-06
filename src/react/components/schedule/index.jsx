@@ -23,6 +23,10 @@ submissions.forEach((data) => {
 })
 
 export default class extends Component {
+	shouldComponentUpdate(nextProps, nextState) {
+		return this.props.active !== nextProps.active
+	}
+
 	render() {
 		return (
 			<div id="schedule-page" className={this.props.active ? 'active' : ''}>

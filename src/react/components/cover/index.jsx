@@ -4,6 +4,10 @@ import paragraphSlogan from './paragraphSlogan.json'
 import paragraphAboutUs from './paragraphAboutUs.json'
 
 export default class extends Component {
+	shouldComponentUpdate(nextProps, nextState) {
+		return this.props.active !== nextProps.active
+	}
+
 	render() {
 		return (
 			<div id="cover-page" className={this.props.active ? 'active' : ''}>
