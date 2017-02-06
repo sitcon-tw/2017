@@ -19,6 +19,10 @@ export default class extends Component {
 		pageStore.setState({ page: this.props.href })
 	}
 
+	shouldComponentUpdate(nextProps, nextState) {
+		return this.state.active !== nextState.active
+	}
+
 	render() {
 		const className = 'linkbox' + (this.state.active ? ' active': '')
 		return (
