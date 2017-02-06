@@ -1,28 +1,28 @@
 [
     {
         "speaker": {
-            "name": "",
-            "avatar": "",
-            "bio": ""
+            "name": "黃勝雄",
+            "avatar": "images/speakers/hss.jpg",
+            "bio": "* 亞太網路資訊中心 APNIC 董事\n* ICANN Root Zone Chinese Generation Panel Co-Chair\n* 香港 DotAsia 管理局諮詢委員\n* 國際合作發展基金會諮詢委員\n* 達創股份有限公司董事\n* 亞太網路治理論壇APrIGF諮詢委員\n* IETF RFC3743 作者\n\n英文簡介: https://2016.aprigf.asia/program/speakerprofile/kenny-huang/ \n中文簡介: http://www.seminar2013.twnic.tw/resume/hss.pdf \n\n黃勝雄博士長期參與全球網際網路治理 (Internet Governance)，推動網際網路發展，包含：創立網際網路管理機構、先進研發先進技術、規劃與制定網際網路治理政策等等，並多次代表亞太地區或台灣參與國際性網際網路組織會議，致力推動亞太網際網路發展。在通訊技術上，黃博士多次參與 IETF 會議，並主持亞太區中日韓 JET (Joint Engineer Team) 域名技術組織，與中、日、韓共同發表 IETF RFC3743網際網路標準。在全球資訊治理方面，黃博士擔任 APNIC 亞太網路資訊中心董事董事，亦為 DotAsia (.asia Registry)公司創辦人暨諮詢委員，並曾任 PIR 董事、負責 .org 頂級域名治理，制定多項網路管理政策。在臺灣，黃博士擔任行政院數位台灣計畫 eTaiwan 委員、行政院研考會電子化政府委員、行政院政府組織與資訊改造委員會委員、臺灣網路資訊中心董事暨國際事務委員會主任委員、政府推動 IPv6 計畫法規與政策分項主持人、.taipei 頂級域名營運規劃計畫主持人等，充分將其專業知識與技能回饋台灣。"
         },
         "start": "2017-03-18T09:10:00+08:00",
         "end": "2017-03-18T10:00:00+08:00",
         "type": "K",
         "room": "R0",
-        "subject": "Keynote 1",
+        "subject": "Cybersecurity and Internet Governance 網路安全與網路治理",
         "summary": ""
     },
     {
         "speaker": {
-            "name": "",
+            "name": "何明諠",
             "avatar": "",
-            "bio": ""
+            "bio": "何明諠，第一份正職是從2014年9月開始任職的台灣人權促進會，目前在台權會擔任「台灣網路透明報告」的專案經理，但也兼作其他隱私個案。大學為電機系畢業，但碩士班則改念政治哲學與法理學，儘管看似有理工和些微的法學背景，但接觸數位人權完全是在工作後的事。開始工作的這兩三年來，陸續參與了一些會議，接觸了一些數位領域的先驅，並寫了幾篇相關的報告和文章，但還不確定是否有真正影響了什麼。若沒意外，未來應還會持續賴在這領域一段時間。"
         },
         "start": "2017-03-18T10:10:00+08:00",
         "end": "2017-03-18T11:00:00+08:00",
         "type": "K",
         "room": "R0",
-        "subject": "Keynote 2",
+        "subject": "重拾數位時代的公民權",
         "summary": ""
     },
     {
