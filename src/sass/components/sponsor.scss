@@ -23,6 +23,12 @@
 	.sponsor {
 		position: relative;
 		width: 300px;
+		cursor: pointer;
+		opacity: .8;
+
+		&:hover {
+			opacity: 1;
+		}
 
 		img {
 			display: block;
