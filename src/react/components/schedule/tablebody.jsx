@@ -16,28 +16,28 @@ export default function(props) {
 				<th>
 					R2
 					<div>
-						<a>共筆</a>
-						<a>直播</a>
+						<a href="#" target="blank" className="not-yet">共筆</a>
+						<a href="#" target="blank" className="not-yet">直播</a>
 					</div>
 				</th>
 				<th>
 					R0
 					<div>
-						<a>共筆</a>
-						<a>直播</a>
+						<a href="#" target="blank" className="not-yet">共筆</a>
+						<a href="#" target="blank" className="not-yet">直播</a>
 					</div>
 				</th>
 				<th>
 					R1
 					<div>
-						<a>共筆</a>
-						<a>直播</a>
+						<a href="#" target="blank" className="not-yet">共筆</a>
+						<a href="#" target="blank" className="not-yet">直播</a>
 					</div>
 				</th>
 				<th>
 					R3
 					<div>
-						<a>共筆</a>
+						<a href="#" target="blank" className="not-yet">共筆</a>
 					</div>
 				</th>
 			</tr>

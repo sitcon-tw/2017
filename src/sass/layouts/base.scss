@@ -21,3 +21,9 @@ body {
 		padding: 15px;
 	}
 }
+
+.not-yet {
+	cursor: default;
+	pointer-events: none;
+	opacity: .6;
+}

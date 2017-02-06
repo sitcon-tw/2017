@@ -15,11 +15,11 @@ export default class extends Component {
 							<div role="cover-date"><img src="images/date.png" /></div>
 						</div>
 						<div role="cover-link">
-							<a href="#" target="blank">R0 直播</a>
-							<a href="#" target="blank">R1 直播</a>
-							<a href="#" target="blank">R2 直播</a>
-							<a href="#" target="blank">會後意見調查</a>
-							<a href="#" target="blank">心得撰寫活動</a>
+							<a href="#" target="blank" className="not-yet">R0 直播</a>
+							<a href="#" target="blank" className="not-yet">R1 直播</a>
+							<a href="#" target="blank" className="not-yet">R2 直播</a>
+							<a href="#" target="blank" className="not-yet">會後意見調查</a>
+							<a href="#" target="blank" className="not-yet">心得撰寫活動</a>
 						</div>
 					</div>
 					<img src="images/press-start.png" role="cover-press-start" />
