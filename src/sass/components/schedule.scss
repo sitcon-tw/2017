@@ -68,6 +68,14 @@
 				text-align: center;
 			}
 
+			[role="end-time"] {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				text-align: center;
+			}
+
 			strong {
 				font-size: 14pt;
 				color: color("blue");

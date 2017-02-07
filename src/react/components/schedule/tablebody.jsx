@@ -88,7 +88,7 @@ export default function(props) {
 				<td colSpan="4"><div>閉幕</div></td>
 			</tr>
 			<tr>
-				<Timecol start="1840" />
+				<Timecol start="1840" end="2040" />
 				<td colSpan="4"><div>會後交流</div></td>
 			</tr>
 		</tbody>
