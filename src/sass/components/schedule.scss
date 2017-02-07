@@ -6,6 +6,14 @@
 		display: block;
 	}
 
+	h2 {
+		text-align: center;
+
+		&:not(:first-of-type) {
+			margin-top: 3em;
+		}
+	}
+
 	table {
 		width: 100%;
 		min-width: 500px;
@@ -101,6 +109,32 @@
 
 			&[href=""] {
 				display: none;	
+			}
+		}
+	}
+
+	[role="special-events"] {
+		display: flex;
+		width: 80%;
+		margin: 0 auto;
+
+		@include tablet() {
+			width: 95%;
+		}
+
+		section {
+			flex: 1;
+			margin-left: 1em;
+			padding: .5em 0;
+			text-align: center;
+			text-decoration: none;
+			color: white;
+			background-color: color("magenta");
+			opacity: .8;
+			cursor: pointer;
+
+			&:hover {
+				opacity: 1;
 			}
 		}
 	}

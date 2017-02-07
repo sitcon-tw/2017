@@ -129,7 +129,7 @@ export default class extends Component {
 
 	render() {
 		return (
-			<div>
+			<div role="special-events">
 				<section onClick={() => { fancybox(GameArena) }}>遊戲擂台賽</section>
 				<section onClick={() => { fancybox(Unconf) }}>Unconf</section>
 				<section onClick={() => { fancybox(Angel) }}>天使計畫</section>
