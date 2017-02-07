@@ -88,6 +88,10 @@
 			}
 		}
 
+		&[rowspan="3"] {
+			vertical-align: middle;
+		}
+
 		[role="talk-speaker"] {
 			font-size: 10pt;
 			font-style: italic;
