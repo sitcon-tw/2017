@@ -7,8 +7,8 @@ function StaffGroup(props) {
 			<div role="staff-group">{props.name}</div>
 			<div role="staff-member">
 				{props.members.map((mem) => {
-					return <span key={mem.pk}>{mem.profile.display_name}</span>
-				})}
+					return mem.profile.display_name
+				}).join('，')}
 			</div>
 		</div>
 	)

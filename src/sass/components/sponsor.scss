@@ -41,4 +41,15 @@
 			text-align: center;
 		}
 	}
+
+	[role="staffs"] {
+		margin-bottom: 1.5em;
+
+		[role="staff-group"] {
+			color: color("magenta");
+		}
+		[role="staff-member"] {
+			color: color("blue");
+		}
+	}
 }
