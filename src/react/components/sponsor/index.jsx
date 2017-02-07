@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Staff from './staff.jsx'
 import * as sponsors from './sponsor.jsx'
 import { open as fancybox } from 'stores/fancybox.js'
 import makeContent from './makeContent.jsx'
@@ -55,6 +56,10 @@ export default class extends Component {
 				<section>
 					<h2>媒體夥伴</h2>
 					<Sponsors list={sponsors.medias} />
+				</section>
+				<section role="staff">
+					<h2>工作夥伴</h2>
+					<Staff />
 				</section>
 			</div>
 		)
