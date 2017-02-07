@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import submissions from './submissions.json'
+import SpecialEvents from './specialevents.jsx'
 import Tablebody from './tablebody.jsx'
 
 const bucket = {
@@ -30,6 +31,9 @@ export default class extends Component {
 	render() {
 		return (
 			<div id="schedule-page" className={this.props.active ? 'active' : ''}>
+				<h2>活動</h2>
+				<SpecialEvents />
+				<h2>議程</h2>
 				<table>
 					<Tablebody datas={bucket} />
 				</table>
