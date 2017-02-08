@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Tba from './tba.jsx'
 import paragraphIntro from './paragraphIntro.json'
 import paragraphSlogan from './paragraphSlogan.json'
 import paragraphAboutUs from './paragraphAboutUs.json'
@@ -20,11 +21,11 @@ export default class extends Component {
 						</div>
 						<div role="cover-link">
 							<a href="http://sitcon.kktix.cc/events/sitcon2017" target="blank" className="highlight">立即報名</a>
-							<a href="#" target="blank" className="not-yet">R0 直播</a>
-							<a href="#" target="blank" className="not-yet">R1 直播</a>
-							<a href="#" target="blank" className="not-yet">R2 直播</a>
-							<a href="#" target="blank" className="not-yet">會後意見調查</a>
-							<a href="#" target="blank" className="not-yet">心得撰寫活動</a>
+							<Tba>R0 直播</Tba>
+							<Tba>R1 直播</Tba>
+							<Tba>R2 直播</Tba>
+							<Tba>會後意見調查</Tba>
+							<Tba>心得撰寫活動</Tba>
 						</div>
 					</div>
 					<img src="images/press-start.png" role="cover-press-start" />
