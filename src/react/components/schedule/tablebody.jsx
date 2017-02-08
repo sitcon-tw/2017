@@ -5,7 +5,7 @@ import Col from './col.jsx'
 import { open as fancybox } from 'stores/fancybox.js'
 import makeContent from './makeContent.jsx'
 
-export default function(props) {
+const TBody = (props) => {
 	const datas = props.datas
 	const contentKeynote1 = makeContent(datas["09:10"]["R0"])
 	const contentKeynote2 = makeContent(datas["10:10"]["R0"])
@@ -93,4 +93,16 @@ export default function(props) {
 			</tr>
 		</tbody>
 	)
+}
+
+export default class extends Component {
+	shouldComponentUpdate(nextProps, nextState) {
+		return false
+	}
+
+	render() {
+		return (
+			<TBody datas={this.props.datas} />
+		)
+	}
 }
