@@ -29,31 +29,31 @@ export default class extends Component {
 	render() {
 		return (
 			<div id="sponsor-page" className={this.props.active ? 'active' : ''}>
-				<section>
+				<section data-length={sponsors.organizer.length}>
 					<h2>共同主辦</h2>
 					<Sponsors list={sponsors.organizer} />
 				</section>
-				<section>
+				<section data-length={sponsors.coorganizer.length}>
 					<h2>協辦單位</h2>
 					<Sponsors list={sponsors.coorganizer} />
 				</section>
-				<section>
+				<section data-length={sponsors.golden.length}>
 					<h2>黃金級贊助</h2>
 					<Sponsors list={sponsors.golden} />
 				</section>
-				<section>
+				<section data-length={sponsors.silver.length}>
 					<h2>白銀級贊助</h2>
 					<Sponsors list={sponsors.silver} />
 				</section>
-				<section>
+				<section data-length={sponsors.bronze.length}>
 					<h2>青銅級贊助</h2>
 					<Sponsors list={sponsors.bronze} />
 				</section>
-				<section>
+				<section data-length={sponsors.thanks.length}>
 					<h2>特別感謝</h2>
 					<Sponsors list={sponsors.thanks} />
 				</section>
-				<section>
+				<section data-length={sponsors.medias.length}>
 					<h2>媒體夥伴</h2>
 					<Sponsors list={sponsors.medias} />
 				</section>
