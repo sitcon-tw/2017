@@ -15,28 +15,28 @@ const TBody = (props) => {
 				<th></th>
 				<th>
 					R2
-					<div>
+					<div style={{display: 'none'}}>
 						<a href="#" target="blank" className="not-yet">共筆</a>
 						<a href="#" target="blank" className="not-yet">直播</a>
 					</div>
 				</th>
 				<th>
 					R0
-					<div>
+					<div style={{display: 'none'}}>
 						<a href="#" target="blank" className="not-yet">共筆</a>
 						<a href="#" target="blank" className="not-yet">直播</a>
 					</div>
 				</th>
 				<th>
 					R1
-					<div>
+					<div style={{display: 'none'}}>
 						<a href="#" target="blank" className="not-yet">共筆</a>
 						<a href="#" target="blank" className="not-yet">直播</a>
 					</div>
 				</th>
 				<th>
 					R3
-					<div>
+					<div style={{display: 'none'}}>
 						<a href="#" target="blank" className="not-yet">共筆</a>
 					</div>
 				</th>
