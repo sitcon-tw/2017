@@ -57,6 +57,9 @@ export default class extends Component {
 					<h2>媒體夥伴</h2>
 					<Sponsors list={sponsors.medias} />
 				</section>
+
+				<div role="call-for-sponsored">贊助徵求中：contact@sitcon.org</div>
+
 				<section role="staff">
 					<h2>工作夥伴</h2>
 					<Staff />

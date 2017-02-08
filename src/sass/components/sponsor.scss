@@ -56,4 +56,12 @@
 			color: color("blue");
 		}
 	}
+
+	[role="call-for-sponsored"] {
+		text-align: center;
+		width: 100%;
+		color: color("blue");
+		font-weight: 900;
+		margin: 4em 0;
+	}
 }
