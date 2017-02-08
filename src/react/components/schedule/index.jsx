@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import submissions from './submissions.json'
-import SpecialEvents from './specialevents.jsx'
+import SpecialEvents from './specialEvents.jsx'
 import Tablebody from './tablebody.jsx'
 
 const bucket = {
