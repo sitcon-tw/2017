@@ -1,10 +1,24 @@
 import React, { Component } from 'react'
 import * as store from 'stores/fancybox.js'
 
+class FancyContent extends Component {
+	shouldComponentUpdate(nextProps, nextState) {
+		return nextProps.updated
+	}
+
+	render() {
+		return (
+			<div role="fancybox-content">
+				{this.props.children}
+			</div>
+		)
+	}
+}
+
 export default class extends Component {
 	constructor(props) {
 		super(props)
-		this.state = { content: store.state.content, cls: '' }
+		this.state = { content: store.state.content, updated: store.state.updated, cls: '' }
 	}
 
 	closeHandler() {
@@ -13,7 +27,7 @@ export default class extends Component {
 
 	proc0() {
 		this.setState({
-			content: () => { return (<div></div>) },
+			updated: store.state.updated,
 			cls: '',
 		})
 	}
@@ -21,20 +35,21 @@ export default class extends Component {
 	proc1() {
 		this.setState({
 			content: store.state.content,
+			updated: store.state.updated,
 			cls: 'state1',
 		})
 	}
 
 	proc2() {
 		this.setState({
-			content: store.state.content,
+			updated: store.state.updated,
 			cls: 'state2',
 		})
 	}
 
 	proc3() {
 		this.setState({
-			content: store.state.content,
+			updated: store.state.updated,
 			cls: 'state3',
 		})
 	}
@@ -53,9 +68,9 @@ export default class extends Component {
 				<div role="fancybox-bg" onClick={this.closeHandler} className={this.state.cls} />
 				<div role="fancybox-page" className={this.state.cls}>
 					<span role="fancybox-X" onClick={this.closeHandler}>X</span>
-					<div role="fancybox-content">
+					<FancyContent updated={this.state.updated}>
 						<Content />
-					</div>
+					</FancyContent>
 				</div>
 			</div>
 		)
