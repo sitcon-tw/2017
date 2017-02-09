@@ -12,6 +12,7 @@ const bucket = {
 	"15:10": {},
 	"16:00": {},
 	"16:50": {},
+	"18:40": {},
 }
 submissions.forEach((data) => {
 	const start = data.start.slice(11, 16)
