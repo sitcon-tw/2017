@@ -42,8 +42,23 @@ const Unconf = () => {
 				<h2>Unconference</h2>
 				<p>不同於由大會排定的議程，Unconference 讓會眾自主決定想聽的講題規劃的議程。在會眾踴躍投票完想要分享的主題之後，透過票選，每位講者有 20 分鐘在交誼廳展現的機會。</p>
 				<p>除此之外，Unconference 也歡迎會眾在交誼廳內進行任何的社群活動，只要你有任何線下聚會的好點子，不妨現在就填寫表單、向其他會眾招手吧。</p>
+			</section>
+			<section>
+				<h2>投稿方式</h2>
 				<p>SITCON Unconference 徵選在 02/17 ~ 03/03，只要你是SITCON 2017的會眾，就能以報名序號填寫 Unconference 的徵選表單。</p>
-				<p>在徵選截止後，03/04 ~ 03/11 開放投票。只要報名SITCON 2017 後，就可以憑著 SITCON 2017 票券，填寫 Unconference 投票表單選出自己喜歡的議程或活動喔！</p>
+				<p>在徵選截止後，03/04 ~ 03/11 開放投票。 只要報名SITCON 2017 後，就可以憑著 SITCON 2017 票券，填寫 Unconference 投票表單選出自己喜歡的議程或活動喔！</p>
+				<p>投票結束後將會在 03/12 公布選上的Conference，我們期待你在年會的分享。</p>
+			</section>
+			<section>
+				<h2>注意事項</h2>
+				<ol>
+					<li>投稿及票選 Unconference 議程皆須以 SITCON 2017 票卷的 KKTIX 檢查碼為憑。</li>
+					<li>議程組會初步審核 Unconference 內容，除有重大違規，否則議程組不會干涉 Unconference 投稿內容。</li>
+					<li>Unconference 議程的品質議程組不予負責。</li>
+				</ol>
+			</section>
+			<section>
+				<p>Unconference 負責人：宛諭</p>
 			</section>
 		</div>
 	)
