@@ -12,7 +12,7 @@ export default function makeContent(props) {
 	return () => {
 		return (
 			<div>
-				<section>
+				<section style={{display: name==='' ? 'none' : 'block'}}>
 					<div role="photo" style={photo}></div>
 					<h2>{name}</h2>
 					{bio.split('\n').map((paragraph, idx) => {
