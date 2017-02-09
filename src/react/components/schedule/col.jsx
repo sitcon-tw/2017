@@ -17,12 +17,13 @@ export default class extends Component {
 		const photo = {
 			backgroundImage: "url("+data.speaker.avatar+")",
 		}
+		const name = data.speaker.name
 		return (
 			<div className="col">
 				<div role="talk-title">{data.subject}</div>
-				<div role="talk-speaker">
+				<div role="talk-speaker" style={{display: name==='' ? 'none' : 'block'}}>
 					<div role="photo" style={photo}></div>
-					{data.speaker.name}
+					{name}
 				</div>
 			</div>
 		)
