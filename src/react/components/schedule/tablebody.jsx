@@ -9,6 +9,7 @@ const TBody = (props) => {
 	const datas = props.datas
 	const contentKeynote1 = makeContent(datas["09:10"]["R0"])
 	const contentKeynote2 = makeContent(datas["10:10"]["R0"])
+	const panel = makeContent(datas["12:50"]["R0"])
 	const nightEvent = makeContent(datas["18:40"]["R0"])
 	return (
 		<tbody>
@@ -69,7 +70,10 @@ const TBody = (props) => {
 			</tr>
 			<tr>
 				<Timecol start="1250" />
-				<td colSpan="4"><div>論壇</div></td>
+				<td colSpan="4" onClick={() => { fancybox(panel) }} className="clickable">
+					<div>論壇</div>
+					<Col data={datas["12:50"]["R0"]} />
+				</td>
 			</tr>
 			<Row start="1440" data={datas["14:40"]} />
 			<Row start="1455" data={datas["14:55"]} />
