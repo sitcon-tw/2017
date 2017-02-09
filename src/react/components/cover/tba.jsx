@@ -16,7 +16,6 @@ export default class extends Component {
 	}
 
 	render() {
-		console.log(this.state.focus)
 		return (
 			<a target="blank" style={{opacity: this.state.focus ? 1 : 0.6}}
 				onClick={() => { this.clickHandler() }}
