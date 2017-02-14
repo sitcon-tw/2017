@@ -182,6 +182,28 @@ const Communicate = () => {
 	)
 }
 
+const BoF = () => {
+	return (
+		<div>
+			<section>
+				<h2>Birds of a Feather</h2>
+				<p>SITCON 白天精彩的議程，讓你沒機會好好和同好交流嗎？參加 BoF 吧！</p>
+				<p>BoF (Birds of a Feather) 是一個主題導向的交流活動。</p>
+				<p>舉凡各大社群聚會、同校同學會、技術同好的經驗分享會、社會議題的討論、各種愛好者聚會、甚至帶有喜感的主題，都非常歡迎！</p>
+				<p>如何開一個新主題呢？</p>
+				<ul>
+					<li>第一步，請填寫「發起人表單 (連結)」，留下姓名、主題、信箱、手機號碼。發起人預設是該主題的負責人，這些資訊便於主辦單位在大會中聯繫，如欲更換負責人請填寫「更動表單 (連結)」。</li>
+					<li>第二步，在「BoF 共筆 (連結)」文件下方，填寫主題並進行說明，就完成囉。請於 15:40 (點心時間)，至 4F 交誼廳前集合，協調 BoF 場地。</li>
+				</ul>
+			</section>
+			<section>
+				<h2>如何報名一個主題呢？</h2>
+				<p>只要對某個主題感興趣，就可以在主題說明下方填寫你的大名。SITCON 年會當天，設有 BoF 說明攤位，提供會眾 BoF 活動相關諮詢。BoF 活動將於 SITCON 年會當天 18：40 正式登場！一邊享用大會準備的食物，一邊和同好暢談交流吧。</p>
+			</section>
+		</div>
+	)
+}
+
 export default class extends Component {
 	shouldComponentUpdate(nextProps, nextState) {
 		return false
@@ -196,6 +218,7 @@ export default class extends Component {
 				<section onClick={() => { fancybox(CodePuzzle) }}>程式碼拼圖</section>
 				<section onClick={() => { fancybox(MovieTheater) }}>SITCON 電影院</section>
 				<section onClick={() => { fancybox(Communicate) }}>晚間講者交流</section>
+				<section onClick={() => { fancybox(BoF) }}>BoF</section>
 			</div>
 		)
 	}
