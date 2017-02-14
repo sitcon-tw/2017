@@ -22,6 +22,10 @@ class Viewer extends Component {
 		this.setState({ page: pageStore.state.page })
 	}
 
+	componentDidUpdate() {
+		this.refs.container.scrollTop = 0
+	}
+
 	render() {
 		const isCover = (this.state.page === '#cover-page')
 		const isShedule = (this.state.page === '#schedule-page')
@@ -29,7 +33,7 @@ class Viewer extends Component {
 		const isTransport = (this.state.page === '#transport-page')
 		return (
 			<div id="viewer">
-				<div className="content-container">
+				<div className="content-container" ref="container">
 					<Cover active={isCover}/>
 					<Schedule active={isShedule} />
 					<Sponsor active={isSponsor} />
