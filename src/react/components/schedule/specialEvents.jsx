@@ -137,6 +137,51 @@ const CodePuzzle = () => {
 	)
 }
 
+const MovieTheater = () => {
+	return (
+		<div>
+			<section>
+				<h2>SITCON 電影院</h2>
+				<p>這世界上，有人努力為環境發聲、有人為弱勢團體發聲、有人為女性發聲。這部片的導演則是透過 Aaron Swartz 和 Edward Snowden 兩名青年，為捍衛自由和開放的網路而發聲。 SITCON 精美小禮！此外我們鼓勵大家能在活動中多和其他參與者有更多的交流，若您是程式老手，請不要吝嗇於帶領新手，而新手也不要羞澀於向人提問，並希望您能於活動中結交到志同道合的夥伴！</p>
+				<p>為什麼 Aaron Swartz 和 Edward Snowden 決定跳出來捍衛網路？又或者說，為什麼網路需要你我的發聲和捍衛？分享資訊、分享知識這些看起來再平常不過，生活中都能看到甚至都會做的事，卻讓他們惹上大麻煩？</p>
+				<p>為讓會眾更深入理解「網路中立與資訊自由」是為了讓在網路上的資訊取得與流通變得更方便，今年 SITCON 大會特別安排「SITCON 電影院」，精選一部為捍衛網路自由而發聲的紀錄片。</p>
+				<p>影片內容將會探討通信、網路文化、言論自由、創意、民主等重要價值。現今的網路是否將被少數的強大集團壟斷，還是我們能起身捍衛屬於我們的權益？</p>
+			</section>
+			<section>
+				<h2>《捍衛網權》(Killswitch: The Battle To Control the Internet)</h2>
+				<ul>
+					<li>放映地點： R0 國際會議廳</li>
+					<li>放映時間：19：30 - 20：42</li>
+					<li>預告片介紹：<a href="https://www.youtube.com/watch?v=Y1MszXx6EK8" target="blank">{"https://www.youtube.com/watch?v=Y1MszXx6EK8"}</a></li>
+					<li>注意事項：中文字幕，播映 72 分鐘，場內禁止喧嘩，可自由進出。</li>
+				</ul>
+			</section>
+		</div>
+	)
+}
+
+const Communicate = () => {
+	return (
+		<div>
+			<section>
+				<h2>晚間講者交流</h2>
+				<p>對於白天的議程，還意猶未盡嗎？</p>
+				<p>今年晚上特別安排各講者與會眾能獨立的交談時光，期待分享能激盪出更棒的點子。</p>
+			</section>
+			<section>
+				<h2>講者將依安排的時段出席。</h2>
+				<p>時間：18:40-19:00 / 19:30-20:00 </p>
+				<p>地點：三樓右側沙發區</p>
+				<p>注意事項：</p>
+				<ul>
+					<li>講者可自由分享，盡情討論到最晚 20:40。</li>
+					<li>講者出席時間表將擇日公告，還請稍候。</li>
+				</ul>
+			</section>
+		</div>
+	)
+}
+
 export default class extends Component {
 	shouldComponentUpdate(nextProps, nextState) {
 		return false
@@ -149,6 +194,8 @@ export default class extends Component {
 				<section onClick={() => { fancybox(Unconf) }}>Unconf</section>
 				<section onClick={() => { fancybox(Angel) }}>天使計畫</section>
 				<section onClick={() => { fancybox(CodePuzzle) }}>程式碼拼圖</section>
+				<section onClick={() => { fancybox(MovieTheater) }}>SITCON 電影院</section>
+				<section onClick={() => { fancybox(Communicate) }}>晚間講者交流</section>
 			</div>
 		)
 	}
