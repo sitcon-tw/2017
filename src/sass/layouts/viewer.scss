@@ -17,7 +17,7 @@
 		color: color("magenta");
 	}
 
-	p {
+	p, ul > li {
 		max-width: 500px;
 		line-height: 1.4em;
 		text-align: justify;
@@ -28,8 +28,8 @@
 		width: 100%;
 	}
 
-	&::-webkit-scrollbar { 
-		display: none; 
+	&::-webkit-scrollbar {
+		display: none;
 	}
 }
 
@@ -44,6 +44,6 @@
 	border-right: 150px solid transparent;
 
 	@include tablet() {
-		display: none;	
+		display: none;
 	}
 }
