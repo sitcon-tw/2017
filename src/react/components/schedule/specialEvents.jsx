@@ -187,18 +187,22 @@ const BoF = () => {
 		<div>
 			<section>
 				<h2>Birds of a Feather</h2>
-				<p>SITCON 白天精彩的議程，讓你沒機會好好和同好交流嗎？參加 BoF 吧！</p>
-				<p>BoF (Birds of a Feather) 是一個主題導向的交流活動。</p>
+				<p>BoF (Birds of a Feather) 是一個主題導向的交流活動，BoF 即 Birds of a Feather。</p>
+				<p>這個慣用語是俗語「物以類聚 (Birds of a Feather)」的簡化，後來被延伸用於形容有共同喜好的人群聚的討論會，更多語源相關資訊可以參考 wiki。</p>
 				<p>舉凡各大社群聚會、同校同學會、技術同好的經驗分享會、社會議題的討論、各種愛好者聚會、甚至帶有喜感的主題，都非常歡迎！</p>
-				<p>如何開一個新主題呢？</p>
 				<ul>
-					<li>第一步，請填寫「發起人表單 (連結)」，留下姓名、主題、信箱、手機號碼。發起人預設是該主題的負責人，這些資訊便於主辦單位在大會中聯繫，如欲更換負責人請填寫「更動表單 (連結)」。</li>
-					<li>第二步，在「BoF 共筆 (連結)」文件下方，填寫主題並進行說明，就完成囉。請於 15:40 (點心時間)，至 4F 交誼廳前集合，協調 BoF 場地。</li>
+					<li>當天設有 BoF 活動攤位，提供 BoF 活動相關諮詢</li>
+					<li>BoF 活動時間為 18：40～20：40</li>
 				</ul>
 			</section>
 			<section>
-				<h2>如何報名一個主題呢？</h2>
-				<p>只要對某個主題感興趣，就可以在主題說明下方填寫你的大名。SITCON 年會當天，設有 BoF 說明攤位，提供會眾 BoF 活動相關諮詢。BoF 活動將於 SITCON 年會當天 18：40 正式登場！一邊享用大會準備的食物，一邊和同好暢談交流吧。</p>
+				<h3>發起一個新主題吧！</h3>
+				<ul>
+					<li>第一步，請填寫「<a href='https://goo.gl/pWGZne' target="blank" style={{"textDecoration": "none"}}>發起人表單</a>」，留下姓名、主題、信箱、手機號碼。發起人預設是該主題的負責人，這些資訊便於主辦單位在大會中聯繫，如欲更換負責人請填寫「<a href="https://goo.gl/fwAfu8" target="blank" style={{"textDecoration": "none"}}>更動表單</a>」。</li>
+					<li>第二步，在「<a href="https://goo.gl/VCJVG6" target="blank" style={{"textDecoration": "none"}}>BoF 共筆</a>」文件下方，填寫主題並進行說明，就完成囉。請於 15:40 (點心時間)，至 4F 交誼廳前集合，協調 BoF 場地。</li>
+				</ul>
+				<h3>來報名 BoF 吧！</h3>
+				<p>到「<a href="https://goo.gl/VCJVG6" target="blank" style={{"textDecoration": "none"}}>BoF 共筆</a>」文件找找有哪些感興趣的主題吧，接下來就是在主題說明下方留下大名就可以囉。準備一邊享用大會的食物，一邊和同好暢談交流吧。</p>
 			</section>
 		</div>
 	)
