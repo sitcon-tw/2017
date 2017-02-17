@@ -28,7 +28,7 @@ const GameArena = () => {
 				<h2>甄選標準：</h2>
 				<ol>
 					<li>遊戲內容：是否創新、有趣、酷炫</li>
-					<li>遊戲所需時間：以5～10分鐘佳</li>
+					<li>遊戲所需時間：以5～10分鐘為佳</li>
 				</ol>
 			</section>
 		</div>
@@ -45,9 +45,9 @@ const Unconf = () => {
 			</section>
 			<section>
 				<h2>投稿方式</h2>
-				<p>SITCON Unconference 徵選在 02/17 ~ 03/03，只要你是SITCON 2017的會眾，就能以報名序號填寫 Unconference 的徵選表單。</p>
-				<p>在徵選截止後，03/04 ~ 03/11 開放投票。 只要報名SITCON 2017 後，就可以憑著 SITCON 2017 票券，填寫 Unconference 投票表單選出自己喜歡的議程或活動喔！</p>
-				<p>投票結束後將會在 03/12 公布選上的Conference，我們期待你在年會的分享。</p>
+				<p>SITCON Unconference 投稿在 02/17 ~ 03/03，只要你是SITCON 2017的會眾，就能以報名序號填寫 Unconference 的投稿表單。</p>
+				<p>在投稿截止後，03/04 ~ 03/11 開放投票。 只要報名SITCON 2017 後，就可以憑著 SITCON 2017 票券，填寫 Unconference 投票表單選出自己喜歡的議程或活動喔！</p>
+				<p>投票結束後將會在 03/12 公布選上的 Unconference，我們期待你在年會的分享。</p>
 			</section>
 			<section>
 				<h2>注意事項</h2>
@@ -97,7 +97,7 @@ const Angel = () => {
 				</ol>
 			</section>
 			<section>
-				<p>天使計畫負責人：小學生 teresa860712@gmail.com 0988016743</p>
+				<p>天使計畫負責人：小學生</p>
 			</section>
 		</div>
 	)
@@ -118,7 +118,7 @@ const CodePuzzle = () => {
 					<li>每個人手中都有部分程式碼片段，請尋找在其他人手中的其他片段組成正確解題程式</li>
 					<li>每段程式碼不可重複使用</li>
 					<li>尋找到足夠之程式碼後，請將正確的程式寫出並交給 compiler 進行編譯，若解題正確即可獲得獎品</li>
-					<li>有任何活動相關疑問皆可向 Debugger 詢問，但除了規則及活動本身相關問題外，搜尋夥伴以及題目解決問題鼓勵參與者自行向身邊夥伴交流解決</li>
+					<li>有任何活動相關疑問皆可向 Debugger 詢問，Debugger 以解釋規則及活動本身相關問題為主，其他如：搜尋夥伴以及題目解法，我們鼓勵參與者主動向身邊夥伴交流討論</li>
 					<li>祝大家遊戲愉快</li>
 				</ol>
 			</section>
@@ -223,4 +223,3 @@ export default class extends Component {
 		)
 	}
 }
-
