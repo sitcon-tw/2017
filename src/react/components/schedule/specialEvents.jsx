@@ -97,7 +97,7 @@ const Angel = () => {
 				</ol>
 			</section>
 			<section>
-				<p>天使計畫負責人：小學生 teresa860712@gmail.com 0988016743</p>
+				<p>天使計畫負責人：小學生</p>
 			</section>
 		</div>
 	)
