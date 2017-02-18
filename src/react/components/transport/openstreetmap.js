@@ -37,4 +37,5 @@ export default function() {
 			zoom: 15
 		})
 	})
+	return osmMap
 }
