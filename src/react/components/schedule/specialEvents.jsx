@@ -152,7 +152,7 @@ const MovieTheater = () => {
 				<ul>
 					<li>放映地點： R0 國際會議廳</li>
 					<li>放映時間：19：30 - 20：42</li>
-					<li><a href="https://www.youtube.com/watch?v=Y1MszXx6EK8" target="blank" style={{"textDecoration": "none"}}>{"預告片點我"}</a></li>
+					<li><a href="https://www.youtube.com/watch?v=Y1MszXx6EK8" target="blank">預告片點我</a></li>
 					<li>注意事項：中文字幕，播映 72 分鐘，場內禁止喧嘩，可自由進出。</li>
 				</ul>
 			</section>
@@ -198,11 +198,11 @@ const BoF = () => {
 			<section>
 				<h3>發起一個新主題吧！</h3>
 				<ul>
-					<li>第一步，請填寫「<a href='https://goo.gl/pWGZne' target="blank" style={{"textDecoration": "none"}}>發起人表單</a>」，留下姓名、主題、信箱、手機號碼。發起人預設是該主題的負責人，這些資訊便於主辦單位在大會中聯繫，如欲更換負責人請填寫「<a href="https://goo.gl/fwAfu8" target="blank" style={{"textDecoration": "none"}}>更動表單</a>」。</li>
-					<li>第二步，在「<a href="https://goo.gl/VCJVG6" target="blank" style={{"textDecoration": "none"}}>BoF 共筆</a>」文件下方，填寫主題並進行說明，就完成囉。請於 15:40 (點心時間)，至 4F 交誼廳前集合，協調 BoF 場地。</li>
+					<li>第一步，請填寫「<a href='https://goo.gl/pWGZne' target="blank">發起人表單</a>」，留下姓名、主題、信箱、手機號碼。發起人預設是該主題的負責人，這些資訊便於主辦單位在大會中聯繫，如欲更換負責人請填寫「<a href="https://goo.gl/fwAfu8" target="blank">更動表單</a>」。</li>
+					<li>第二步，在「<a href="https://goo.gl/VCJVG6" target="blank">BoF 共筆</a>」文件下方，填寫主題並進行說明，就完成囉。請於 15:40 (點心時間)，至 4F 交誼廳前集合，協調 BoF 場地。</li>
 				</ul>
 				<h3>來報名 BoF 吧！</h3>
-				<p>到「<a href="https://goo.gl/VCJVG6" target="blank" style={{"textDecoration": "none"}}>BoF 共筆</a>」文件找找有哪些感興趣的主題吧，接下來就是在主題說明下方留下大名就可以囉。準備一邊享用大會的食物，一邊和同好暢談交流吧。</p>
+				<p>到「<a href="https://goo.gl/VCJVG6" target="blank">BoF 共筆</a>」文件找找有哪些感興趣的主題吧，接下來就是在主題說明下方留下大名就可以囉。準備一邊享用大會的食物，一邊和同好暢談交流吧。</p>
 			</section>
 		</div>
 	)
