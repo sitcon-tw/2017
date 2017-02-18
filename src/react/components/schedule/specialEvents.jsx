@@ -152,7 +152,7 @@ const MovieTheater = () => {
 				<ul>
 					<li>放映地點： R0 國際會議廳</li>
 					<li>放映時間：19：30 - 20：42</li>
-					<li>預告片介紹：<a href="https://www.youtube.com/watch?v=Y1MszXx6EK8" target="blank">{"https://www.youtube.com/watch?v=Y1MszXx6EK8"}</a></li>
+					<li><a href="https://www.youtube.com/watch?v=Y1MszXx6EK8" target="blank" style={{"textDecoration": "none"}}>{"預告片點我"}</a></li>
 					<li>注意事項：中文字幕，播映 72 分鐘，場內禁止喧嘩，可自由進出。</li>
 				</ul>
 			</section>
