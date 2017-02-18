@@ -48,6 +48,7 @@ const Unconf = () => {
 				<p>SITCON Unconference 投稿在 02/17 ~ 03/03，只要你是SITCON 2017的會眾，就能以報名序號填寫 Unconference 的投稿表單。</p>
 				<p>在投稿截止後，03/04 ~ 03/11 開放投票。 只要報名SITCON 2017 後，就可以憑著 SITCON 2017 票券，填寫 Unconference 投票表單選出自己喜歡的議程或活動喔！</p>
 				<p>投票結束後將會在 03/12 公布選上的 Unconference，我們期待你在年會的分享。</p>
+				<p><a href="https://goo.gl/6O6ddT" target="blank">投稿連結由此去</a></p>
 			</section>
 			<section>
 				<h2>注意事項</h2>
@@ -138,6 +139,11 @@ const CodePuzzle = () => {
 }
 
 const MovieTheater = () => {
+	let iframe = function () {
+      return {
+          __html: '<iframe style="width: 70vw; height:39.375vw;" src="https://www.youtube.com/embed/Y1MszXx6EK8" frameborder="0" allowfullscreen></iframe>'
+      }
+  }
 	return (
 		<div>
 			<section>
@@ -152,9 +158,9 @@ const MovieTheater = () => {
 				<ul>
 					<li>放映地點： R0 國際會議廳</li>
 					<li>放映時間：19：30 - 20：42</li>
-					<li><a href="https://www.youtube.com/watch?v=Y1MszXx6EK8" target="blank">預告片點我</a></li>
 					<li>注意事項：中文字幕，播映 72 分鐘，場內禁止喧嘩，可自由進出。</li>
 				</ul>
+				<div style={{margin: "0 auto"}} dangerouslySetInnerHTML={ iframe() } />
 			</section>
 		</div>
 	)
