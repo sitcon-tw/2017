@@ -6,10 +6,22 @@ function StaffGroup(props) {
 		<div role="staffs">
 			<div role="staff-group">{props.name}</div>
 			<div role="staff-member">
-				{props.members.map((mem) => {
-					return mem.profile.display_name
-				}).join('，')}
+				{props.members.map((mem, index) => {
+					return <StaffMember key={ index } profile={ mem.profile } />
+				})}
 			</div>
+		</div>
+	)
+}
+
+function StaffMember(props) {
+
+	let avatarLink = props.profile.avatar.match('^/media') ? '//staff.sitcon.org' + props.profile.avatar : props.profile.avatar
+
+	return (
+		<div role="staff-card">
+			<img role="staff-avatar" src={ avatarLink }></img>
+			<p>{ props.profile.display_name }</p>
 		</div>
 	)
 }
