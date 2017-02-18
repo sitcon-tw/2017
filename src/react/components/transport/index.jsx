@@ -3,11 +3,15 @@ import loadOSM from './openstreetmap.js'
 
 export default class extends Component {
 	componentDidMount() {
-		setTimeout(loadOSM, 3000)
+		this.setState({osmMap: loadOSM()})
 	}
 
 	shouldComponentUpdate(nextProps, nextState) {
 		return this.props.active !== nextProps.active
+	}
+
+	componentDidUpdate(prevProps, prevState) {
+		this.state.osmMap.updateSize()
 	}
 
 	render() {
