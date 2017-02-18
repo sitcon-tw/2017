@@ -16,6 +16,7 @@ export default class extends Component {
 	}
 
 	handleClick() {
+		location.hash = this.props.href
 		pageStore.setState({ page: this.props.href })
 	}
 
