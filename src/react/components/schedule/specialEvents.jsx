@@ -209,6 +209,9 @@ const BoF = () => {
 				<h3>來報名 BoF 吧！</h3>
 				<p>到「<a href="https://goo.gl/VCJVG6" target="blank">BoF 共筆</a>」文件找找有哪些感興趣的主題吧，接下來就是在主題說明下方留下大名就可以囉。準備一邊享用大會的食物，一邊和同好暢談交流吧。</p>
 			</section>
+			<section>
+				<p>BoF 負責人：Jimmy</p>
+			</section>
 		</div>
 	)
 }
