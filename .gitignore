@@ -47,3 +47,5 @@ public
 
 # Temporary files
 tmp
+
+*.swp
