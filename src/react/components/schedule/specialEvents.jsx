@@ -141,7 +141,7 @@ const CodePuzzle = () => {
 const MovieTheater = () => {
 	let iframe = function () {
       return {
-          __html: '<iframe style="width: 70vw; height:39.375vw;" src="https://www.youtube.com/embed/Y1MszXx6EK8" frameborder="0" allowfullscreen></iframe>'
+          __html: '<iframe style="width: 70vw; height: 39.375vw; max-width: 907px; max-height: 510px;" src="https://www.youtube.com/embed/Y1MszXx6EK8" frameborder="0" allowfullscreen></iframe>'
       }
   }
 	return (
