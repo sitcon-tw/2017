@@ -41,3 +41,5 @@ jspm_packages
 
 # System generated files
 .DS_Store
+
+public/
