@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import request from 'request-promise'
+import request from 'superagent'
 
 function StaffGroup(props) {
 	return (
@@ -53,10 +53,11 @@ export default class extends Component {
 	}
 
 	componentDidMount() {
-		request('https://staff.sitcon.org/api/staffgroups/?format=json')
-			.then((datas) => {
+		request
+			.get('https://staff.sitcon.org/api/staffgroups/?format=json')
+			.end((err, res) => {
 				try {
-					this.onloadHandler(JSON.parse(datas))
+					this.onloadHandler(JSON.parse(res.text))
 				}
 				catch(err) {
 					console.error('Can not parse staff api')
