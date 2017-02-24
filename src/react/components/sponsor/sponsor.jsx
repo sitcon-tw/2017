@@ -37,7 +37,7 @@ export const golden = [
 
 export const silver = [
 	{
-		name: "祐生基金會",
+		name: "祐生研究基金會",
 		logo: "archlife.png",
 		intro: archlifeIntro,
 	},
