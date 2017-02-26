@@ -223,6 +223,17 @@ const Guide = () => {
 	)
 }
 
+const Lightning = () => {
+	return (
+		<div>
+			<section>
+				<h2>Lightning talk</h2>
+				<p>Lightning talk，中文譯為「閃電秀」，顧名思義即為「閃電一般短的演講」。包含準備時間在內，每位講者僅有 3 分鐘的時間上台。用飛快的速度進行簡潔扼要的分享，無論是對台上的講者或是台下的會眾，都是十分刺激又轟動全場的體驗。Lightning talk 將會在年會當天早上於白板區開放報名，先搶先贏，並在所有議程結束後，閉幕前，在國際會議廳進行演講。</p>
+			</section>
+		</div>
+	)
+}
+
 export default class extends Component {
 	shouldComponentUpdate(nextProps, nextState) {
 		return false
@@ -231,6 +242,7 @@ export default class extends Component {
 	render() {
 		return (
 			<div role="special-events">
+				<section onClick={() => { fancybox(Lightning) }}>Lightning Talk</section>
 				<section onClick={() => { fancybox(GameArena) }}>遊戲擂台賽</section>
 				<section onClick={() => { fancybox(Unconf) }}>Unconf</section>
 				<section onClick={() => { fancybox(Guide) }}>導遊團</section>
