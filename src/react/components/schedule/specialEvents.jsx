@@ -202,6 +202,27 @@ const BoF = () => {
 	)
 }
 
+const Guide = () => {
+	return (
+		<div>
+			<section>
+				<h2>導遊團</h2>
+				<p>第一次參加 Conference 嗎？第一次來到 SITCON 嗎？是個怕生的人嗎?到了現場人山人海，不知道從何逛起？不管你是哪種，我們聽見你的聲音了。</p>
+				<p>為了照顧第一次參與 Conference 的你，我們舉辦了 SITCON 導遊團，由走訪總召、幹部、講者、攤位，帶您一步步了解 SITCON 的各個面向、運作模式。並認識學生計算機年會的核心概念!</p>
+			</section>
+			<section>
+				<ul>
+					<li>活動內容：將由 SITCON 的導遊們帶領報名會眾參觀各站，了解 SITCON。</li>
+					<li>每團人數：依照現場報名人數分組，最多10人一團。</li>
+					<li>導遊團活動所需時間：30 - 40 分鐘。</li>
+					<li>出發時間：中午 12:10。</li>
+					<li>報名地點及方式：需提早 10 分鐘至 2F 報到處旁沙發區現場報名。</li>
+				</ul>
+			</section>
+		</div>
+	)
+}
+
 export default class extends Component {
 	shouldComponentUpdate(nextProps, nextState) {
 		return false
@@ -212,6 +233,7 @@ export default class extends Component {
 			<div role="special-events">
 				<section onClick={() => { fancybox(GameArena) }}>遊戲擂台賽</section>
 				<section onClick={() => { fancybox(Unconf) }}>Unconf</section>
+				<section onClick={() => { fancybox(Guide) }}>導遊團</section>
 				<section onClick={() => { fancybox(Angel) }}>天使計畫</section>
 				<section onClick={() => { fancybox(CodePuzzle) }}>程式碼拼圖</section>
 				<section onClick={() => { fancybox(MovieTheater) }}>SITCON 電影院</section>
