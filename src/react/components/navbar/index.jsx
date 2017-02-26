@@ -14,6 +14,9 @@ export default class extends Component {
 				<Linkbox href="#sponsor-page">
 					贊助
 				</Linkbox>
+				<Linkbox href="#staff-page">
+					團隊
+				</Linkbox>
 				<Linkbox href="#transport-page">
 					交通
 				</Linkbox>
