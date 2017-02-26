@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Staff from './staff.jsx'
 import * as sponsors from './sponsor.jsx'
 import { open as fancybox } from 'stores/fancybox.js'
 import makeContent from './makeContent.jsx'
@@ -60,10 +59,6 @@ export default class extends Component {
 
 				<div role="call-for-sponsored">贊助徵求中：contact@sitcon.org</div>
 
-				<section role="staff">
-					<h2>工作夥伴</h2>
-					<Staff />
-				</section>
 			</div>
 		)
 	}

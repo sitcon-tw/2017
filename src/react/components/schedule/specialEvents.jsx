@@ -126,6 +126,18 @@ const Lightning = () => {
 	)
 }
 
+const Booth = () => {
+	return (
+		<div>
+			<section>
+				<h2>社群攤位</h2>
+				<p>SITCON 今年將延續去年的攤位活動，目的是在促進會眾跟學生社團或相關資訊社群交流。而今年除了有許多學校的開源、資訊社團參與擺攤的活動外，也有 YSITD、INFAS.js 等等由學生組成的社群，還有其餘更多對資訊圈充滿熱情又實力堅強的社群團隊。如此多元的攤位活動讓你在聽完議程意猶未盡之餘，更能充分的與不同領域的夥伴交流！在休息的時間，別忘記到場外的攤位逛逛哦！</p>
+				<p>今年部分的社群攤位也會一起留到晚間交流時間，晚上也歡迎和親朋好友一起到社群攤位走走唷！</p>
+			</section>
+		</div>
+	)
+}
+
 export default class extends Component {
 	shouldComponentUpdate(nextProps, nextState) {
 		return false
@@ -139,6 +151,7 @@ export default class extends Component {
 				<section onClick={() => { fancybox(Angel) }}>天使計畫</section>
 				<section onClick={() => { fancybox(Guide) }}>導遊團</section>
 				<section onClick={() => { fancybox(CodePuzzle) }}>程式碼拼圖</section>
+				<section onClick={() => { fancybox(Booth) }}>社群攤位</section>
 			</div>
 		)
 	}

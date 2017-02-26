@@ -1,0 +1,76 @@
+#staff-page {
+	display: none;
+	padding-left: 4em;
+
+	@include tablet() {
+		padding: 1em;
+	}
+
+	&.active {
+		display: block;
+	}
+
+	& > section:not(:first-of-type) {
+		margin-top: 4em;
+
+		&[data-length="0"] {
+			display: none;
+		}
+	}
+
+	.sponsor-class-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.sponsor {
+		position: relative;
+		width: 300px;
+		cursor: pointer;
+		opacity: .8;
+
+		&:hover {
+			opacity: 1;
+		}
+
+		img {
+			display: block;
+			width: 80%;
+			margin: 0 auto;
+			background-color: white;
+		}
+		p {
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	[role="staffs"] {
+		margin-bottom: 1.5em;
+
+		[role="staff-group"] {
+			color: color("magenta");
+		}
+		[role="staff-member"] {
+			color: color("blue");
+			flex-wrap: wrap;
+			display: flex;
+			[role="staff-card"] {
+				display: inline-block;
+				max-width: 80px;
+				margin: 5px;
+				p {
+					margin: 0;
+					text-align: center;
+					display: block;
+					overflow-wrap: break-word;
+				}
+				[role="staff-avatar"] {
+					width: 80px;
+					height: 80px;
+				}
+			}
+		}
+	}
+}
