@@ -8,6 +8,10 @@
 		padding: 1.5em;
 	}
 
+	@include cellphone-rwd() {
+		padding-top: 2.2em;
+	}
+
 	article {
 		margin-top: 6em;
 	}
@@ -30,7 +34,7 @@
 
 
 		[role="cover-logo-date"] {
-			display: flex;			
+			display: flex;
 			align-items: flex-end;
 			width: 100%;
 
