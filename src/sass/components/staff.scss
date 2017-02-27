@@ -18,34 +18,6 @@
 		}
 	}
 
-	.sponsor-class-list {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-	}
-
-	.sponsor {
-		position: relative;
-		width: 300px;
-		cursor: pointer;
-		opacity: .8;
-
-		&:hover {
-			opacity: 1;
-		}
-
-		img {
-			display: block;
-			width: 80%;
-			margin: 0 auto;
-			background-color: white;
-		}
-		p {
-			width: 100%;
-			text-align: center;
-		}
-	}
-
 	[role="staffs"] {
 		margin-bottom: 1.5em;
 
