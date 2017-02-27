@@ -93,11 +93,8 @@ const BoF = () => {
 				<p>BoF 這個慣用語是俗語「物以類聚 (Birds of a Feather)」的簡化，後來被延伸用於形容有共同喜好的人群聚的討論會，更多語源相關資訊可以參考<a href='https://en.wikipedia.org/wiki/Birds_of_a_feather_(computing)' target="blank">維基百科</a>。</p>
 				<p>這是一個主題導向的交流活動。舉凡各大社群聚會、同校同學會、技術同好的經驗分享會、社會議題的討論、各種愛好者聚會、甚至帶有喜感的主題，都非常歡迎！</p>
 				<ul>
-					<li>當天設有 BoF 活動攤位，提供 BoF 活動相關諮詢</li>
 					<li>BoF 活動時間為 18:40 ~ 20:40</li>
 				</ul>
-			</section>
-			<section>
 				<h3>發起一個新主題吧！</h3>
 				<ul>
 					<li>第一步，請填寫「<a href='https://goo.gl/pWGZne' target="blank">發起人表單</a>」，留下姓名、主題、信箱、手機號碼，便於主辦單位在大會中聯繫。發起人預設是該主題的負責人，如欲更換負責人請填寫「<a href="https://goo.gl/fwAfu8" target="blank">更動表單</a>」。</li>
