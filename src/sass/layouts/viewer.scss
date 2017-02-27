@@ -13,6 +13,10 @@
 	-ms-overflow-style: none;
 	background-color: rgba(255, 255, 255, .8);
 
+	@include cellphone-rwd() {
+		padding-top: 0;
+	}
+
 	h2 {
 		color: color("magenta");
 	}

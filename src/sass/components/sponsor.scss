@@ -46,34 +46,6 @@
 		}
 	}
 
-	[role="staffs"] {
-		margin-bottom: 1.5em;
-
-		[role="staff-group"] {
-			color: color("magenta");
-		}
-		[role="staff-member"] {
-			color: color("blue");
-			flex-wrap: wrap;
-			display: flex;
-			[role="staff-card"] {
-				display: inline-block;
-				max-width: 80px;
-				margin: 5px;
-				p {
-					margin: 0;
-					text-align: center;
-					display: block;
-					overflow-wrap: break-word;
-				}
-				[role="staff-avatar"] {
-					width: 80px;
-					height: 80px;
-				}
-			}
-		}
-	}
-
 	[role="call-for-sponsored"] {
 		text-align: center;
 		width: 100%;

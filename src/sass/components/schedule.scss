@@ -2,6 +2,10 @@
 	display: none;
 	padding-right: 1em;
 
+	@include cellphone-rwd() {
+		padding-top: 1em;
+	}
+
 	&.active {
 		display: block;
 	}
@@ -26,7 +30,7 @@
 		font-weight: 900;
 		vertical-align: top;
 		color: color("magenta");
-		
+
 		a {
 			display: inline-block;
 			font-size: 10pt;
@@ -116,7 +120,7 @@
 			opacity: .8;
 
 			&[href=""] {
-				display: none;	
+				display: none;
 			}
 		}
 	}

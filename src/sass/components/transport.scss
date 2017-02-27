@@ -1,9 +1,13 @@
 #transport-page {
 	display: none;
 	padding-left: 4em;
-	
+
 	@include tablet() {
 		padding: 1em;
+	}
+
+	@include cellphone-rwd() {
+		padding-top: 2em;
 	}
 
 	&.active {
@@ -12,7 +16,7 @@
 
 	article {
 		margin-top: 2em;
-		
+
 		strong {
 			display: block;
 			color: color("magenta");
