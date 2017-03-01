@@ -21,8 +21,11 @@ const GameArena = () => {
 				</ol>
 			</section>
 			<section>
-				<h3>投稿方式：請填寫<a href='https://goo.gl/uZYU9y' target="blank">投稿表單</a></h3>	
-				<h3>甄選標準：</h3>
+				<h2>投稿方式：</h2>
+				<p>請填寫<a href='https://goo.gl/uZYU9y' target="blank">投稿表單</a></p>
+			</section>
+			<section>
+				<h2>甄選標準：</h2>
 				<ol>
 					<li>遊戲內容：是否創新、有趣、酷炫</li>
 					<li>玩遊戲所需時間：以 5 ~ 10 分鐘為佳</li>
