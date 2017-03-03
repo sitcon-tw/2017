@@ -3,6 +3,7 @@ import iisIntro from './intro/iis.jsx'
 import ocfIntro from './intro/ocf.jsx'
 import itsaIntro from './intro/itsa.jsx'
 import archlifeIntro from './intro/archlife.jsx'
+import topcareerIntro from './intro/topcareer.jsx'
 import hackmdIntro from './intro/hackmd.jsx'
 import cnexIntro from './intro/cnex.jsx'
 import athemasterIntro from './intro/athemaster.jsx'
@@ -42,9 +43,18 @@ export const silver = [
 		logo: "archlife.png",
 		intro: archlifeIntro,
 	},
+	{
+		name: "台灣微軟",
+		logo: "microsoft.png",
+	},
 ]
 
 export const bronze = [
+	{
+		name: "TOP CAREER",
+		logo: "topcareer.png",
+		intro: topcareerIntro,
+	},
 ]
 
 export const nova = [
