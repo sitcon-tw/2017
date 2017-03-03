@@ -26,7 +26,7 @@ export default class extends Component {
 				</div>
 				<article>
 					<strong>地點</strong>
-					<p>台北市南港區中央研究院人文館及活動中心</p>
+					<p>台北市南港區中央研究院人文館</p>
 				</article>
 				<article>
 					<strong>地址</strong>
