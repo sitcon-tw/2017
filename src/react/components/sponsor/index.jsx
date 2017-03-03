@@ -5,13 +5,22 @@ import makeContent from './makeContent.jsx'
 
 function Sponsors(props) {
 	const list = props.list.map((sponsor, key) => {
-		const Content = makeContent(sponsor)
-		return (
-			<div className="sponsor" key={key} onClick={() => {fancybox(Content)}}>
-				<img role="logo" src={"images/logos/"+sponsor.logo} />
-				<p>{sponsor.name}</p>
-			</div>
-		)
+		if (sponsor.intro) {
+			const Content = makeContent(sponsor)
+			return (
+				<div className="sponsor" key={key} onClick={() => {fancybox(Content)}}>
+					<img role="logo" src={"images/logos/"+sponsor.logo} />
+					<p>{sponsor.name}</p>
+				</div>
+			)
+		} else {
+			return (
+				<div className="sponsor" key={key}>
+					<img role="logo" src={"images/logos/"+sponsor.logo} />
+					<p>{sponsor.name}</p>
+				</div>
+			)
+		}
 	})
 	return (
 		<div className="sponsor-class-list">
