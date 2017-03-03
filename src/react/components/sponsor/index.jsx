@@ -48,6 +48,10 @@ export default class extends Component {
 					<h2>青銅級贊助</h2>
 					<Sponsors list={sponsors.bronze} />
 				</section>
+				<section data-length={sponsors.nova.length}>
+					<h2>新星級贊助</h2>
+					<Sponsors list={sponsors.nova} />
+				</section>
 				<section data-length={sponsors.thanks.length}>
 					<h2>特別感謝</h2>
 					<Sponsors list={sponsors.thanks} />

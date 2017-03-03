@@ -5,6 +5,7 @@ import itsaIntro from './intro/itsa.jsx'
 import archlifeIntro from './intro/archlife.jsx'
 import hackmdIntro from './intro/hackmd.jsx'
 import cnexIntro from './intro/cnex.jsx'
+import athemasterIntro from './intro/athemaster.jsx'
 
 export const organizer = [
 	{
@@ -46,6 +47,14 @@ export const silver = [
 export const bronze = [
 ]
 
+export const nova = [
+	{
+		name: "炬識科技",
+		logo: "athemaster.png",
+		intro: athemasterIntro,
+	},
+]
+
 export const thanks = [
 	{
 		name: "HackMD",
@@ -60,4 +69,12 @@ export const thanks = [
 ]
 
 export const medias = [
+	{
+		name: "數位時代",
+		logo: "bnext.png",
+	},
+	{
+		name: "TechNews 科技新報",
+		logo: "technews.png"
+	},
 ]
