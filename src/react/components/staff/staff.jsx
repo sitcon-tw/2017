@@ -16,7 +16,7 @@ function StaffGroup(props) {
 
 function StaffMember(props) {
 
-	let avatarLink = props.profile.avatar.match('^/media') ? '//staff.sitcon.org' + props.profile.avatar : props.profile.avatar
+	let avatarLink = props.profile.avatar.match(/^\d/) ? './images/staffs/' + props.profile.avatar : props.profile.avatar
 
 	return (
 		<div role="staff-card">
@@ -54,7 +54,7 @@ export default class extends Component {
 
 	componentDidMount() {
 		request
-			.get('https://staff.sitcon.org/api/staffgroups/?format=json')
+			.get('./staff.json')
 			.end((err, res) => {
 				try {
 					this.onloadHandler(JSON.parse(res.text))
