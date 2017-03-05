@@ -33,6 +33,10 @@ export default class extends Component {
 					<p>台北市南港區研究院路二段128號</p>
 				</article>
 				<article>
+					<strong>搭乘交通車</strong>
+					<p>可搭乘捷運板南線至南港站（2 號出口）換乘交通車，可乘車時段：08:00-10:00</p>
+				</article>
+				<article>
 					<strong>搭乘捷運</strong>
 					<p>搭乘捷運板南線至南港站（2 號出口）換乘公車 212、270 或藍 25 至中研院站，步行入院內至人文館</p>
 				</article>
