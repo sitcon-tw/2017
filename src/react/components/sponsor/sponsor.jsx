@@ -76,6 +76,10 @@ export const thanks = [
 		logo: "cnex.png",
 		intro: cnexIntro,
 	},
+	{
+		name: "資策會數位教育研究所",
+		logo: "iii.png",
+	},
 ]
 
 export const medias = [
