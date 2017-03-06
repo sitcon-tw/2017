@@ -301,7 +301,7 @@
   {
     "speaker": {
       "name": "",
-      "avatar": "",
+      "avatar": "images/panel.jpg",
       "bio": ""
     },
     "start": "2017-03-18T12:50:00+08:00",
@@ -314,7 +314,7 @@
   {
     "speaker": {
       "name": "",
-      "avatar": "",
+      "avatar": "images/bof.jpg",
       "bio": ""
     },
     "start": "2017-03-18T18:40:00+08:00",
