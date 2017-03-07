@@ -10,7 +10,8 @@ const TBody = (props) => {
 	const contentKeynote1 = makeContent(datas["09:10"]["R0"])
 	const contentKeynote2 = makeContent(datas["10:10"]["R0"])
 	const panel = makeContent(datas["12:50"]["R0"])
-	const nightEvent = makeContent(datas["18:40"]["R0"])
+	const specialSharing = makeContent(datas["18:20"]["R0"])
+	const nightEvent = makeContent(datas["18:35"]["R0"])
 	return (
 		<tbody>
 			<tr>
@@ -90,12 +91,18 @@ const TBody = (props) => {
 			</tr>
 			<tr>
 				<Timecol start="1820" />
+				<td colSpan="4" onClick={() => { fancybox(specialSharing) }} className="clickable">
+					<Col data={datas["18:20"]["R0"]} />
+				</td>
+			</tr>
+			<tr>
+				<Timecol start="1825" />
 				<td colSpan="4"><div>閉幕</div></td>
 			</tr>
 			<tr>
-				<Timecol start="1840" end="2040" />
+				<Timecol start="1835" end="2040" />
 				<td colSpan="4" onClick={() => { fancybox(nightEvent) }} className="clickable">
-					<Col data={datas["18:40"]["R0"]} />
+					<Col data={datas["18:35"]["R0"]} />
 				</td>
 			</tr>
 		</tbody>
