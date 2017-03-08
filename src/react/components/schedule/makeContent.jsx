@@ -8,8 +8,21 @@ export default function makeContent(props) {
 	const slide = props.slides
 	const name = props.speaker.name
 	const bio = props.speaker.bio
-
+	const type = props.type
 	return () => {
+		if (type === 'U')
+			return (
+				<div>
+					<section>
+						<h2>{name} - {subject}</h2>
+						{summary.split('\n').map((paragraph, idx) => {
+							return <p key={idx}>{paragraph}</p>
+						})}
+						<p></p>
+					</section>
+				</div>
+			)
+
 		return (
 			<div>
 				<section style={{display: name==='' ? 'none' : 'block'}}>

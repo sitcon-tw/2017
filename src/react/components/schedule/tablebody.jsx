@@ -43,6 +43,12 @@ const TBody = (props) => {
 						<a href="#" target="blank" className="not-yet">共筆</a>
 					</div>
 				</th>
+				<th>
+					交誼廳
+					<div style={{display: 'none'}}>
+						<a href="#" target="blank" className="not-yet">共筆</a>
+					</div>
+				</th>
 			</tr>
 			<tr>
 				<Timecol start="0830" />
@@ -65,6 +71,7 @@ const TBody = (props) => {
 				</td>
 			</tr>
 			<Row start="1110" data={datas["11:10"]} />
+			<Row start="1130" data={datas["11:30"]} />
 			<tr>
 				<Timecol start="1150" />
 				<td colSpan="4"><div>午餐</div></td>
@@ -77,14 +84,19 @@ const TBody = (props) => {
 				</td>
 			</tr>
 			<Row start="1440" data={datas["14:40"]} />
+			<tr></tr>
 			<Row start="1455" data={datas["14:55"]} />
+			<Row start="1500" data={datas["15:00"]} />
 			<Row start="1510" data={datas["15:10"]} />
+			<tr></tr>
 			<tr>
 				<Timecol start="1520" />
 				<td colSpan="4"><div>點心</div></td>
 			</tr>
 			<Row start="1600" data={datas["16:00"]} />
+			<Row start="1620" data={datas["16:20"]} />
 			<Row start="1650" data={datas["16:50"]} />
+			<Row start="1710" data={datas["17:10"]} />
 			<tr>
 				<Timecol start="1730" />
 				<td colSpan="4"><div>Lightning talk</div></td>
