@@ -21,9 +21,9 @@ export default function makeContent(props) {
 				</section>
 				<section>
 					<h2>{subject}</h2>
-					<p>{summary.split('\n').map((paragraph, idx) => {
+					{summary.split('\n').map((paragraph, idx) => {
 						return <p key={idx}>{paragraph}</p>
-					})}</p>
+					})}
 					<p></p>
 				</section>
 			</div>
