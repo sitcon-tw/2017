@@ -63,6 +63,10 @@ export const nova = [
 		logo: "athemaster.png",
 		intro: athemasterIntro,
 	},
+	{
+		name: "橘子蘋果程式設計學苑",
+		logo: "oapple.png",
+	},
 ]
 
 export const thanks = [
