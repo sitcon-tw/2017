@@ -339,7 +339,7 @@
   },
   {
     "speaker": {
-      "name": "",
+      "name": "Pellaeon",
       "avatar": "images/unconf.jpg",
       "bio": ""
     },
@@ -347,12 +347,12 @@
     "end": "2017-03-18T11:30:00+08:00",
     "type": "U",
     "room": "Saloon",
-    "subject": "Unconf",
-    "summary": ""
+    "subject": "從臉書粉專產生 RSS",
+    "summary": "RSS-Bridge 這個專案可以去爬各種網站，然後產生 RSS Feed。\n我把它拿來爬臉書，這樣就不怕動態消息不顯示所有我追蹤的粉專的貼文了。\n大綱：\n- rss-bridge 功能展示\n- 架構介紹\n- 爬 Facebook 過程中的各種問題和解法\n- 專案現在的狀態"
   },
   {
     "speaker": {
-      "name": "",
+      "name": "kevindong",
       "avatar": "images/unconf.jpg",
       "bio": ""
     },
@@ -360,12 +360,12 @@
     "end": "2017-03-18T11:50:00+08:00",
     "type": "U",
     "room": "Saloon",
-    "subject": "Unconf",
-    "summary": ""
+    "subject": "Ｃ語言的「泛型編程」——容器篇",
+    "summary": "C 語言的資料結構都要自己刻？然後又不想用 C++ STL 因為效能上的開銷但卻愛上它簡潔的語法？也許能用 C 語言設計出既優雅又擁有迭代器 (iterator) 和內存池 (memory pool) 機制的非介入式泛型容器 (non-intrusive generic container) 哦～\n\nlibCCC: https://github.com/kevin-dong-nai-jia/C-Container-Collection"
   },
   {
     "speaker": {
-      "name": "",
+      "name": "Jeffrey Lin",
       "avatar": "images/unconf.jpg",
       "bio": ""
     },
@@ -373,12 +373,12 @@
     "end": "2017-03-18T15:00:00+08:00",
     "type": "U",
     "room": "Saloon",
-    "subject": "Unconf",
-    "summary": ""
+    "subject": "你再不改密碼阿",
+    "summary": "透過 shodan.io，所有人皆可以輕鬆的找到物聯網設備。\n若該設備未修改預設密碼，所有裡面的資料會立即 全~裸~\n\nps0 可能(看狀況)會有 Live Demo 喔\nps1 最後會有個『我家大樓主委的資安小故事』喔"
   },
   {
     "speaker": {
-      "name": "",
+      "name": "呂行",
       "avatar": "images/unconf.jpg",
       "bio": ""
     },
@@ -386,12 +386,12 @@
     "end": "2017-03-18T15:20:00+08:00",
     "type": "U",
     "room": "Saloon",
-    "subject": "Unconf",
-    "summary": ""
+    "subject": "火狐的未來 - Quantum",
+    "summary": "Firefox 1.0 已是 2004 年的作品，未來的 Firefox 如何再戰十年? 本演講將介紹 Project Quantum，一個整合了 Gecko 與 Servo 精華的全新的 Firefox 核心。我們將介紹 Servo 引擎的先端研究成果如何整合進入強健穩定的 Gecko 引擎，提供未來的 Firefox 使用者全新的感受！\n同時也將介紹如何參與 Quantum 與 Servo 的 open source 開發，成為世界級的開源貢獻者！"
   },
   {
     "speaker": {
-      "name": "",
+      "name": "松鼠",
       "avatar": "images/unconf.jpg",
       "bio": ""
     },
@@ -399,12 +399,12 @@
     "end": "2017-03-18T16:20:00+08:00",
     "type": "U",
     "room": "Saloon",
-    "subject": "Unconf",
-    "summary": ""
+    "subject": "松鼠與他的小松鼠們～たーのーし",
+    "summary": "從無到有造出 15 台小 IoT 裝置。"
   },
   {
     "speaker": {
-      "name": "",
+      "name": "Max Wu",
       "avatar": "images/unconf.jpg",
       "bio": ""
     },
@@ -412,12 +412,12 @@
     "end": "2017-03-18T16:40:00+08:00",
     "type": "U",
     "room": "Saloon",
-    "subject": "Unconf",
-    "summary": ""
+    "subject": "HackMD",
+    "summary": "這是今年大會用的共筆服務"
   },
   {
     "speaker": {
-      "name": "",
+      "name": "哈哈",
       "avatar": "images/unconf.jpg",
       "bio": ""
     },
@@ -425,12 +425,12 @@
     "end": "2017-03-18T17:10:00+08:00",
     "type": "U",
     "room": "Saloon",
-    "subject": "Unconf",
-    "summary": ""
+    "subject": "你敢搭無人車嗎？",
+    "summary": "越來越多的公司像(GOOGLE, APPLE, TESLA)在研究無人車，究竟無人車安不安全，他真的能面對萬變的交通嗎？他真的比人類安全嗎？Tesla 現在釋出的Autopilot 又是什麼？無人車的世代真的要來臨了嗎？我將會介紹現在世界主流的無人車研究，還有無人車用了哪些技術，他又是如何預防車禍發生。"
   },
   {
     "speaker": {
-      "name": "",
+      "name": "PCC 和 陳品",
       "avatar": "images/unconf.jpg",
       "bio": ""
     },
@@ -438,7 +438,7 @@
     "end": "2017-03-18T17:20:00+08:00",
     "type": "U",
     "room": "Saloon",
-    "subject": "Unconf",
-    "summary": ""
+    "subject": "用對話翻轉學校生活",
+    "summary": "Chatbot 是近來資訊技術發展中相當熱門的話題，單純統一的聊天介面，不只能避免開發圖形界面的大費周章，更能大幅減低使用門檻，令使用者在最短時間獲得所需的資訊。我們在這個平易近人的小品議程中，將透過數個有趣的作品，分享我們怎麼用聊天機器人來改善自己平常各自在校園中的生活，還有過程中從入門到摔門的經驗。\n\n（講者為在學大學生及高中生）"
   }
 ]
