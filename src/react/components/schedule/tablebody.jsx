@@ -52,21 +52,21 @@ const TBody = (props) => {
 			</tr>
 			<tr>
 				<Timecol start="0830" />
-				<td colSpan="4"><div>入場時間</div></td>
+				<td colSpan="5"><div>入場時間</div></td>
 			</tr>
 			<tr>
 				<Timecol start="0900" />
-				<td colSpan="4"><div>開幕</div></td>
+				<td colSpan="5"><div>開幕</div></td>
 			</tr>
 			<tr>
 				<Timecol start="0910" />
-				<td colSpan="4" onClick={() => { fancybox(contentKeynote1) }} className="clickable">
+				<td colSpan="5" onClick={() => { fancybox(contentKeynote1) }} className="clickable">
 					<Col data={datas["09:10"]["R0"]} />
 				</td>
 			</tr>
 			<tr>
 				<Timecol start="1010" />
-				<td colSpan="4" onClick={() => { fancybox(contentKeynote2) }} className="clickable">
+				<td colSpan="5" onClick={() => { fancybox(contentKeynote2) }} className="clickable">
 					<Col data={datas["10:10"]["R0"]} />
 				</td>
 			</tr>
@@ -74,11 +74,11 @@ const TBody = (props) => {
 			<Row start="1130" data={datas["11:30"]} />
 			<tr>
 				<Timecol start="1150" />
-				<td colSpan="4"><div>午餐</div></td>
+				<td colSpan="5"><div>午餐</div></td>
 			</tr>
 			<tr>
 				<Timecol start="1250" />
-				<td colSpan="4" onClick={() => { fancybox(panel) }} className="clickable">
+				<td colSpan="5" onClick={() => { fancybox(panel) }} className="clickable">
 					<div>論壇</div>
 					<Col data={datas["12:50"]["R0"]} />
 				</td>
@@ -91,7 +91,7 @@ const TBody = (props) => {
 			<tr></tr>
 			<tr>
 				<Timecol start="1520" />
-				<td colSpan="4"><div>點心</div></td>
+				<td colSpan="5"><div>點心</div></td>
 			</tr>
 			<Row start="1600" data={datas["16:00"]} />
 			<Row start="1620" data={datas["16:20"]} />
@@ -99,21 +99,21 @@ const TBody = (props) => {
 			<Row start="1710" data={datas["17:10"]} />
 			<tr>
 				<Timecol start="1730" />
-				<td colSpan="4"><div>Lightning talk</div></td>
+				<td colSpan="5"><div>Lightning talk</div></td>
 			</tr>
 			<tr>
 				<Timecol start="1820" />
-				<td colSpan="4" onClick={() => { fancybox(specialSharing) }} className="clickable">
+				<td colSpan="5" onClick={() => { fancybox(specialSharing) }} className="clickable">
 					<Col data={datas["18:20"]["R0"]} />
 				</td>
 			</tr>
 			<tr>
 				<Timecol start="1825" />
-				<td colSpan="4"><div>閉幕</div></td>
+				<td colSpan="5"><div>閉幕</div></td>
 			</tr>
 			<tr>
 				<Timecol start="1835" end="2040" />
-				<td colSpan="4" onClick={() => { fancybox(nightEvent) }} className="clickable">
+				<td colSpan="5" onClick={() => { fancybox(nightEvent) }} className="clickable">
 					<Col data={datas["18:35"]["R0"]} />
 				</td>
 			</tr>
