@@ -18,6 +18,15 @@ export default class extends Component {
 			backgroundImage: "url("+data.speaker.avatar+")",
 		}
 		const name = data.speaker.name
+		if (data.type === "U")
+			return (
+				<div className="col">
+					<div role="talk-title">{data.subject}</div>
+					<div role="talk-speaker" style={{display: name==='' ? 'none' : 'block'}}>
+						{name}
+					</div>
+				</div>
+			)
 		return (
 			<div className="col">
 				<div role="talk-title">{data.subject}</div>
