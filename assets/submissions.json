@@ -367,14 +367,14 @@
     "speaker": {
       "name": "Jeffrey Lin",
       "avatar": "images/unconf.jpg",
-      "bio": ""
+      "bio": "一位已在社群打滾許久的高中生。"
     },
     "start": "2017-03-18T14:40:00+08:00",
     "end": "2017-03-18T15:00:00+08:00",
     "type": "U",
     "room": "S",
     "subject": "你再不改密碼阿",
-    "summary": "透過 shodan.io，所有人皆可以輕鬆的找到物聯網設備。\n若該設備未修改預設密碼，所有裡面的資料會立即 全~裸~\n\nps0 可能(看狀況)會有 Live Demo 喔\nps1 最後會有個『我家大樓主委的資安小故事』喔"
+    "summary": "透過 shodan.io，所有人皆可以輕鬆的找到物聯網設備。\n若該設備未修改預設密碼，所有裡面的資料會立即 全~裸~\n\nps0 可能(看狀況)會有 Live Demo 喔\nps1 本議程會使用台語和英語雙語進行。"
   },
   {
     "speaker": {
