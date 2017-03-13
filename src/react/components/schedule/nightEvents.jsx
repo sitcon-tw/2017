@@ -72,8 +72,23 @@ const Communicate = () => {
 				<p>今年晚上特別安排各講者與會眾能獨立的交談時光，期待分享能激盪出更棒的點子。</p>
 			</section>
 			<section>
-				<h2>講者將按時出席，欲交流者可查詢講者出席時間表</h2>
-				<p>時間：18:35 ~ 19:00, 19:30 ~ 20:00 </p>
+				<h3>講者出沒時刻表</h3>
+				<p>
+					<strong>18:40 - 18:45</strong><br />
+					黃勝雄 博士 、Karl Lin、民2、 Tony & Clara(SITCON x HK)、ㄅㄌ
+				</p>
+				<p>
+					<strong>18:45 - 18:50</strong><br />
+					yenWu、licson、ming、阿哲、PineApple
+				</p>
+				<p>
+					<strong>18:50 - 19:00</strong><br />
+					何明諠 先生、飛魚、Terry Cheong、Yukai Huang、Jason Pan、Louie Lu
+				</p>
+				<p>
+					<strong>19:30 - 20:00</strong><br />
+					LegBone、Sakamoto、Inndy、adr、游宭鎬、Shouko
+				</p>
 				<p>地點：三樓右側沙發區</p>
 				<p>注意事項：</p>
 				<ul>
