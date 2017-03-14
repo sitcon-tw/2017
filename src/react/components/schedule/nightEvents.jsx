@@ -87,7 +87,7 @@ const Communicate = () => {
 				</p>
 				<p>
 					<strong>19:30 - 20:00</strong><br />
-					LegBone、Sakamoto、Inndy、adr、游宭鎬、Shouko
+					LegBone、Sakamoto、Inndy、游宭鎬、Shouko
 				</p>
 				<p>地點：三樓右側沙發區</p>
 				<p>注意事項：</p>
