@@ -34,7 +34,7 @@ export default class extends Component {
 				</article>
 				<article>
 					<strong>搭乘交通車</strong>
-					<p>可搭乘捷運板南線至南港站（2 號出口）換乘交通車，可乘車時段：08:00-10:00</p>
+					<p>可搭乘捷運板南線至南港展覽館站（2 號出口）換乘交通車，可乘車時段：08:00-10:00</p>
 				</article>
 				<article>
 					<strong>搭乘捷運</strong>
