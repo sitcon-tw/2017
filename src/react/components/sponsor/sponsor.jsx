@@ -7,6 +7,8 @@ import microsoftIntro from './intro/microsoft.jsx'
 import topcareerIntro from './intro/topcareer.jsx'
 import athemasterIntro from './intro/athemaster.jsx'
 import oappleIntro from './intro/oapple.jsx'
+import ncnuIntro from './intro/ncnu.jsx'
+import ossplanetIntro from './intro/ossplanet.jsx'
 import hackmdIntro from './intro/hackmd.jsx'
 import cnexIntro from './intro/cnex.jsx'
 
@@ -70,6 +72,16 @@ export const nova = [
 		name: "橘子蘋果程式設計學苑",
 		logo: "oapple.png",
 		intro: oappleIntro,
+	},
+	{
+		name: "國立暨南國際大學",
+		logo: "ncnu.png",
+		intro: ncnuIntro,
+	},
+	{
+		name: "OSS Planet",
+		logo: "ossplanet.png",
+		intro: ossplanetIntro,
 	},
 ]
 
