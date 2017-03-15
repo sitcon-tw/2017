@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<style type="text/css">
+	#container {
+		position: relative;
+		color: white;
+		font-family: sans-serif;
+		font-weight: 300;
+		font-size: 1.1em;
+	}
+
+	.wrap {
+		width: 70%;
+		max-width: 700px;
+		margin: 0 auto;
+	}
+
+	p {
+		margin-top: 2em;
+		line-height: 1.8em;
+		text-align: justify;
+	}
+
+	h1 {
+		font-size: 2.2em;
+		margin: 2em 0 0 0;
+		font-weight: 500;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		margin: 2em 0 0 0;
+		font-weight: 500;
+	}
+
+	h3 {
+		font-size: 1.1em;
+		margin: 2em 0 0 0;
+		font-weight: 500;
+	}
+
+	#top-img {
+		display: block;
+		width: 90%;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	#buttom-img {
+		display: block;
+		width: 90%;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	a {
+		color: #13b1f7;
+		font-weight: 500;
+	}
+
+	a:hover {
+		color: #13b1f7;
+	}
+
+	a:visited {
+		color: #13b1f7;
+	}
+
+	.highlight {
+		font-weight: 600;
+	}
+
+	.highlightSerious {
+		color: orange;
+		font-weight: 600;
+		font-size: 1.3em;
+	}
+
+	.orange {
+		color:orange;
+	}
+
+	li {
+		margin: 1em;
+		line-height: 1.5em;
+	}
+
+	.im {
+		color: white !important;
+	}
+
+	.map {
+		margin: auto;
+	}
+
+	.map > a > img {
+		margin: 10px;
+		width: 50%;
+		max-width: 300px;
+	}
+
+</style>
+
+<div id="container">
+	<table background="http://sitcon.org/2017/images/background.png" style="background-size: cover;" border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td>
+				<img id="top-img" src="http://sitcon.org/2017/newsletter/top.png" alt="top" title="top">
+
+				<div class="wrap">
+					<h1>行前通知信</h1>
+
+					<p>Hi {{ nick }}，</p>
+
+					<p>很高興能在 SITCON 2017 看到你！年會即將在這週六（3/18）揭開序幕，我們特別整理了一些實用的資訊，還請詳細閱讀：</p>
+
+					<h2>一、交通</h2>
+
+					<p>年會地點位於<span class="highlight">中央研究院人文社會科學館</span> (台北市南港區研究院路二段 128 號），詳細位置可以參考<a href="http://sitcon.org/2017/#transport-page">SITCON 2017 官方網站</a>或 <a href="http://gis.sinica.edu.tw/asmap/sinica_campus_map.png">中研院院區圖</a>。</p>
+
+					<p>當日早上 <span class="highlight">8 點到 10 點</span>，大會將於<span class="highlight">捷運「南港展覽館站」2 號出口</span>安排<span class="highlight">會場接駁車</span>，屆時將有工作人員引導，歡迎您多加利用。</p>
+
+					<h2>二、報到</h2>
+
+					<p>年會將於<span class="highlight">早上 8 點半</span>開始報到，並於 <span class="highlight">9 點</span>準時開始。在到達會場後，連上年會現場的 WiFi，即可於「SITCON 通關」App 進行報到。</p>
+
+					<p>請透過以下專屬連結下載、啟動 SITCON Pass：</p>
+
+					<a href="{{ App Link }}">{{ App Link }}</a>
+
+					<p>（若您無法使用 App 報到，請向報到櫃檯的工作人員出示您的 KKTIX QR Code。）</p>
+
+					<p>持有學生票的朋友，也請於報到時備妥您的學生證或在學證明。</p>
+
+					<h2>三、論壇</h2>
+
+					<p>今年度的論壇主題為「同學，你這樣經營社群？——學生資訊社群的藝術」，希望能讓大家分享校園裡推動資訊事務的近況，一同探討經營資訊社群時所遭遇到的挑戰。</p>
+					<p>也因此，我們特別希望能<span class="highlight">保障每個人的發言機會</span>，讓每個參與者都能就自己的經歷，講講自己的看法——只要在 App 選擇「論壇」功能、進行<span class="highlight">發言登記</span>，就可以到會議廳內鄰近的「發言點」暢所欲言囉。</p>
+					<p>詳細的進行方式會由現場主持人說明，歡迎你一起到現場抬槓！</p>
+
+					<h2>四、年會活動</h2>
+
+					<p>除了一整天<a href="http://sitcon.org/2017/#schedule-page">精彩的議程</a>，今年的 SITCON 也有許多有趣的活動可以參加，</p>
+
+					<h3>年會限量紀念品販售</h3>
+
+					<p>紀念品將在年會當天<span class="highlight">早上 11 點</span>，於四樓國際會議廳 (R0) 後方攤位開賣，包含 SITCON 2017 限量紀念 T 恤（售價 400 元）以及萌萌的小石抱枕（售價 450 元）；</p>
+
+					<p>兩個一起買、或是完成程式碼拼圖活動，都可以各折抵 50 元，有興趣的朋友千萬不要錯過囉。</p>
+
+					<h3>程式碼拼圖</h3>
+
+					<p>程式碼拼圖是一個需要和他人一同合作才能通過的小活動：每個人手中都只有程式碼的一部分片段，透過與其他夥伴合作，將每個人手中的片段組成一段正確的程式碼，才能完成任務。</p>
+
+					<p>成功通過程式碼拼圖挑戰的夥伴，除了可以獲得精美的小禮物外，還能夠在紀念品攤位享有 50 元的折抵優惠，請在年會當天踴躍跟身邊的參與者打招呼、尋找夥伴一起解題吧！</p>
+
+					<p>你可以在 App 中瀏覽你的「程式碼拼圖」收集冊。除了其他參與者外，也可以從社群與贊助商攤位取得程式碼拼圖所需的碎片喔！</p>
+
+					<p>（打開 <a href="https://puzzle.sitcon.party/">https://puzzle.sitcon.party/</a> 並掃描您報到所使用的 QR Code 亦可。）</p>
+
+					<h3>UnConference</h3>
+
+					<p>相對於投稿， Unconference 是由與會者自主報名、自由投票決定的議程。</p>
+
+					<p>今年的 Unconference 位於四樓的交誼廳 (S)，<a href="http://sitcon.org/2017/#schedule-page">SITCON 2017 官網</a> 也列出了投票勝出的各個 Unconference。現場不會錄影，歡迎大家把握難得的機會前往聆聽囉。</p>
+
+					<h3>Lightning Talk</h3>
+
+					<p>Lightning Talk 中文譯為「<span class="highlight">閃電秀</span>」，顧名思義即為「閃電一般短的演講」。有什麼想展現給全場所有人的技術、想法、甚至經驗談，都能把握這短短的<span class="highlight"> 3 分鐘</span>，在 SITCON 2017 的大舞台上讓大家看見你！</p>
+
+					<p>Lightning Talk 安排於年會閉幕前，於國際會議廳 (R0) 進行。當天<span class="highlight">早上 10 點</span>會在 3F 白板區開放報名，<span class="highlight">名額有限、先搶先贏</span>。</p>
+
+					<h3>SITCON 導遊團</h3>
+
+					<p>第一次參加研討會，總覺得眼花撩亂嗎？年會當天中午，有經驗的導遊們將帶大家拜訪工作人員、講者、社群攤位，實地了解 SITCON 的運作方式以及與會的各路夥伴！</p>
+					<p>有興趣參加 SITCON 導遊團的朋友，可以在<span class="highlight">中午 12 點</span>到 2F 沙發區現場報名，每次導覽約 30 分鐘。</p>
+
+					<h2>五、晚間交流活動</h2>
+
+					<p>晚上才是年會真正活躍的時刻！在議程告一段落後，今年 SITCON 特別規劃了豐富的交流活動；把握一年一度的機會，在年會找到能夠一起切磋技術的好朋友吧！</p>
+
+					<h3>BoF</h3>
+
+					<p>BoF 是「物以類聚 (Birds of a Feather)」這句諺語衍生而來的縮寫，後來用於形容擁有共同喜好的人群聚的討論會；</p>
+
+					<p>無論是早就認識的同校同學、或是共同對某種技術或社會議題關注的網路同好，只要在「<a href="https://goo.gl/VCJVG6">BoF 共筆</a>」文件尋找有興趣的主題，在下方留下名字，就相當於報名參加囉。</p>
+
+					<p>想要發起新主題的朋友，也可以直接在「<a href="https://goo.gl/VCJVG6">BoF 共筆</a>」下方加上新的主題！別忘了填寫 BoF「<a href="https://goo.gl/pWGZne">發起人表單</a>」，工作人員將為您分配晚間 BoF 場地與告知相關注意事項。</p>
+
+					<p>提醒您，若您為 BoF 發起人，請於<span class="highlight">年會當日 15 : 40</span> (點心時間)，<span class="highlight">至 4F 交誼廳前集合</span>，工作人員將為您分配晚間 BoF 場地與告知相關注意事項。</p>
+
+					<h3>講者交流</h3>
+
+					<p>聽完白天精彩的議程，還有很多問題想請教講者？在晚間交流時間，我們特別安排講者留下來解答大家的問題；就在 3F 右側的沙發區，千萬別錯過囉！</p>
+
+					<p>各講者預計出沒時間如下：</p>
+
+					<ul>
+						<li>18:40 - 18:45<br>黃勝雄 博士 、Karl Lin、民2、 Tony & Clara(SITCON x HK)、ㄅㄌ</li>
+						<li>18:45 - 18:50<br>yenWu、licson、ming、阿哲、PineApple</li>
+						<li>18:50 - 19:00<br>何明諠 先生、飛魚、Terry Cheong、Yukai Huang、Jason Pan、Louie Lu</li>
+						<li>19:30 - 20:00<br>LegBone、Sakamoto、Inndy、游宭鎬、Shouko</li>
+					</ul>
+
+					<h3>SITCON 電影院</h3>
+
+					<p>你有多久沒有看過好電影了呢？延續今年的主題「新世代的網路挑戰」，我們特別找到一部為捍衛網路自由而發聲的紀錄片，將在年會晚間、於國際會議廳 (R0) 完整獻映。週六傍晚悠閒的時光裡，和我們來場電影院的邀約吧！</p>
+
+					<p>《捍衛網權》(Killswitch: The Battle to Control the Internet)</p>
+					<ul>
+						<li>放映時間： 19 : 30 ~ 20 : 42，全片 72 分鐘。英語發音 / 中文字幕。</li>
+						<li>注意事項：場內禁止喧嘩，但可自由進出。</li>
+					</ul>
+
+
+					<div style="display:inline-block" class="map">
+						<a href="http://sitcon.org/2017/images/3F_night_map.png"><img src="http://sitcon.org/2017/images/3F_night_map.png" alt=""></a>
+						<a href="http://sitcon.org/2017/images/4F_night_map.png"><img src="http://sitcon.org/2017/images/4F_night_map.png" alt=""></a>
+					</div>
+
+
+					<h2>六、食物</h2>
+
+					<p>為了讓大家能愉快的交流，年會為各位準備了午晚餐與各式點心。會議廳內皆<span class="highlightSerious">禁止飲食</span>，只能帶<span class="highlight orange">有蓋水瓶</span>進出，還請各位多多配合了。 (´・ω・`)</p>
+
+					<ol>
+						<li>早茶：今年將會在飲水機旁提供提供簡單的沖泡包給會眾飲用，但大會不提供紙杯，請會眾若想要飲用，<span class="highlight">請自行攜帶環保杯。</span></li>
+						<li>午餐：美味的午餐將從上午<span class="highlight"> 11 點 50 分</span>開始，於 4F 國際會議廳 (R0) 後方兩側的轉角處發放；<span class="highlightSerious">素食</span>則在二樓服務台領取，請各位不要跑錯囉！<br><br>領餐時，請準備好您的「SITCON 通關」App，等待工作人員指示後，按下按鈕領取午餐。（若您報到時未使用 App，請出示您識別證上的領餐貼紙。）</li>
+						<li>點心：下午<span class="highlight"> 3 點 20 分</span>開始，四樓兩側的社群攤位走廊上將提供精緻茶點，您可以在享用下午茶的同時，與現場的會眾以及攤位交流。</li>
+						<li>晚餐：在晚間交流時間，我們將為大家提供披薩與飲料，希望大家能多認識新朋友。<br><br>BoF 的披薩將以團體為單位領取，數量取決於「<a href="https://goo.gl/VCJVG6">BoF 共筆</a>」的報名人數，還請千萬不要忘記報名了；<br>想參與 SITCON 電影院的會眾，請參考地圖上的晚餐領取處，並在旁邊用餐完畢後再進入會議廳（會議廳是禁止飲食的！）<br><br>我們將於<sapn class="highlight">晚上 7 點</sapn>開始發放披薩，電影則於 7 點半開始放映，還請注意放映時間囉。</li>
+					</ol>
+
+					<h2>七、網路</h2>
+
+					<p>現場可使用年會提供的無線網路，SSID 為「 SITCON 2017」（5GHz 頻段，請優先使用）及「SITCON 2017_2G」。</p>
+					<p>基於網路安全性與穩定性，建議您自行攜帶網路線，會議廳之座位皆有提供網路插座；並請勿於會場私自架設無線基地台 (AP)，或進行任何干擾公眾網路之行為。</p>
+					<p>若您需要使用 3G/4G 之個人熱點，請使用 USB 或藍芽方式分享網路連線。</p>
+
+
+					<h2>八、其他注意事項</h2>
+
+					<p>年會當天的線上聊天室十分精彩，您可以和其他與會者抬槓、甚至徵詢破解拼圖的夥伴！除了加入 Telegram <a href="https://t.me/SITCONgeneral">@SITCONgeneral</a> 群組以外，也可以透過你熟悉的軟體連上 IRC <a href="mailto:#sitcon@freenode.net">#sitcon@freenode.net</a>；若您自己有製作名片，也記得帶來和大家交朋友喔。</p>
+
+
+					<p>最後，也請您務必閱讀並一同遵守 <a href="https://staff.sitcon.org/docs/view/code-of-conduct">SITCON 行為準則</a>，讓大家都能開心的在 SITCON 齊聚一堂，彼此激盪、傳承、啟發。</p>
+
+					<p>感謝你讀完這份行前簡介，期待在 SITCON 2017 看到你囉！</p>
+
+
+					<p style="text-align: right">SITCON 2017 籌備團隊</p>
+
+				</div>
+
+				<img id="buttom-img" src="http://sitcon.org/2017/newsletter/buttom.png" alt="buttom" title="buttom">
+			</td>
+		</tr>
+	</table>
+
+</div>
