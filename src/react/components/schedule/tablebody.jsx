@@ -18,35 +18,35 @@ const TBody = (props) => {
 				<th></th>
 				<th>
 					R2
-					<div style={{display: 'none'}}>
-						<a href="#" target="blank" className="not-yet">共筆</a>
-						<a href="#" target="blank" className="not-yet">直播</a>
+					<div>
+						<a href="https://hackmd.io/CwVgnARghlBMAcBaAzAdgGzscDAzRUuUqi8AJrshBAAyqwCMZEQA?both" target="blank">共筆</a>
+						<a href="https://www.youtube.com/watch?v=SvHeugrf290" target="blank">直播</a>
 					</div>
 				</th>
 				<th>
 					R0
-					<div style={{display: 'none'}}>
-						<a href="#" target="blank" className="not-yet">共筆</a>
-						<a href="#" target="blank" className="not-yet">直播</a>
+					<div>
+						<a href="https://hackmd.io/GYVgRgHAzALA7ABgLRjCGSYFMBMckCcOAJlEjjAnHAIYBsdIcwAjEA==?both" target="blank">共筆</a>
+						<a href="https://www.youtube.com/watch?v=__w_1FyDzgQ" target="blank">直播</a>
 					</div>
 				</th>
 				<th>
 					R1
-					<div style={{display: 'none'}}>
-						<a href="#" target="blank" className="not-yet">共筆</a>
-						<a href="#" target="blank" className="not-yet">直播</a>
+					<div>
+						<a href="https://hackmd.io/JwdgRgTAjCEQtAMygBhPALBiAOeOBTAYwGZ4ATAVmAMuxUsQxCA=?both" target="blank">共筆</a>
+						<a href="https://www.youtube.com/watch?v=0zTpUJn-2AQ" target="blank">直播</a>
 					</div>
 				</th>
 				<th>
 					R3
-					<div style={{display: 'none'}}>
-						<a href="#" target="blank" className="not-yet">共筆</a>
+					<div>
+						<a href="https://hackmd.io/MwNhBYFMDMCMEMC0BWADARnI85kkbMDogEwDsssJwJAxrGarEA==?both" target="blank">共筆</a>
 					</div>
 				</th>
 				<th>
 					交誼廳
-					<div style={{display: 'none'}}>
-						<a href="#" target="blank" className="not-yet">共筆</a>
+					<div>
+						<a href="https://hackmd.io/AwTgjAJgZgRlCmBaAhgFlQVka4UDsiMAxkSIvAGxh5gDMUAHBkdUA===?both" target="blank">共筆</a>
 					</div>
 				</th>
 			</tr>
