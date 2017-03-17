@@ -22,9 +22,9 @@ export default class extends Component {
 						<div role="cover-link">
 							<a href="http://sitcon.kktix.cc/events/sitcon2017" target="blank" className="highlight">立即報名</a>
 							<a href="http://sitcon.kktix.cc/events/sitcon2017-individual-sponsor" target="blank" className="highlight">個人贊助</a>
-							<Tba>R0 直播</Tba>
-							<Tba>R1 直播</Tba>
-							<Tba>R2 直播</Tba>
+							<a href="https://www.youtube.com/watch?v=__w_1FyDzgQ" target="blank" className="highlight">R0 直播</a>
+							<a href="https://www.youtube.com/watch?v=0zTpUJn-2AQ" target="blank" className="highlight">R1 直播</a>
+							<a href="https://www.youtube.com/watch?v=SvHeugrf290" target="blank" className="highlight">R2 直播</a>
 							<Tba>會後意見調查</Tba>
 							<Tba>心得撰寫活動</Tba>
 						</div>
