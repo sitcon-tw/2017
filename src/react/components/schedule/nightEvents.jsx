@@ -75,7 +75,7 @@ const Communicate = () => {
 				<h3>講者出沒時刻表</h3>
 				<p>
 					<strong>18:40 - 18:45</strong><br />
-					黃勝雄 博士 、Karl Lin、民2、 Tony & Clara(SITCON x HK)、ㄅㄌ
+					Karl Lin、民2、 Tony & Clara(SITCON x HK)、ㄅㄌ
 				</p>
 				<p>
 					<strong>18:45 - 18:50</strong><br />
@@ -83,7 +83,7 @@ const Communicate = () => {
 				</p>
 				<p>
 					<strong>18:50 - 19:00</strong><br />
-					何明諠 先生、飛魚、Terry Cheong、Yukai Huang、Jason Pan、Louie Lu
+					飛魚、Terry Cheong、Yukai Huang、Jason Pan、Louie Lu
 				</p>
 				<p>
 					<strong>19:30 - 20:00</strong><br />
