@@ -440,8 +440,7 @@
     "room": "S",
     "subject": "用對話翻轉學校生活",
     "summary": "Chatbot 是近來資訊技術發展中相當熱門的話題，單純統一的聊天介面，不只能避免開發圖形界面的大費周章，更能大幅減低使用門檻，令使用者在最短時間獲得所需的資訊。我們在這個平易近人的小品議程中，將透過數個有趣的作品，分享我們怎麼用聊天機器人來改善自己平常各自在校園中的生活，還有過程中從入門到摔門的經驗。\n\n（講者為在學大學生及高中生）"
-  }
-
+  },
   {
     "speaker": {
       "name": "",
@@ -452,7 +451,7 @@
     "end": "2017-03-18T18:20:00+08:00",
     "type": "L",
     "room": "R0",
-    "subject": "Lightning Talk\nJust go Open, I've Got Your Back!\n你在共用密碼啊！\nHow we hacked\nSudo. 四重奏\nTDOH 2017 全台校園攻略大公開\nT.H.U - 選課天眼通\nSITCON PASS",
+    "subject": "Lightning Talk\nJust go Open, I've Got Your Back!\n你再共用密碼啊！\nHow we hacked\nSudo. 四重奏\nTDOH 2017 全台校園攻略大公開\nT.H.U - 選課天眼通\nSITCON PASS",
     "summary": ""
   }
 ]

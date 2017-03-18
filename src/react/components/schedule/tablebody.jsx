@@ -103,7 +103,7 @@ const TBody = (props) => {
 					<div>
 						Lightning talk
 							<br />Just go Open, I've Got Your Back!
-							<br />你在共用密碼啊！
+							<br />你再共用密碼啊！
 							<br />How we hacked
 							<br />Sudo. 四重奏
 							<br />TDOH 2017 全台校園攻略大公開
