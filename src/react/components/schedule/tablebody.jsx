@@ -99,7 +99,18 @@ const TBody = (props) => {
 			<Row start="1710" data={datas["17:10"]} />
 			<tr>
 				<Timecol start="1730" />
-				<td colSpan="5"><div>Lightning talk</div></td>
+				<td colSpan="5">
+					<div>
+						Lightning talk
+							<br />Just go Open, I've Got Your Back!
+							<br />你在共用密碼啊！
+							<br />How we hacked
+							<br />Sudo. 四重奏
+							<br />TDOH 2017 全台校園攻略大公開
+							<br />T.H.U - 選課天眼通
+							<br />SITCON PASS
+					</div>
+				</td>
 			</tr>
 			<tr>
 				<Timecol start="1820" />
