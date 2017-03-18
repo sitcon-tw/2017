@@ -25,7 +25,7 @@ export default class extends Component {
 							<a href="https://www.youtube.com/watch?v=__w_1FyDzgQ" target="blank" className="highlight">R0 直播</a>
 							<a href="https://www.youtube.com/watch?v=0zTpUJn-2AQ" target="blank" className="highlight">R1 直播</a>
 							<a href="https://www.youtube.com/watch?v=SvHeugrf290" target="blank" className="highlight">R2 直播</a>
-							<Tba>會後意見調查</Tba>
+							<a href="https://goo.gl/forms/KEFwUzCUc9l1crQI2" target="blank" className="highlight">會後意見調查</a>
 							<Tba>心得撰寫活動</Tba>
 						</div>
 					</div>
