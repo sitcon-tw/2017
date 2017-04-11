@@ -18,6 +18,7 @@ export default class extends Component {
 			backgroundImage: "url("+data.speaker.avatar+")",
 		}
 		const name = data.speaker.name
+		let showSlides = data.slides ? (<div role="talk-slides" onClick={(e) => { e.stopPropagation() }}><a href={data.slides} target="_blank">#簡報連結</a></div>) : ''
 		if (data.type === "U")
 			return (
 				<div className="col">
@@ -34,6 +35,7 @@ export default class extends Component {
 					<div role="photo" style={photo}></div>
 					{name}
 				</div>
+				{showSlides}
 			</div>
 		)
 	}
